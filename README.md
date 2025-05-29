@@ -122,7 +122,7 @@ npm run dev
 
 Built with 💚 by **Kyrillos Samy Doksh Hanna**  
 📬 Email: kyrillossamy@outlook.com  
-📱 Phone: +20 127 147 0997  
+📱 Phone: +20-1271470997  
 🧠 Nickname: `Empire Coder`  
 🌍 Location: Egypt
 
