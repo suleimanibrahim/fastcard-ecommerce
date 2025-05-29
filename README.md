@@ -18,7 +18,7 @@ Coming Soon...
 - 🎨 **Multiple Images Per Product** representing different color variants with real-time quantity tracking per variant  
 - 📦 **Detailed Product Customization**: Users can select product color, size, and quantity effortlessly  
 - 📐 **Integrated Size Guide** within product details to help customers confidently choose the perfect fit, reducing returns  
-- 🔗 **Related Products Display** on product pages to boost cross-selling opportunities and user engagement  
+- 🔗 **Related Products Display** on product details page to boost cross-selling opportunities and user engagement  
 - 🛒 **Intuitive Cart Management**: Users can update quantities directly in the cart for fast and flexible order adjustments  
 - 💳 **Secure Checkout via Stripe**, ensuring smooth, reliable payment processing with global trust  
 - 📄 **Instant Receipt Download** post-purchase, providing transparency and a professional buying experience  
