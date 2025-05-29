@@ -67,10 +67,15 @@ Coming Soon...
 
 ## 📸 Product Preview
 
-Each product:
-- Supports multiple color options via different images.
-- Auto-plays a video preview when hovered.
-- Tracks quantity per color/image individually.
+Here’s a sneak peek of **FastCart** in action:
+
+### 🖼️ Desktop View
+![FastCart Desktop Preview](./src/assets/previews/desktop-preview.png)
+
+### 📱 Mobile View
+![FastCart Mobile Preview](./src/assets/previews/mobile-preview.png)
+
+> 🎥 Want more? Hover animations, color variants, and dynamic video previews come alive in the full app!
 
 ---
 
