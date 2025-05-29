@@ -1,6 +1,6 @@
 # 🛒 FastCart
 
-**FastCart** is a high-performance eCommerce web application built using modern web technologies. It offers an ultra-fast, user-friendly, and visually rich shopping experience. Whether you're browsing product images, watching variant-specific videos, or tracking real-time stock — FastCart delivers a seamless journey from discovery to checkout.
+**FastCart** is a high-performance eCommerce web application built using modern technologies. It offers an ultra-fast, user-friendly, and visually rich shopping experience. Whether browsing product images, watching variant-specific videos, or tracking real-time stock, FastCart delivers a seamless journey from discovery to checkout.
 
 ---
 
@@ -12,14 +12,19 @@ Coming Soon...
 
 ## 🎯 Features
 
-- ⚡ **Blazing Fast Performance** with React & Redux
-- 🖼️ **Lazy Loading** for images and videos to enhance speed and UX
-- 🎥 **Dynamic Video Previews** on hover for products
-- 🎨 **Multiple Images Per Product** for color variants
-- 📦 **Real-time Quantity Tracking** per image (color variant)
-- 💎 **Clean UI/UX** with Tailwind CSS and responsive layout
-- 🔁 **Hover-based Animations** for product interactivity
-- 🔄 **Redux-powered Global State Management**
+- ⚡ **Blazing Fast Performance** powered by React & Redux for seamless user experience  
+- 🖼️ **Lazy Loading** of images and videos to optimize speed and improve UX  
+- 🎥 **Dynamic Video Previews** on hover to showcase products vividly  
+- 🎨 **Multiple Images Per Product** representing different color variants with real-time quantity tracking per variant  
+- 📦 **Detailed Product Customization**: Users can select product color, size, and quantity effortlessly  
+- 📐 **Integrated Size Guide** within product details to help customers confidently choose the perfect fit, reducing returns  
+- 🔗 **Related Products Display** on product pages to boost cross-selling opportunities and user engagement  
+- 🛒 **Intuitive Cart Management**: Users can update quantities directly in the cart for fast and flexible order adjustments  
+- 💳 **Secure Checkout via Stripe**, ensuring smooth, reliable payment processing with global trust  
+- 📄 **Instant Receipt Download** post-purchase, providing transparency and a professional buying experience  
+- 💎 **Clean and Responsive UI/UX** crafted with Tailwind CSS for consistent performance across devices  
+- 🔁 **Smooth Hover Animations** to enhance product interactivity and user engagement  
+- 🔄 **Redux-powered Global State Management** for scalable and maintainable state handling  
 
 ---
 
@@ -42,12 +47,14 @@ Coming Soon...
 ├── public
 │   └── ...
 ├── src
-│   ├── assets/
-│   ├── components/
-│   ├── features/
-│   ├── redux/
-│   ├── pages/
-│   ├── App.jsx
+│   ├── assets/              # Static files (icons, images, videos)
+│   ├── components/          # Reusable and core UI components
+│   ├── Data/                # Local product data
+│   ├── Redux/               # Redux slices & store configuration
+│   ├── App.tsx              # Root app component
+│   ├── main.tsx             # App entry point
+│   ├── index.css            # Global styles
+│   ├── App.css              # Component-specific styles
 │   └── main.jsx
 ├── .gitignore
 ├── README.md
