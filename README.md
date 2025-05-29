@@ -119,7 +119,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
-Built with 💚 by **Kyrillos Samy Hanna**  
+Built with 💚 by **Kyrillos Samy Doksh Hanna**  
 📬 Email: kyrillossamy@outlook.com  
 📱 Phone: +20 127 147 0997  
 🧠 Nickname: `Empire Coder`  
