@@ -32,7 +32,7 @@ Coming Soon...
 
 | Layer        | Tech Used                      |
 |--------------|--------------------------------|
-| Frontend     | React.js, Vite, Redux Toolkit |
+| Frontend     | React.js, Vite, Redux Toolkit, TypeScript    |
 | Styling      | Tailwind CSS                  |
 | Media        | HTML5 Video, Lazy Load        |
 | State Mgmt   | Redux Toolkit                 |
