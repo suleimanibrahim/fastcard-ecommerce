@@ -1,0 +1,19 @@
+.shadow-location {
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-feedback {
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-location-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-feedback-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

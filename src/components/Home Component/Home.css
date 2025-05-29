@@ -1,0 +1,19 @@
+.swiper-pagination-bullet-active {
+  background-color: #2E8B57 !important;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: #28a169 !important;
+}
+
+.swiper-categories-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-products-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
