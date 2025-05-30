@@ -157,7 +157,7 @@ export default function About() {
 
           {/* Image Part. */}
           <motion.div
-            className="shadow-location h-full xl:w-[47.5%] xs:w-full xs:mb-7 xl:mb-0 rounded-xl"
+            className="h-full xl:w-[47.5%] xs:w-full xs:mb-7 xl:mb-0 rounded-xl"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
