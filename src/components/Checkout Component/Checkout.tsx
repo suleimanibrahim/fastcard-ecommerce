@@ -394,6 +394,7 @@ export default function Checkout() {
               transition={{ duration: 7, repeat: Infinity }}
             />
 
+            {/* Checkout Section. */}
             <motion.div
               className="xs:w-[500px] md:w-[600px] h-fit shadow-md p-4 rounded-lg backdrop-blur-3xl"
               initial={{ opacity: 0, y: 50 }}
