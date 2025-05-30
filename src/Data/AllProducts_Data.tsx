@@ -29,7 +29,7 @@ export const allProducts: ProductType[] = [
     name: "Running Shoes",
     Desc: "Level up your run with our lightweight running shoes – designed for everyday training and built to go the distance. Whether you're hitting the pavement for a quick jog or grinding through long weekend runs, these shoes move with you, not against you.",
     category: "Men's Shoes",
-    img: "/All Products Photos & Videos/Photos/Running Shoes.png",
+    img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748578418/ka7ghahrzip03bfbzpqd.png",
     availableColors: ["#FDA4AF", "#FFFFFF", "#000000", "#4B5563"], // red-500, black, white, gray-700
     After_Discount: 99,
     Pre_Discount: 120,
@@ -546,7 +546,7 @@ export const allProducts: ProductType[] = [
     quantity: "In Stock",
     imgHover: "https://mobaco.com/wp-content/uploads/2024/11/SW236_0824_2.jpg",
     video:
-      "/All Products Photos & Videos/Videos/Brushed French Terry Basic T-shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748579998/e1uhexme7acqsks1s1p0.mp4"
   },
   {
     id: 38,

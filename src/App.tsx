@@ -131,11 +131,7 @@ function App() {
         },
         {
           path: "*",
-          element: (
-            <Guard>
-              <NotFound />
-            </Guard>
-          )
+          element: <NotFound />
         },
         {
           path: "/contact",
