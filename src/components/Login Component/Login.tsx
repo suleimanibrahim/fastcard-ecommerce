@@ -341,7 +341,7 @@ export default function Signup() {
 
                     {/* Forget Password? */}
                     <motion.p
-                      className="text-gray-700 cursor-pointer hover:underline"
+                      className="text-gray-700 cursor-pointer hover:underline md:text-base xs:text-xs"
                       initial={{ opacity: 0, x: 50 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
