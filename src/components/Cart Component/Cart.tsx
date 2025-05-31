@@ -393,7 +393,7 @@ export default function Cart() {
                         </h3>
 
                         <label
-                          className="text-lg text-gray-800"
+                          className="md:text-lg xs:text-base text-gray-800"
                           htmlFor="quantity">
                           Quantity:
                         </label>
