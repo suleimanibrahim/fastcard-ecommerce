@@ -205,7 +205,7 @@ export default function Cart() {
               transition={{ duration: 1 }}>
               <div className="flex flex-col justify-center items-center gap-y-5 md:pb-10 md:px-10 ">
                 <motion.h2
-                  className="xs:text-3xl md:text-4xl text-gray-700 font-bold text-center"
+                  className="xs:text-2xl md:text-4xl text-gray-700 font-bold text-center"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -214,7 +214,7 @@ export default function Cart() {
                 </motion.h2>
 
                 <motion.h2
-                  className="xs:text-xl md:text-[22px] text-gray-700 font-bold text-center"
+                  className="xs:text-lg md:text-[22px] text-gray-700 font-bold text-center"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}

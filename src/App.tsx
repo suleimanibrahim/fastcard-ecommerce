@@ -21,6 +21,7 @@ import Signup from "./components/Signup Component/Signup";
 import Guard from "./components/Guards/Guard";
 import Terms from "./components/Terms Component/Terms";
 import Privacy from "./components/Privacy Component/Privacy";
+import SearchResults from "./components/Search Component/Search";
 
 function App() {
   const date = new Date();
@@ -160,6 +161,14 @@ function App() {
               contactAddress="Maadi, Cairo, Egypt"
               termsOfServiceUrl="/terms"
             />
+          )
+        },
+        {
+          path: "/search",
+          element: (
+            <Guard>
+              <SearchResults />
+            </Guard>
           )
         }
       ]

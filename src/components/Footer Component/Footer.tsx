@@ -27,7 +27,7 @@ export default function Footer() {
   const dispatch = useDispatch<AppDispatch>();
 
   return (
-    <footer className="relative overflow-hidden bottom-0 left-0 right-0 py-10 xl:px-40 md:px-10 xs:px-5 tracking-widest border-t-[3px] border-[var(--primary-color)] backdrop-blur-3xl rounded-t-md shadow-md bg-[#0a1f17]">
+    <footer className="relative overflow-hidden bottom-0 left-0 right-0 py-10 xl:px-40 md:px-10 xs:px-5 tracking-widest border-t-[3px] border-[var(--primary-color)] backdrop-blur-3xl shadow-md bg-[#0a1f17]">
       <motion.div
         animate={{
           scale: [0.8, 1, 0.8],

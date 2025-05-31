@@ -12,11 +12,18 @@ import { AppDispatch, RootState } from "../../Redux/reduxStore";
 import { setIsFooter } from "../../Redux/footerSlice";
 import { useEffect, useRef, useState } from "react";
 import { BiSearchAlt2 } from "react-icons/bi";
+import { addSearchResults, setIsSearchOpen } from "../../Redux/searchSlice";
+import { RiCloseFill } from "react-icons/ri";
+import { allProducts } from "../../Data/AllProducts_Data";
 
 export default function Navbar() {
   const location = useLocation();
   const token = sessionStorage.getItem("token");
   const navigate = useNavigate();
+
+  const [searchQuery, setSearchQuery] = useState<string>("");
+
+  const searchRef = useRef<HTMLInputElement | null>(null);
 
   const productsCartLength = useSelector(
     (state: RootState) => state.productsCartSlice?.productsCartLengthState
@@ -47,6 +54,10 @@ export default function Navbar() {
   );
 
   const dispatch = useDispatch<AppDispatch>();
+
+  const isSearchOpen = useSelector(
+    (state: RootState) => state.searchSlice.isSearchOpen
+  );
 
   const [showNavbar, setShowNavbar] = useState(true);
   const lastScrollY = useRef(window.scrollY);
@@ -116,10 +127,40 @@ export default function Navbar() {
     }
   };
 
+  useEffect(() => {
+    if (isSearchOpen) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    };
+  }, [isSearchOpen]);
+
+  const handleSearch = () => {
+    const results = allProducts.filter(
+      (product) =>
+        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        product.category.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    dispatch(addSearchResults(results));
+
+    if (searchQuery.trim()) {
+      navigate(`/search`);
+      dispatch(setIsSearchOpen(false));
+    }
+  };
+
   return (
     <>
       <AnimatePresence>
         {(showNavbar ||
+          isSearchOpen ||
           isSureToRemoveProduct ||
           isSureToClearAllProducts ||
           isSureToClearAllProductsFromWishlist ||
@@ -130,7 +171,7 @@ export default function Navbar() {
             exit="hidden"
             variants={navbarVariants}
             viewport={{ once: true }}
-            className="fixed z-20 top-0 left-0 right-0 border-b-[3px] border-green-700 backdrop-blur-3xl rounded-b-md shadow-md bg-[linear-gradient(to_right,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0f2a24,#124030,#124030,#124030)]">
+            className="fixed z-20 top-0 left-0 right-0 border-b-[3px] border-green-700 backdrop-blur-3xl shadow-md bg-[linear-gradient(to_right,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0f2a24,#124030,#124030,#124030)]">
             <div className="max-w-[1475px] flex items-center justify-between mx-auto p-4">
               {/* Logo & Site Name.  */}
               <motion.div
@@ -154,6 +195,7 @@ export default function Navbar() {
                   onClick={() => {
                     scrollToTop();
                     dispatch(setIsFooter());
+                    dispatch(setIsSearchOpen(false));
                   }}>
                   <img
                     src="/logo/logo7.png"
@@ -166,6 +208,52 @@ export default function Navbar() {
                   </span>
                 </Link>
               </motion.div>
+
+              {/* Search Bar. */}
+              <AnimatePresence>
+                {isSearchOpen && (
+                  <motion.div
+                    ref={searchRef}
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.3 }}
+                    className="fixed z-10 xl:top-[93.5px] xs:top-[78px] left-0 right-0 w-full h-screen bg-black/80 backdrop-blur-3xl">
+                    {/* Input with search icon inside */}
+                    <div className="relative top-[25%] -translate-y-[50%] left-1/2 -translate-x-1/2 xl:w-[50%] md:w-[60%] xs:w-[90%]">
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => handleSearch()}>
+                        <BiSearchAlt2 className="absolute right-4 top-1/2 -translate-y-1/2 text-[22px]" />
+                      </div>
+
+                      <input
+                        type="text"
+                        value={searchQuery}
+                        onChange={(e) => {
+                          setSearchQuery(e.target.value);
+                          
+                        }}
+                        onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+                        placeholder="Search by product name or category name..."
+                        className="w-full h-12 pl-12 pr-5 rounded-full ring-2 ring-[var(--primary-color)] outline-none focus:outline-none bg-white text-black"
+                      />
+                    </div>
+
+                    {/* Close button */}
+                    <button
+                      type="button"
+                      title="Close"
+                      className="fixed right-7 top-7 cursor-pointer rounded-full border border-[var(--primary-color)] bg-black"
+                      onClick={() => dispatch(setIsSearchOpen(false))}>
+                      <RiCloseFill
+                        fontSize="2.2em"
+                        className="text-[var(--primary-color)]"
+                      />
+                    </button>
+                  </motion.div>
+                )}
+              </AnimatePresence>
 
               {/* Navigation Links */}
               {token && (
@@ -192,6 +280,7 @@ export default function Navbar() {
                           onClick={() => {
                             scrollToTop();
                             dispatch(setIsFooter());
+                            dispatch(setIsSearchOpen(false));
                           }}
                           className={`lg:block xs:hidden bg-transparent relative group tracking-[0.09em] uppercase text-md ${
                             location.pathname === item.itemLink &&
@@ -241,6 +330,7 @@ export default function Navbar() {
                         onClick={() => {
                           scrollToTop();
                           dispatch(setIsFooter());
+                          dispatch(setIsSearchOpen(!isSearchOpen));
                         }}>
                         <Button
                           titleHovering="Search Now"
@@ -259,6 +349,7 @@ export default function Navbar() {
                         onClick={() => {
                           scrollToTop();
                           dispatch(setIsFooter());
+                          dispatch(setIsSearchOpen(false));
                         }}>
                         <Button
                           titleHovering="Go To Cart"
@@ -283,6 +374,7 @@ export default function Navbar() {
                         onClick={() => {
                           scrollToTop();
                           dispatch(setIsFooter());
+                          dispatch(setIsSearchOpen(false));
                         }}>
                         <Button
                           titleHovering="My Wishlist"
@@ -310,6 +402,7 @@ export default function Navbar() {
                           navigate("/login");
                           scrollToTop();
                           dispatch(setIsFooter());
+                          dispatch(setIsSearchOpen(false));
                         }}>
                         <Button
                           title="Log Out"

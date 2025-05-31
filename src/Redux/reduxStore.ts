@@ -5,6 +5,7 @@ import footerSlice from "./footerSlice"
 import checkoutSlice from "./checkoutSlice";
 import cartSlice from "./cartSlice";
 import signupSlice from "./signupSlice";
+import searchSlice from "./searchSlice";
 
 export const reduxStore = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ export const reduxStore = configureStore({
    checkoutSlice: checkoutSlice,
    cartSlice: cartSlice,
    signupSlice: signupSlice,
+   searchSlice: searchSlice,
   },
 });
 

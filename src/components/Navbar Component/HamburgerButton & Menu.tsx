@@ -9,6 +9,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../Redux/reduxStore";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import { setIsFooter } from "../../Redux/footerSlice";
+import { motion } from "framer-motion";
+import { BiSearchAlt2 } from "react-icons/bi";
+import { setIsSearchOpen } from "../../Redux/searchSlice";
 
 export default function Hamburger_Button_Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +34,10 @@ export default function Hamburger_Button_Menu() {
 
   const isNavbar = useSelector(
     (state: RootState) => state.footerSlice.isNavbar
+  );
+
+  const isSearchOpen = useSelector(
+    (state: RootState) => state.searchSlice.isSearchOpen
   );
 
   const dispatch = useDispatch<AppDispatch>();
@@ -78,27 +85,30 @@ export default function Hamburger_Button_Menu() {
       <div className="relative">
         <div className="xl:hidden flex items-center justify-between w-full space-x-4">
           {token && (
-            //! Counter For Products Cart.
-            <Link
-              to="/cart"
-              onClick={() => {
-                scrollToTop();
-                dispatch(setIsFooter());
-                setIsOpen(false);
-              }}>
-              <Button
-                titleHovering="Go To Cart"
-                type="button"
-                iconCart={
-                  productsCartLength > 0 ? (
-                    <ShoppingCartRoundedIcon />
-                  ) : (
-                    <AddShoppingCartRoundedIcon />
-                  )
-                }
-                className="pl-0 py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
-              />
-            </Link>
+            <>
+              {/*//! Counter For Products Cart. */}
+              <Link
+                to="/cart"
+                onClick={() => {
+                  scrollToTop();
+                  dispatch(setIsFooter());
+                  setIsOpen(false);
+                  dispatch(setIsSearchOpen(false));
+                }}>
+                <Button
+                  titleHovering="Go To Cart"
+                  type="button"
+                  iconCart={
+                    productsCartLength > 0 ? (
+                      <ShoppingCartRoundedIcon />
+                    ) : (
+                      <AddShoppingCartRoundedIcon />
+                    )
+                  }
+                  className="pl-0 py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                />
+              </Link>
+            </>
           )}
 
           {/* Hamburger Button. */}
@@ -106,6 +116,7 @@ export default function Hamburger_Button_Menu() {
             onClick={() => {
               setIsOpen(!isOpen);
               dispatch(setIsFooter());
+              dispatch(setIsSearchOpen(false));
             }}
             ref={menuButton}
             type="button"
@@ -133,6 +144,49 @@ export default function Hamburger_Button_Menu() {
           } xl:hidden border-l-[3px] border-[var(--primary-color)] absolute h-screen xs:w-screen sm:w-96 top-[63px] backdrop-blur-3xl shadow-xl bg-black/85 -right-5 transition-transform duration-500 ease-in-out rounded-tl-xl rounded-br-3xl`}
           ref={menuRef}>
           <div className="flex flex-col items-center ">
+            <div className="flex space-x-4 rtl:space-x-reverse mt-4 pt-5">
+              <Link
+                to="/wishlist"
+                onClick={() => {
+                  setIsOpen(false);
+                  scrollToTop();
+                  dispatch(setIsFooter());
+                }}>
+                <Button
+                  title="Wishlist"
+                  titleHovering="My Wishlist"
+                  type="button"
+                  iconFavorite={
+                    favorites.length === 0 ? (
+                      <FavoriteBorderOutlinedIcon />
+                    ) : (
+                      <FavoriteRoundedIcon />
+                    )
+                  }
+                  iconFavoriteCounter={true}
+                  className="hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                />
+              </Link>
+
+              <motion.div>
+                <div
+                  onClick={() => {
+                    scrollToTop();
+                    setIsOpen(false);
+                    dispatch(setIsFooter());
+                    dispatch(setIsSearchOpen(!isSearchOpen));
+                  }}>
+                  <Button
+                    title="Search"
+                    titleHovering="Search Now"
+                    type="button"
+                    searchIcon={<BiSearchAlt2 fontSize="1.7em" />}
+                    className="py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                  />
+                </div>
+              </motion.div>
+            </div>
+
             {/* Navigation Links. */}
             {token && (
               <ul className="flex flex-col items-start tracking-widest p-4 px-[51.4px] mt-20 rounded-xl border-2 border-[var(--primary-color)]">
@@ -174,30 +228,6 @@ export default function Hamburger_Button_Menu() {
             {/* Action Buttons. */}
             {token ? (
               <div className=" flex flex-row-reverse mt-[35%] gap-4 items-center justify-center gap-y-5 rtl:space-x-reverse ">
-                <div className="flex space-x-4 rtl:space-x-reverse">
-                  <Link
-                    to="/wishlist"
-                    onClick={() => {
-                      setIsOpen(false);
-                      scrollToTop();
-                      dispatch(setIsFooter());
-                    }}>
-                    <Button
-                      titleHovering="My Wishlist"
-                      type="button"
-                      iconFavorite={
-                        favorites.length === 0 ? (
-                          <FavoriteBorderOutlinedIcon />
-                        ) : (
-                          <FavoriteRoundedIcon />
-                        )
-                      }
-                      iconFavoriteCounter={true}
-                      className="hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
-                    />
-                  </Link>
-                </div>
-
                 <div>
                   <Link
                     to="/login"
