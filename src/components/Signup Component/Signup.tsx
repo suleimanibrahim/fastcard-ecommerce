@@ -360,7 +360,7 @@ export default function Signup() {
                         checked={signupFormik.values.terms}
                         required
                       />
-                      <span className="text-sm text-gray-700">
+                      <span className="md:text-sm xs:text-xs text-gray-700">
                         Agree to the{" "}
                         <Link
                           to="/terms"
