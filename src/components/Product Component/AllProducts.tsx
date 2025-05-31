@@ -55,7 +55,6 @@ export default function AllProducts() {
   useEffect(() => {
     setProducts(sortedAndVisibleProducts);
   }, [sortedAndVisibleProducts]);
-  
 
   function handleSortChange(e: React.ChangeEvent<HTMLSelectElement>) {
     setSortOrder(e.target.value as "lowToHigh" | "highToLow" | "");
@@ -78,6 +77,7 @@ export default function AllProducts() {
               <h2 className="lg:text-4xl text-start md:text-3xl xs:text-2xl font-bold text-[#124030]">
                 {titleOurProducts.title}
               </h2>
+              <div className="h-[3.1px] w-[90%] mx-auto mt-1 bg-gradient-to-r from-transparent via-[#124030] to-transparent rounded-full"></div>
             </motion.div>
 
             {/* Sorting Dropdown */}
