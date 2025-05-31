@@ -292,7 +292,12 @@ export default function Signup() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.5 }}>
-                    <Button title="Login" type="submit" titleHovering="Login" />
+                    <Button
+                      title="Login"
+                      type="submit"
+                      titleHovering="Login"
+                      className="xs:text-sm md:text-base"
+                    />
                   </motion.button>
 
                   <div className="flex flex-col items-end">
@@ -313,7 +318,7 @@ export default function Signup() {
                           checked={loginFormik.values.terms}
                           required
                         />
-                        <span className="text-sm text-gray-700">
+                        <span className="md:text-sm xs:text-xs text-gray-700">
                           Agree to the{" "}
                           <Link
                             to="/terms"
