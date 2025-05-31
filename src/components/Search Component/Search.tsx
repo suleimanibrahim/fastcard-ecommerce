@@ -53,7 +53,7 @@ export default function SearchResults() {
   function handleVisibleCards() {
     setIsLoading(true);
     setTimeout(() => {
-      setVisibleCards((prev) => prev + 10);
+      setVisibleCards((prev) => prev + 4);
       setIsLoading(false);
     }, 1000);
   }

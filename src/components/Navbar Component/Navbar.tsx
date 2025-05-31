@@ -6,7 +6,7 @@ import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import AddShoppingCartRoundedIcon from "@mui/icons-material/AddShoppingCartRounded";
 import FavoriteRoundedIcon from "@mui/icons-material/FavoriteRounded";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import { scrollToTop } from "../ui/utils";
+import { scrollToTop, toastError } from "../ui/utils";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../Redux/reduxStore";
 import { setIsFooter } from "../../Redux/footerSlice";
@@ -148,13 +148,32 @@ export default function Navbar() {
         product.category.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
-    dispatch(addSearchResults(results));
-
     if (searchQuery.trim()) {
       navigate(`/search`);
+      dispatch(addSearchResults(results));
       dispatch(setIsSearchOpen(false));
+      setSearchQuery("");
+    } else {
+      toastError("Please enter a search query.");
     }
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (
+        searchRef.current &&
+        !searchRef.current.contains(target) &&
+        isSearchOpen
+      ) {
+        dispatch(setIsSearchOpen(false));
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dispatch, isSearchOpen]);
 
   return (
     <>
@@ -213,17 +232,20 @@ export default function Navbar() {
               <AnimatePresence>
                 {isSearchOpen && (
                   <motion.div
-                    ref={searchRef}
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
                     className="fixed z-10 xl:top-[93.5px] xs:top-[78px] left-0 right-0 w-full h-screen bg-black/80 backdrop-blur-3xl">
                     {/* Input with search icon inside */}
-                    <div className="relative top-[25%] -translate-y-[50%] left-1/2 -translate-x-1/2 xl:w-[50%] md:w-[60%] xs:w-[90%]">
+                    <div
+                      className="relative top-[25%] -translate-y-[50%] left-1/2 -translate-x-1/2 xl:w-[50%] md:w-[60%] xs:w-[90%]"
+                      ref={searchRef}>
                       <div
                         className="cursor-pointer"
-                        onClick={() => handleSearch()}>
+                        onClick={() => {
+                          handleSearch();
+                        }}>
                         <BiSearchAlt2 className="absolute right-4 top-1/2 -translate-y-1/2 text-[22px]" />
                       </div>
 
@@ -232,11 +254,10 @@ export default function Navbar() {
                         value={searchQuery}
                         onChange={(e) => {
                           setSearchQuery(e.target.value);
-                          
                         }}
                         onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                        placeholder="Search by product name or category name..."
-                        className="w-full h-12 pl-12 pr-5 rounded-full ring-2 ring-[var(--primary-color)] outline-none focus:outline-none bg-white text-black"
+                        placeholder="Search by product or category name..."
+                        className="w-full h-12 px-5 rounded-full ring-2 ring-[var(--primary-color)] outline-none focus:outline-none bg-white text-black"
                       />
                     </div>
 
