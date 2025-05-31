@@ -16,6 +16,7 @@ interface ButtonProps {
   iconCart?: React.ReactNode;
   iconFavorite?: React.ReactNode;
   iconFavoriteCounter?: boolean;
+  searchIcon?: React.ReactNode;
 }
 
 export default function Button({
@@ -29,7 +30,8 @@ export default function Button({
   titleHovering,
   iconCart,
   iconFavorite,
-  iconFavoriteCounter
+  iconFavoriteCounter,
+  searchIcon
 }: ButtonProps) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -55,13 +57,14 @@ export default function Button({
             {productsCartLenght}
           </span>
         )}
-        {iconFavorite && <span className="mr-2 pt-[2px]">{iconFavorite}</span>}
+        {iconFavorite && <span className="mr-1 pt-[2px]">{iconFavorite}</span>}
+        {searchIcon && <span>{searchIcon}</span>}
         {iconFavoriteCounter && (
           <span className="absolute text-lg -top-[7px] left-[27px]">
             {favorites.length}
           </span>
         )}
-        {iconCart && <span className="mr-2 ml-2">{iconCart}</span>}
+        {iconCart && <span className="mr-1 ml-2">{iconCart}</span>}
         {title === "load" ? (
           <SyncLoader
             size={9}

@@ -87,7 +87,6 @@ export default function Hamburger_Button_Menu() {
                 setIsOpen(false);
               }}>
               <Button
-                title="Cart"
                 titleHovering="Go To Cart"
                 type="button"
                 iconCart={
@@ -184,7 +183,6 @@ export default function Hamburger_Button_Menu() {
                       dispatch(setIsFooter());
                     }}>
                     <Button
-                      title="Wishlist"
                       titleHovering="My Wishlist"
                       type="button"
                       iconFavorite={

@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../Redux/reduxStore";
 import { setIsFooter } from "../../Redux/footerSlice";
 import { useEffect, useRef, useState } from "react";
+import { BiSearchAlt2 } from "react-icons/bi";
 
 export default function Navbar() {
   const location = useLocation();
@@ -236,6 +237,23 @@ export default function Navbar() {
                     <motion.div
                       variants={buttonVariants}
                       viewport={{ once: true }}>
+                      <div
+                        onClick={() => {
+                          scrollToTop();
+                          dispatch(setIsFooter());
+                        }}>
+                        <Button
+                          titleHovering="Search Now"
+                          type="button"
+                          searchIcon={<BiSearchAlt2 fontSize="1.7em" />}
+                          className="py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                        />
+                      </div>
+                    </motion.div>
+
+                    <motion.div
+                      variants={buttonVariants}
+                      viewport={{ once: true }}>
                       <Link
                         to="/cart"
                         onClick={() => {
@@ -243,7 +261,6 @@ export default function Navbar() {
                           dispatch(setIsFooter());
                         }}>
                         <Button
-                          title="Cart"
                           titleHovering="Go To Cart"
                           type="button"
                           iconCart={
@@ -268,7 +285,6 @@ export default function Navbar() {
                           dispatch(setIsFooter());
                         }}>
                         <Button
-                          title="Wishlist"
                           titleHovering="My Wishlist"
                           type="button"
                           iconFavorite={
