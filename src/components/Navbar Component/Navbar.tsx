@@ -23,7 +23,9 @@ export default function Navbar() {
 
   const [searchQuery, setSearchQuery] = useState<string>("");
 
-  const searchRef = useRef<HTMLInputElement | null>(null);
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
+
+  const searchDivRef = useRef<HTMLDivElement | null>(null);
 
   const productsCartLength = useSelector(
     (state: RootState) => state.productsCartSlice?.productsCartLengthState
@@ -53,11 +55,11 @@ export default function Navbar() {
     (state: RootState) => state.wishlistSlice?.isSureToRemoveProductFromWishlist
   );
 
-  const dispatch = useDispatch<AppDispatch>();
-
   const isSearchOpen = useSelector(
     (state: RootState) => state.searchSlice.isSearchOpen
   );
+
+  const dispatch = useDispatch<AppDispatch>();
 
   const [showNavbar, setShowNavbar] = useState(true);
   const lastScrollY = useRef(window.scrollY);
@@ -162,13 +164,16 @@ export default function Navbar() {
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as HTMLElement;
       if (
-        searchRef.current &&
-        !searchRef.current.contains(target) &&
-        isSearchOpen
+        isSearchOpen &&
+        searchInputRef.current &&
+        searchDivRef.current &&
+        !searchInputRef.current.contains(target) &&
+        !searchDivRef.current.contains(target)
       ) {
         dispatch(setIsSearchOpen(false));
       }
     };
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
@@ -238,10 +243,9 @@ export default function Navbar() {
                     transition={{ duration: 0.3 }}
                     className="fixed z-10 xl:top-[93.5px] xs:top-[78px] left-0 right-0 w-full h-screen bg-black/80 backdrop-blur-3xl">
                     {/* Input with search icon inside */}
-                    <div
-                      className="relative top-[25%] -translate-y-[50%] left-1/2 -translate-x-1/2 xl:w-[50%] md:w-[60%] xs:w-[90%]"
-                      ref={searchRef}>
+                    <div className="relative top-[25%] -translate-y-[50%] left-1/2 -translate-x-1/2 xl:w-[50%] md:w-[60%] xs:w-[90%]">
                       <div
+                        ref={searchDivRef}
                         className="cursor-pointer"
                         onClick={() => {
                           handleSearch();
@@ -250,6 +254,7 @@ export default function Navbar() {
                       </div>
 
                       <input
+                        ref={searchInputRef}
                         type="text"
                         value={searchQuery}
                         onChange={(e) => {
@@ -257,8 +262,80 @@ export default function Navbar() {
                         }}
                         onKeyDown={(e) => e.key === "Enter" && handleSearch()}
                         placeholder="Search by product or category name..."
-                        className="w-full h-12 px-5 rounded-full ring-2 ring-[var(--primary-color)] outline-none focus:outline-none bg-white text-black"
+                        className="h-12 w-full px-5 rounded-full ring-2 ring-[var(--primary-color)] outline-none bg-white text-black"
                       />
+
+                      {/* Search Results */}
+                      {searchQuery && (
+                        <div className="absolute z-50 w-full bg-white shadow-lg rounded-lg mt-2 max-h-[380px] overflow-y-auto">
+                          {allProducts
+                            .filter(
+                              (product) =>
+                                product.name
+                                  .toLowerCase()
+                                  .includes(searchQuery.toLowerCase()) ||
+                                product.category
+                                  .toLowerCase()
+                                  .includes(searchQuery.toLowerCase())
+                            )
+                            .map((productFiltered) => (
+                              <Link
+                                key={productFiltered.id}
+                                to={`/productDetails/${productFiltered.id}#productDetails`}
+                                className="flex items-center space-x-4 p-2 hover:bg-gray-100 transition"
+                                onClick={() => {
+                                  dispatch(setIsSearchOpen(false));
+                                  dispatch(setIsFooter());
+                                  setSearchQuery("");
+                                }}>
+                                <img
+                                  src={productFiltered.img}
+                                  alt={productFiltered.name}
+                                  className="w-10 h-10 object-contain rounded-full"
+                                />
+                                <span>
+                                  {(() => {
+                                    const name = productFiltered.name;
+                                    const query = searchQuery.toLowerCase();
+                                    const lowerName = name.toLowerCase();
+                                    const matchIndex = lowerName.indexOf(query);
+
+                                    if (matchIndex === -1) {
+                                      return (
+                                        <span className="text-black">
+                                          {name}
+                                        </span>
+                                      );
+                                    }
+
+                                    const before = name.slice(0, matchIndex);
+                                    const match = name.slice(
+                                      matchIndex,
+                                      matchIndex + query.length
+                                    );
+                                    const after = name.slice(
+                                      matchIndex + query.length
+                                    );
+
+                                    return (
+                                      <>
+                                        <span className="text-black">
+                                          {before}
+                                        </span>
+                                        <span className="text-[var(--primary-color)]">
+                                          {match}
+                                        </span>
+                                        <span className="text-black">
+                                          {after}
+                                        </span>
+                                      </>
+                                    );
+                                  })()}
+                                </span>
+                              </Link>
+                            ))}
+                        </div>
+                      )}
                     </div>
 
                     {/* Close button */}

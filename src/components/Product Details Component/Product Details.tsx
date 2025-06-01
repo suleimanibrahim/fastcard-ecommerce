@@ -222,7 +222,7 @@ export default function Product_Details() {
   }
 
   function handleIncreaseQuantity() {
-    if (isColorSelected === null) {
+    if (colorSelected === false) {
       toastError("Select Color First!");
     } else if (isSizeSelected === null) {
       toastError("Select Size First!");
