@@ -230,7 +230,7 @@ export default function Checkout() {
     const doc = new jsPDF();
 
     const now = new Date();
-    const dateTime = now.toLocaleString(); // ex: 5/24/2025, 10:45:30 AM
+    const dateTime = now.toLocaleString(); //! ex: 5/24/2025, 10:45:30 AM
 
     doc.setFontSize(18);
     doc.text("Payment Receipt", 105, 20, { align: "center" });
@@ -250,7 +250,7 @@ export default function Checkout() {
 
   return (
     <>
-      {/* Confirmation message. */}
+      {/* // Confirmation message. */}
       {isConfirmation ? (
         <section className="h-screen bg-white flex items-center justify-center px-4 relative overflow-hidden pt-20">
           {/* Glowing gradient balls. */}

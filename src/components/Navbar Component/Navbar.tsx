@@ -278,9 +278,9 @@ export default function Navbar() {
                                   .toLowerCase()
                                   .includes(searchQuery.toLowerCase())
                             )
-                            .map((productFiltered) => (
+                            .map((productFiltered, index) => (
                               <Link
-                                key={productFiltered.id}
+                                key={index}
                                 to={`/productDetails/${productFiltered.id}#productDetails`}
                                 className="flex items-center space-x-4 p-2 hover:bg-gray-100 transition"
                                 onClick={() => {
