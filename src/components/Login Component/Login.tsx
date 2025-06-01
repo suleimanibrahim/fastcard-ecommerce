@@ -135,7 +135,7 @@ export default function Signup() {
           {/* Form Part. */}
           <div className="md:h-screen lg:w-[50%] xs:w-full flex flex-col items-center pt-16 backdrop-blur-md">
             <motion.h2
-              className="sm:text-5xl xs:text-4xl lg:pb-14 xs:pb-10 lg:w-[63%] xs:w-[90%] text-gray-700 font-bold text-start tracking-wide"
+              className="sm:text-5xl xs:text-4xl md:mb-14 xs:mb-5 lg:w-[63%] xs:w-[90%] text-gray-700 font-bold text-start tracking-wide"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -144,7 +144,7 @@ export default function Signup() {
             </motion.h2>
 
             <motion.p
-              className="text-start lg:w-[63%] xs:w-[90%] text-gray-600 xs:pb-10 md:pb-0"
+              className="text-start lg:w-[63%] xs:w-[90%] text-gray-600"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -156,7 +156,7 @@ export default function Signup() {
               !
             </motion.p>
 
-            <div className="lg:w-[90%] xs:w-full flex flex-col items-center justify-around h-full">
+            <div className="lg:w-[90%] xs:w-full flex flex-col items-center justify-around h-screen">
               {/* Signup Form. */}
               <form
                 className="lg:w-[70%] xs:w-[90%] xs:pt-5 md:pt-0"
@@ -297,7 +297,7 @@ export default function Signup() {
                       type="submit"
                       titleHovering="Login"
                       className="xs:text-sm md:text-base"
-                      classNameArrows="xs:pt-[2.5px] md:pt-0"
+                      classNameArrows="xs:pt-[2.5px] md:pt-0 pl-[1px]"
                     />
                   </motion.button>
 
@@ -355,25 +355,7 @@ export default function Signup() {
 
               {/* Register using other accounts. */}
               <div
-                className={`lg:w-[70%] xs:w-[90%] md:pt-0 ${
-                  window.innerWidth <= 360 && window.innerHeight >= 710
-                    ? "xs:pt-[120px]"
-                    : window.innerWidth <= 360 && window.innerHeight <= 780
-                    ? "xs:pt-[30px]"
-                    : window.innerWidth <= 375 && window.innerHeight <= 812
-                    ? "xs:pt-[50px]"
-                    : window.innerWidth <= 390
-                    ? "xs:pt-[88px]"
-                    : window.innerWidth <= 393 && window.innerHeight <= 851
-                    ? "xs:pt-[180px]"
-                    : window.innerWidth <= 375
-                    ? "xs:pt-[70px]"
-                    : window.innerWidth <= 414
-                    ? "xs:pt-[140px]"
-                    : window.innerWidth <= 428
-                    ? "xs:pt-[160px]"
-                    : ""
-                }
+                className={`lg:w-[70%] xs:w-[90%] md:pt-0 
               `}>
                 <motion.p
                   className="text-gray-500 lg:w-[100%] xs:w-[100%]"
