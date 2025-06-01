@@ -11,7 +11,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import { setIsFooter } from "../../Redux/footerSlice";
 import { motion } from "framer-motion";
 import { BiSearchAlt2 } from "react-icons/bi";
-import { setIsSearchOpen, setSearchQuery } from "../../Redux/searchSlice";
+import { setIsSearchOpen } from "../../Redux/searchSlice";
 
 export default function Hamburger_Button_Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -176,7 +176,7 @@ export default function Hamburger_Button_Menu() {
                     setIsOpen(false);
                     dispatch(setIsFooter());
                     dispatch(setIsSearchOpen(!isSearchOpen));
-                    dispatch(setSearchQuery(""));
+                    // dispatch(setSearchQuery(""));
                   }}>
                   <Button
                     title="Search"
