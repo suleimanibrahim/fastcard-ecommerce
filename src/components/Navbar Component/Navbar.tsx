@@ -20,9 +20,11 @@ export default function Navbar() {
   const token = sessionStorage.getItem("token");
   const navigate = useNavigate();
 
-  const searchInputRef = useRef<HTMLInputElement>(null);
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
 
-  const searchDivRef = useRef<HTMLDivElement>(null);
+  const searchDivRef = useRef<HTMLDivElement | null>(null);
+
+  const searchIconRef = useRef<HTMLDivElement | null>(null);
 
   const productsCartLength = useSelector(
     (state: RootState) => state.productsCartSlice?.productsCartLengthState
@@ -147,6 +149,8 @@ export default function Navbar() {
         isSearchOpen &&
         searchInputRef.current &&
         searchDivRef.current &&
+        searchIconRef.current &&
+        !searchIconRef.current.contains(target) &&
         !searchInputRef.current.contains(target) &&
         !searchDivRef.current.contains(target)
       ) {
@@ -285,6 +289,7 @@ export default function Navbar() {
                     variants={buttonsContainerVariants}
                     viewport={{ once: true }}>
                     <motion.div
+                      ref={searchIconRef}
                       variants={buttonVariants}
                       viewport={{ once: true }}>
                       <div
