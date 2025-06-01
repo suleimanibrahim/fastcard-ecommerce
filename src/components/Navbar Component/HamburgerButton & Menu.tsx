@@ -145,49 +145,50 @@ export default function Hamburger_Button_Menu() {
           ref={menuRef}>
           <div className="flex flex-col items-center ">
             {/* Logo & Site Name. */}
-            <div className="flex space-x-4 rtl:space-x-reverse mt-4 pt-5">
-              <Link
-                to="/wishlist"
-                onClick={() => {
-                  setIsOpen(false);
-                  scrollToTop();
-                  dispatch(setIsFooter());
-                }}>
-                <Button
-                  title="Wishlist"
-                  titleHovering="My Wishlist"
-                  type="button"
-                  iconFavorite={
-                    favorites.length === 0 ? (
-                      <FavoriteBorderOutlinedIcon />
-                    ) : (
-                      <FavoriteRoundedIcon />
-                    )
-                  }
-                  iconFavoriteCounter={true}
-                  className="hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
-                />
-              </Link>
-
-              <motion.div>
-                <div
+            {token && (
+              <div className="flex space-x-4 rtl:space-x-reverse mt-4 pt-5">
+                <Link
+                  to="/wishlist"
                   onClick={() => {
-                    scrollToTop();
                     setIsOpen(false);
+                    scrollToTop();
                     dispatch(setIsFooter());
-                    dispatch(setIsSearchOpen(!isSearchOpen));
-                    // dispatch(setSearchQuery(""));
                   }}>
                   <Button
-                    title="Search"
-                    titleHovering="Search Now"
+                    title="Wishlist"
+                    titleHovering="My Wishlist"
                     type="button"
-                    searchIcon={<BiSearchAlt2 fontSize="1.7em" />}
-                    className="py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                    iconFavorite={
+                      favorites.length === 0 ? (
+                        <FavoriteBorderOutlinedIcon />
+                      ) : (
+                        <FavoriteRoundedIcon />
+                      )
+                    }
+                    iconFavoriteCounter={true}
+                    className="hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
                   />
-                </div>
-              </motion.div>
-            </div>
+                </Link>
+
+                <motion.div>
+                  <div
+                    onClick={() => {
+                      scrollToTop();
+                      setIsOpen(false);
+                      dispatch(setIsFooter());
+                      dispatch(setIsSearchOpen(!isSearchOpen));
+                    }}>
+                    <Button
+                      title="Search"
+                      titleHovering="Search Now"
+                      type="button"
+                      searchIcon={<BiSearchAlt2 fontSize="1.7em" />}
+                      className="py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                    />
+                  </div>
+                </motion.div>
+              </div>
+            )}
 
             {/* Navigation Links. */}
             {token && (

@@ -340,6 +340,7 @@ export default function Signup() {
                       type="submit"
                       titleHovering="Sign Up"
                       className="xs:text-sm md:text-base"
+                      classNameArrows="xs:pt-[2.5px] md:pt-0"
                     />
                   </motion.button>
 
