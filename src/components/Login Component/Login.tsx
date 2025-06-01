@@ -156,7 +156,7 @@ export default function Signup() {
               !
             </motion.p>
 
-            <div className="lg:w-[90%] xs:w-full flex flex-col items-center justify-around h-screen">
+            <div className="lg:w-[90%] xs:w-full flex flex-col items-center justify-evenly h-screen">
               {/* Signup Form. */}
               <form
                 className="lg:w-[70%] xs:w-[90%] xs:pt-5 md:pt-0"
