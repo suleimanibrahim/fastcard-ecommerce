@@ -7,7 +7,7 @@
 
 ## 🚀 Live Preview
 
-Coming Soon...
+🔗 **Vercel**: [https://fast-cart-831t.vercel.app/](#)
 
 ---
 
