@@ -118,6 +118,19 @@ npm run dev
 
 ---
 
+## 🔐 Legal Notice & Usage Policy
+
+This project is intended for **educational and portfolio purposes only**.  
+All source code and media assets are owned and maintained by **Kyrillos Samy Doksh Hanna**.
+
+🚫 **Unauthorized use, reproduction, or distribution of this code for commercial purposes is strictly prohibited**.
+
+📄 Licensed under the [MIT License](./LICENSE).
+
+> For commercial inquiries, collaborations, or special permissions, please contact me directly at: `kyrillossamy@outlook.com`
+
+---
+
 ## 📧 Contact
 
 Built with 💚 by **Kyrillos Samy Doksh Hanna**  
