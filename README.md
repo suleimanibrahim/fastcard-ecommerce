@@ -6,8 +6,13 @@
 
 ## 🚀 Live Preview
 
+<<<<<<< HEAD
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-FastCart-2E8B57?style=for-the-badge&logo=vercel&logoColor=white)](https://fast-cart-831t.vercel.app/)
 
+=======
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FastCart-2E8B57?style=for-the-badge&logo=vercel&logoColor=white)](https://fast-cart-831t.vercel.app/)  
+  
+>>>>>>> ea26b7b118bdde6878100e9939be21ce063c4f45
 ---
 
 ## 🎯 Features
