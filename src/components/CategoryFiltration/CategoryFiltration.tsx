@@ -64,6 +64,7 @@ export default function CategoryFiltration() {
             <h2 className="lg:text-4xl text-start md:text-3xl xs:text-2xl font-bold text-[#124030]">
               {titleOurProducts.title}
             </h2>
+            <div className="h-[3px] w-[90%] mx-auto mt-1 bg-gradient-to-r from-transparent via-[#124030] to-transparent rounded-full"></div>
           </motion.div>
 
           {/* Sorting Dropdown */}
