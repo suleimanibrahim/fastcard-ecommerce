@@ -104,7 +104,7 @@ export default function Signup() {
     },
     visible: {
       opacity: 1,
-      y: [-5, 5, -5]
+      y: [0, 5, 0]
     }
   };
 
