@@ -1,4 +1,3 @@
-
 # 🛒 FastCart
 
 **FastCart** is a high-performance eCommerce web application built using modern technologies. It offers an ultra-fast, user-friendly, and visually rich shopping experience. Whether browsing product images, watching variant-specific videos, or tracking real-time stock, FastCart delivers a seamless journey from discovery to checkout.
