@@ -104,7 +104,7 @@ export default function Signup() {
     },
     visible: {
       opacity: 1,
-      y: [-5, -10, -5]
+      y: [-15, -5, -15]
     }
   };
 
@@ -159,7 +159,7 @@ export default function Signup() {
             <div className="lg:w-[90%] xs:w-full flex flex-col items-center md:justify-around xs:justify-evenly h-screen">
               {/* Signup Form. */}
               <form
-                className="lg:w-[70%] xs:w-[90%] xs:pt-5 md:pt-0"
+                className="lg:w-[70%] xs:w-[90%]"
                 onSubmit={loginFormik.handleSubmit}>
                 {/* Email Field. */}
                 <motion.div
