@@ -208,10 +208,10 @@ export default function About() {
         </section>
 
         {/* Our Locations Section */}
-        <section className="locations py-10 sm:-mx-10 xs:-mx-5 tracking-wider xs:px-10 sm:px-20 bg-white overflow-hidden">
+        <section className="locations py-10 sm:-mx-10 xs:-mx-5 tracking-wider sm:px-20 bg-white overflow-hidden">
           {/* Title Part. */}
           <motion.h2
-            className="shadow-lg mb-5 sm:-mx-10 xs:-mx-5 text-[#124030] text-3xl w-fit border-b-[3px] border-[var(--primary-color)] rounded-md p-1 pb-0"
+            className="shadow-lg mb-5 sm:-mx-10 text-[#124030] text-3xl w-fit border-b-[3px] border-[var(--primary-color)] rounded-md p-1 pb-0 xs:mx-5 md:mx-0"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -226,7 +226,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}>
-            <div className="relative md:-mx-0 xs:-mx-5">
+            <div className="relative md:-mx-0 ">
               {/* Shadow Left */}
               <div className="absolute left-0 top-0 h-full sm:w-5 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
 
@@ -245,7 +245,7 @@ export default function About() {
                 <Button
                   type="button"
                   titleHovering="Previous"
-                  className="swiper-location-prev rounded-full w-10 h-10 py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0"
+                  className="swiper-location-prev rounded-full w-10 h-10 py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0 xs:ml-2 md:ml-0"
                   classNameArrows="ml-0 rotate-180"
                 />
               </motion.button>
@@ -318,7 +318,7 @@ export default function About() {
                 <Button
                   type="button"
                   titleHovering="Next"
-                  className="swiper-location-next rounded-full py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0"
+                  className="swiper-location-next rounded-full py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0 xs:mr-2 md:mr-0"
                   classNameArrows="ml-0"
                 />
               </motion.button>
@@ -380,7 +380,7 @@ export default function About() {
                 <SwiperSlide
                   key={index}
                   className="h-full 1xl:ml-14 xl:ml-28 lg:-ml-20">
-                  <div className="md:h-[330px] xs:h-[400px] sm:w-[400px] xs:w-[320px] hover:scale-[1.01] flex flex-col justify-between mx-auto cursor-pointer p-5 mt-5 mb-10 bg-white rounded-xl shadow-md transition duration-500 ease-in-out border-2 border-gray-300">
+                  <div className="md:h-[330px] xs:h-[400px] sm:w-[400px] xs:w-[320px] flex flex-col justify-between mx-auto cursor-pointer p-5 mt-5 mb-10 bg-white rounded-xl shadow-md transition duration-500 ease-in-out border-2 border-gray-300">
                     <p className="text-lg text-[#676767]">{feedback.comment}</p>
                     <div className="flex items-center gap-4 mt-5">
                       <img

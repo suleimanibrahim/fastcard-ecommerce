@@ -298,13 +298,13 @@ export default function Home() {
       </section>
 
       {/* Top Categories Section */}
-      <section className="xs:pt-12 lg:pt-16 pb-8 tracking-wider sm:px-10 xs:px-5 bg-[#e4e4e4] overflow-hidden">
+      <section className="xs:pt-12 lg:pt-16 pb-8 tracking-wider sm:px-10 bg-[#e4e4e4] overflow-hidden">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1.5 }}>
-          <div className="flex justify-between items-center mb-5">
+          <div className="flex justify-between items-center mb-5 xs:px-5 md:px-0">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -350,7 +350,7 @@ export default function Home() {
               <Button
                 type="button"
                 titleHovering="Previous"
-                className="swiper-categories-prev rounded-full w-10 h-10 py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0"
+                className="swiper-categories-prev rounded-full w-10 h-10 py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0 xs:ml-2 md:ml-0"
                 classNameArrows="ml-0 rotate-180"
               />
             </motion.div>
@@ -400,7 +400,7 @@ export default function Home() {
               <Button
                 type="button"
                 titleHovering="Next"
-                className="swiper-categories-next rounded-full py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0"
+                className="swiper-categories-next rounded-full py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0 xs:mr-2 md:mr-0"
                 classNameArrows="ml-0"
               />
             </motion.div>
@@ -411,7 +411,7 @@ export default function Home() {
       </section>
 
       {/* Our Locations Section */}
-      <section className="xs:pt-12 lg:pt-16 pb-8 tracking-wider sm:px-10 xs:px-5 bg-white/50 overflow-hidden">
+      <section className="xs:pt-12 lg:pt-16 pb-8 tracking-wider sm:px-10 bg-white/50 overflow-hidden">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -422,7 +422,7 @@ export default function Home() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
             viewport={{ once: true }}
-            className="inline-block mb-5">
+            className="inline-block mb-5 xs:px-5 md:px-0">
             <h2 className="lg:text-4xl text-start md:text-3xl xs:text-2xl font-bold text-[#124030]">
               {titleLocation.title}
             </h2>
@@ -447,7 +447,7 @@ export default function Home() {
                 <Button
                   type="button"
                   titleHovering="Previous"
-                  className="swiper-location-prev rounded-full w-10 h-10 py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0"
+                  className="swiper-location-prev rounded-full w-10 h-10 py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0 xs:ml-2 md:ml-0"
                   classNameArrows="ml-0 rotate-180"
                 />
               </motion.div>
@@ -517,7 +517,7 @@ export default function Home() {
                 <Button
                   type="button"
                   titleHovering="Next"
-                  className="swiper-location-next rounded-full py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0"
+                  className="swiper-location-next rounded-full py-[7px] px-[7px] pointer-events-auto xs:h-fit z-10 p-2 pl-0 xs:mr-2 md:mr-0"
                   classNameArrows="ml-0"
                 />
               </motion.div>
