@@ -12,7 +12,7 @@ import { AppDispatch, RootState } from "../../Redux/reduxStore";
 import { setIsFooter } from "../../Redux/footerSlice";
 import { useEffect, useRef, useState } from "react";
 import { BiSearchAlt2 } from "react-icons/bi";
-import { setIsSearchOpen } from "../../Redux/searchSlice";
+import { setIsSearchOpen, setSearchQuery } from "../../Redux/searchSlice";
 import SearchBar from "../Search Component/SearchBar";
 
 export default function Navbar() {
@@ -155,6 +155,7 @@ export default function Navbar() {
         !searchDivRef.current.contains(target)
       ) {
         dispatch(setIsSearchOpen(false));
+        dispatch(setSearchQuery(""));
       }
     };
 
@@ -181,7 +182,7 @@ export default function Navbar() {
             viewport={{ once: true }}
             className="fixed z-20 top-0 left-0 right-0 border-b-[3px] border-green-700 backdrop-blur-3xl shadow-md bg-[linear-gradient(to_right,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0a1f17,#0f2a24,#124030,#124030,#124030)]">
             <div className="max-w-[1475px] flex items-center justify-between mx-auto p-4">
-              {/* Logo & Site Name.  */}
+              {/* Logo & Site Name. */}
               <motion.div
                 initial={{ scale: 0.8, opacity: 0, y: 15 }}
                 animate={{
@@ -297,6 +298,7 @@ export default function Navbar() {
                           scrollToTop();
                           dispatch(setIsFooter());
                           dispatch(setIsSearchOpen(!isSearchOpen));
+                          dispatch(setSearchQuery(""));
                         }}>
                         <Button
                           titleHovering="Search Now"

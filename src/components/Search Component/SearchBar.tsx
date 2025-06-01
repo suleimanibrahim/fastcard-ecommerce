@@ -1,12 +1,15 @@
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 import { allProducts } from "../../Data/AllProducts_Data";
-import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../Redux/reduxStore";
 import { BiSearchAlt2 } from "react-icons/bi";
-import { addSearchResults, setIsSearchOpen } from "../../Redux/searchSlice";
+import {
+  addSearchResults,
+  setIsSearchOpen,
+  setSearchQuery
+} from "../../Redux/searchSlice";
 import { setIsFooter } from "../../Redux/footerSlice";
 import { RiCloseFill } from "react-icons/ri";
 
@@ -23,10 +26,14 @@ interface SearchBarProps {
 export default function SearchBar({
   props: { searchInputRef, searchDivRef }
 }: SearchBarProps) {
-  const [searchQuery, setSearchQuery] = useState<string>("");
   const dispatch = useDispatch<AppDispatch>();
+
   const isSearchOpen = useSelector(
     (state: RootState) => state.searchSlice.isSearchOpen
+  );
+
+  const searchQueryName = useSelector(
+    (state: RootState) => state.searchSlice.searchQuery
   );
 
   const Navigate = useNavigate();
@@ -34,15 +41,15 @@ export default function SearchBar({
   const handleSearch = () => {
     const results = allProducts.filter(
       (product) =>
-        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.category.toLowerCase().includes(searchQuery.toLowerCase())
+        product.name.toLowerCase().includes(searchQueryName.toLowerCase()) ||
+        product.category.toLowerCase().includes(searchQueryName.toLowerCase())
     );
 
-    if (searchQuery.trim()) {
+    if (searchQueryName.trim()) {
       Navigate(`/search`);
       dispatch(addSearchResults(results));
       dispatch(setIsSearchOpen(false));
-      setSearchQuery("");
+      dispatch(setSearchQuery(searchQueryName));
     } else {
       toastError("Please enter a search query.");
     }
@@ -73,9 +80,9 @@ export default function SearchBar({
               <input
                 ref={searchInputRef}
                 type="text"
-                value={searchQuery}
+                value={searchQueryName}
                 onChange={(e) => {
-                  setSearchQuery(e.target.value);
+                  dispatch(setSearchQuery(e.target.value));
                 }}
                 onKeyDown={(e) => e.key === "Enter" && handleSearch()}
                 placeholder="Search by product or category name..."
@@ -83,17 +90,17 @@ export default function SearchBar({
               />
 
               {/* Search Results */}
-              {searchQuery && (
+              {searchQueryName.trim() && (
                 <div className="absolute z-50 w-full bg-white shadow-lg rounded-lg mt-2 max-h-[380px] overflow-y-auto">
                   {allProducts
                     .filter(
                       (product) =>
                         product.name
                           .toLowerCase()
-                          .includes(searchQuery.toLowerCase()) ||
+                          .includes(searchQueryName.toLowerCase()) ||
                         product.category
                           .toLowerCase()
-                          .includes(searchQuery.toLowerCase())
+                          .includes(searchQueryName.toLowerCase())
                     )
                     .map((productFiltered, index) => (
                       <Link
@@ -103,7 +110,7 @@ export default function SearchBar({
                         onClick={() => {
                           dispatch(setIsSearchOpen(false));
                           dispatch(setIsFooter());
-                          setSearchQuery("");
+                          dispatch(setSearchQuery(""));
                         }}>
                         <img
                           src={productFiltered.img}
@@ -113,7 +120,7 @@ export default function SearchBar({
                         <span>
                           {(() => {
                             const name = productFiltered.name;
-                            const query = searchQuery.toLowerCase();
+                            const query = searchQueryName.toLowerCase();
                             const lowerName = name.toLowerCase();
                             const matchIndex = lowerName.indexOf(query);
 
@@ -150,7 +157,10 @@ export default function SearchBar({
               type="button"
               title="Close"
               className="fixed right-7 top-7 cursor-pointer rounded-full border border-[var(--primary-color)] bg-black"
-              onClick={() => dispatch(setIsSearchOpen(false))}>
+              onClick={() => {
+                dispatch(setIsSearchOpen(false));
+                dispatch(setSearchQuery(""));
+              }}>
               <RiCloseFill
                 fontSize="2.2em"
                 className="text-[var(--primary-color)]"

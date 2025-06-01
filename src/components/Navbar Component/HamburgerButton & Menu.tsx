@@ -11,7 +11,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import { setIsFooter } from "../../Redux/footerSlice";
 import { motion } from "framer-motion";
 import { BiSearchAlt2 } from "react-icons/bi";
-import { setIsSearchOpen } from "../../Redux/searchSlice";
+import { setIsSearchOpen, setSearchQuery } from "../../Redux/searchSlice";
 
 export default function Hamburger_Button_Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -86,7 +86,7 @@ export default function Hamburger_Button_Menu() {
         <div className="xl:hidden flex items-center justify-between w-full space-x-4">
           {token && (
             <>
-              {/*//! Counter For Products Cart. */}
+              {/* Counter For Products Cart. */}
               <Link
                 to="/cart"
                 onClick={() => {
@@ -144,6 +144,7 @@ export default function Hamburger_Button_Menu() {
           } xl:hidden border-l-[3px] border-[var(--primary-color)] absolute h-screen xs:w-screen sm:w-96 top-[63px] backdrop-blur-3xl shadow-xl bg-black/85 -right-5 transition-transform duration-500 ease-in-out rounded-tl-xl rounded-br-3xl`}
           ref={menuRef}>
           <div className="flex flex-col items-center ">
+            {/* Logo & Site Name. */}
             <div className="flex space-x-4 rtl:space-x-reverse mt-4 pt-5">
               <Link
                 to="/wishlist"
@@ -175,6 +176,7 @@ export default function Hamburger_Button_Menu() {
                     setIsOpen(false);
                     dispatch(setIsFooter());
                     dispatch(setIsSearchOpen(!isSearchOpen));
+                    dispatch(setSearchQuery(""));
                   }}>
                   <Button
                     title="Search"

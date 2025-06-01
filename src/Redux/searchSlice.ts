@@ -19,7 +19,8 @@ const searchSlice = createSlice({
   name: "search",
     initialState: {
         isSearchOpen: false,
-        searchResults: [] as ProductType[]
+        searchResults: [] as ProductType[],
+        searchQuery: "",
     },
     reducers: {
         setIsSearchOpen: (state, action: { payload: boolean }) => {
@@ -30,8 +31,12 @@ const searchSlice = createSlice({
             state.searchResults = (action.payload);
 
             console.log(state.searchResults);
+        },
+        setSearchQuery: (state, action: { payload: string }) => {
+            state.searchQuery = action.payload;
         }
+
     }
 });
-export const { setIsSearchOpen, addSearchResults } = searchSlice.actions;
+export const { setIsSearchOpen, addSearchResults, setSearchQuery } = searchSlice.actions;
 export default searchSlice.reducer;
