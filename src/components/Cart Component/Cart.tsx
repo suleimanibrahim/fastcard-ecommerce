@@ -363,7 +363,7 @@ export default function Cart() {
                             className="w-5 h-5 rounded-full border"></div>
                         </h3>
 
-                        <h3 className="md:text-lg xs:text-base text-gray-800">
+                        <h3 className="text-lg text-gray-800">
                           {product.categoryName === "Electronics" &&
                           (product.subCategory === "Mobile" ||
                             product.subCategory === "Flash Disk")
@@ -393,9 +393,9 @@ export default function Cart() {
                         </h3>
 
                         <label
-                          className="md:text-lg xs:text-base text-gray-800"
+                          className="text-lg text-gray-800"
                           htmlFor="quantity">
-                          Quantity:
+                          Qty:
                         </label>
                         <select
                           id="quantity"

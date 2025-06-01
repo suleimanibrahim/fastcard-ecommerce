@@ -527,7 +527,6 @@ export default function Signup() {
   );
 }
 
-
 {
   /* {window.innerWidth <= 360 && window.innerHeight >= 710
                 ? "xs:pt-[120px]"
