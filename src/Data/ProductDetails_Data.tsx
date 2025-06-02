@@ -417,7 +417,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Rose",
         colorHexa: "#FDA4AF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 1/1- Running Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679710/konixdluyl6rqj737ukv.png",
         alt: "Running Shoes - Red",
         size: [
           { id: 1, size: "37", available: true },
@@ -431,7 +431,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 1/2- Running Shoes - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679716/crzta4cv7t9eqpsdr2sa.png",
         alt: "Running Shoes - White",
         size: [
           { id: 5, size: "37", available: false },
@@ -446,7 +446,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 1/3- Running Shoes - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679723/r68hgqehh4rdrw8jlhcp.png",
         alt: "Running Shoes - Black",
         size: [
           { id: 10, size: "41", available: false },
@@ -460,7 +460,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Gray",
         colorHexa: "#4B5563",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 1/4- Running Shoes - Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679736/b4pavyhhfo3dclafe9ts.png",
         alt: "Running Shoes - Gray",
         size: [
           { id: 14, size: "37", available: true },
@@ -470,7 +470,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 1/Running Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748683916/sd2pcveyknj9izw0my3a.mp4"
   },
   {
     id: 2,
@@ -487,7 +487,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Red",
         colorHexa: "#DC143C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 2/1- Compact Single Door Mini Fridge - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679756/fpzcn5mkemoqkfclgnhe.png",
         alt: "Compact Single Door Mini Fridge - Red",
         size: [
           { id: 1, width: 13, height: 55, available: true },
@@ -500,7 +500,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 2/2- Compact Single Door Mini Fridge - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679767/vjzyjaz8qvhbxgorenj3.png",
         alt: "Compact Single Door Mini Fridge - Black",
         size: [
           { id: 4, width: 13, height: 55, available: false },
@@ -513,7 +513,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Gray",
         colorHexa: "#6B7280",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 2/3- Compact Single Door Mini Fridge - Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679772/fsds4qkemyd2xie7zrfk.png",
         alt: "Compact Single Door Mini Fridge - Gray",
         size: [
           { id: 7, width: 13, height: 55, available: false },
@@ -523,7 +523,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 2/Compact Single Door Mini Fridge.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748686309/etpugbwogcimvvwbxvp0.mp4"
   },
   {
     id: 3,
@@ -539,7 +539,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Soft Gray",
         colorHexa: "#E4E4E7",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 3/1- Retro Cotton Linen Set – Plus Size - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679785/ht1m94ygg0ecc7cpjkhu.png",
         alt: "Retro Cotton Linen Set – Plus Size - Soft Gray",
         size: [
           { id: 1, size: "S", available: false },
@@ -554,7 +554,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Baby Blue",
         colorHexa: "#93C5FD",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 3/2- Retro Cotton Linen Set – Plus Size - Baby Blue.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679802/vlqibm014yuqjaaw8sig.png",
         alt: "Retro Cotton Linen Set – Plus Size - Baby Blue",
         size: [
           { id: 6, size: "S", available: true },
@@ -566,7 +566,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 3/Retro Cotton Linen Set – Plus Size.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748689181/d43rtr9cltt60eakm8im.mp4"
   },
   {
     id: 4,
@@ -582,7 +582,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Brown",
         colorHexa: "#6B4F1F",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 4/1- Luxury PU Leather Handbag - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679820/iilbtytitekrubdsxpv5.png",
         alt: "Luxury PU Leather Handbag - Brown",
         size: [
           { id: 1, width: 15, height: 10, available: true },
@@ -595,7 +595,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 4/2- Luxury PU Leather Handbag - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679829/iroa2tsmjssj7hrmwgyw.png",
         alt: "Luxury PU Leather Handbag - White",
         size: [
           { id: 4, width: 15, height: 10, available: false },
@@ -606,7 +606,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 4/Luxury PU Leather Handbag.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748700491/jf4rcpsjvm6bnpfysk3f.mp4"
   },
   {
     id: 5,
@@ -622,7 +622,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Green",
         colorHexa: "#22543D",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 5/1- Dark Green Women's Top Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679839/m7ufzsp03ceiyzlj5n2y.png",
         alt: "Dark Green Women's Top Shoes - Green",
         size: [
           { id: 1, size: "38", available: true },
@@ -632,7 +632,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 5/Dark Green Women's Top Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748781806/vocekcocatnho8hpvdmv.mp4"
   },
   {
     id: 6,
@@ -648,7 +648,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 6/1- Casual Sneaker - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679849/fj1pf7xhbc6eck91lk3d.png",
         alt: "Casual Sneakers - Black",
         size: [
           { id: 1, size: "37", available: true },
@@ -662,7 +662,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 6/2- Casual Sneaker - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679870/kpdvtucns2r1oui00ahx.png",
         alt: "Casual Sneakers - White",
         size: [
           { id: 5, size: "37", available: false },
@@ -674,7 +674,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 6/Casual Sneaker.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748789158/l26twcvaqkvixczmz64z.mp4"
   },
   {
     id: 7,
@@ -690,7 +690,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 7/1- Performance Sports Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679882/m4ch8qhhrcfic61i5zed.png",
         alt: "Performance Sports Shoes - Black",
         size: [
           { id: 1, size: "39", available: true },
@@ -703,7 +703,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 7/2- Performance Sports Shoes - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679894/ecs7lca1pukazvsfntyv.png",
         alt: "Performance Sports Shoes - White",
         size: [
           { id: 4, size: "37", available: false },
@@ -714,7 +714,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 7/Performance Sports Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748797089/rqhqjnez1k5grthc3bl2.mp4"
   },
   {
     id: 8,
@@ -730,7 +730,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Yellow",
         colorHexa: "#FBBF24",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 8/1- Formal Leather Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679953/jsdfwhehp0itfrpyt0i4.png",
         alt: "Formal Leather Shoes - Yellow",
         size: [
           { id: 1, size: "39", available: false },
@@ -743,7 +743,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 8/2- Formal Leather Shoes - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679958/haijnfrvxwyowrtkqbtg.png",
         alt: "Formal Leather Shoes - White",
         size: [
           { id: 4, size: "37", available: false },
@@ -757,7 +757,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Red",
         colorHexa: "#8B0000",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 8/3- Formal Leather Shoes - Dark Red.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679969/kifmosf1skibqbvpw9uh.png",
         alt: "Formal Leather Shoes - Dark Red",
         size: [
           { id: 8, size: "37", available: false },
@@ -768,7 +768,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 8/Formal Leather Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748846317/lzclu4stnjrqzhhluvuc.mp4"
   },
   {
     id: 9,
@@ -785,7 +785,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Gray",
         colorHexa: "#4B5563",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 9/1- MacBook Air – Portable Productivity - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679986/mlzifksrmnunbmqdyt6f.png",
         alt: "MacBook Air — Portable Productivity - Dark Gray",
         size: [
           { id: 1, size: "13.5", available: false },
@@ -798,7 +798,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#D1D5DB",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 9/2- MacBook Air – Portable Productivity - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680001/yk5yeh2w8ofnkosygihb.png",
         alt: "MacBook Air — Portable Productivity - Light Gray",
         size: [
           { id: 4, size: "13.5", available: false },
@@ -809,7 +809,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 9/MacBook Air – Portable Productivity.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748846276/jhp7afxxlp3ljbxp9upx.mp4"
   },
   {
     id: 10,
@@ -825,7 +825,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 10/1- Training Gym Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680005/emrc2pexoqo459hm8jum.png",
         alt: "Training Gym Shoes - Black",
         size: [
           { id: 1, size: "40", available: true },
@@ -838,7 +838,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 10/2- Training Gym Shoes - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680011/zuqpzsxsur59u5l222hs.png",
         alt: "Training Gym Shoes - White",
         size: [
           { id: 4, size: "39", available: false },
@@ -852,7 +852,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Gray",
         colorHexa: "#4A5568",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 10/3- Training Gym Shoes - Dark Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680018/ilxx8xv7strcjyi3065j.png",
         alt: "Training Gym Shoes - Dark Gray",
         size: [
           { id: 8, size: "39", available: true },
@@ -863,7 +863,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Ptoduct Videos - ID 10/Training Gym Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680018/ilxx8xv7strcjyi3065j.png"
   },
   {
     id: 11,
@@ -876,10 +876,10 @@ export const productDetails: productDetailsProps[] = [
     images: [
       {
         id: 1,
-        color: " Dark Brown",
+        color: "Dark Brown",
         colorHexa: "#6B4226",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 11/1- Bold Color Sneakers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680029/nzusyyftdu9ojbvrr3jq.png",
         alt: "Bold Color Sneakers - Dark Brown",
         size: [
           { id: 1, size: "40", available: true },
@@ -892,7 +892,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Orange",
         colorHexa: "#FB923C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 11/2- Bold Color Sneakers - Dark Brown.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680024/p4jlpeyrr06fy1k1mzzp.png",
         alt: "Bold Color Sneakers - Orange",
         size: [
           { id: 4, size: "39", available: true },
@@ -903,7 +903,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 11/Bold Color Sneakers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748684254/by36wyxamnbkz1jc2zlo.mp4"
   },
   {
     id: 12,
@@ -919,7 +919,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 12/1- Comfort All-Day Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680113/pzzbbi5gdjylsngrp76z.png",
         alt: "Comfort All-Day Shoes - White",
         size: [
           { id: 1, size: "40", available: true },
@@ -932,7 +932,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 12/2- Comfort All-Day Shoes - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680123/oamcpldci0kpeofhcxp5.png",
         alt: "Comfort All-Day Shoes - Black",
         size: [
           { id: 4, size: "39", available: true },
@@ -943,7 +943,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 12/Comfort All-Day Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748684455/nryd8dea7uch39bcjbpc.mp4"
   },
   {
     id: 13,
@@ -959,7 +959,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Deep Maroon",
         colorHexa: "#800000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 13/1- Classic High-Top Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680133/sgvej33hwdpbumzyustn.png",
         alt: "Classic High-Top Shoes - Deep Maroon",
         size: [
           { id: 1, size: "40", available: true },
@@ -972,7 +972,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "Black",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 13/2- Classic High-Top Shoes - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680138/wysbpj9cdaobusb4edvy.png",
         alt: "Classic High-Top Shoes - Black",
         size: [
           { id: 4, size: "39", available: false },
@@ -983,7 +983,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 13/Classic High - Top Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748684429/o9rxprfvhf08gzvlzuzy.mp4"
   },
   {
     id: 14,
@@ -1000,7 +1000,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Soft Apricot",
         colorHexa: "#F5CBA7",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 14/1- MacBook Air – Creative Edition - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680168/zmjmcfusvgczmtgbe1yp.png",
         alt: "MacBook Air – Creative Edition - Soft Apricot",
         size: [
           { id: 1, size: "13.3", available: true },
@@ -1013,7 +1013,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#B0B0B0",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 14/2- MacBook Air – Creative Edition - Silver.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680190/pfzcvpyfd6fvsnffrhxd.png",
         alt: "MacBook Air – Creative Edition - Silver",
         size: [
           { id: 4, size: "13.3", available: false },
@@ -1024,7 +1024,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 14/MacBook Air – Creative Edition.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748684965/haklhabhjzz6heodaseo.mp4"
   },
   {
     id: 15,
@@ -1041,7 +1041,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Sky Blue",
         colorHexa: "#60A5FA",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 15/1- Baby Milton Quilted Baby Sweatshirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680225/eoaqb38zxh6zbzlq6m9d.png",
         alt: "Baby Milton Quilted Baby Sweatshirt - Sky Blue",
         size: [
           { id: 1, size: "S", available: true },
@@ -1056,7 +1056,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Brown",
         colorHexa: "#A67B5B",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 15/2- Baby Milton Quilted Baby Sweatshirt - Light Brown.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680232/sm8tiye0tojatgzjyrmq.png",
         alt: "Baby Milton Quilted Baby Sweatshirt - Light Brown",
         size: [
           { id: 6, size: "S", available: false },
@@ -1068,7 +1068,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/public/Product Details Photos & Videos/Videos/Product Videos - ID 15/Baby Milton Quilted Baby Sweatshirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748685256/vkejwkrfolq7isrrwmze.mp4"
   },
   {
     id: 16,
@@ -1084,7 +1084,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Teal",
         colorHexa: "#004D4D",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 16/1- Straight-Leg Couture Cotton Trousers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680245/wsopewqblzs9wziswpiz.png",
         alt: "Straight-Leg Couture Cotton Trousers - Dark Teal",
         size: [
           { id: 1, size: "S", available: false },
@@ -1099,7 +1099,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Gray",
         colorHexa: "#808080",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 16/2- Straight-Leg Couture Cotton Trousers - Dark Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680254/tfomryhljgtfry1kgygj.png",
         alt: "Straight-Leg Couture Cotton Trousers - Dark Gray",
         size: [
           { id: 6, size: "S", available: true },
@@ -1111,7 +1111,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 16/Straight-Leg Couture Cotton Trousers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748685010/ja7lk0z90yfdtu8ynclr.mp4"
   },
   {
     id: 17,
@@ -1127,7 +1127,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Cinnamon Brown",
         colorHexa: "#A65E2E",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 17/1- Men's Infinity Insulated Cargo Pant - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680270/nbti95et6lmf0amzv989.png",
         alt: "Men's Infinity Insulated Cargo Pant - Cinnamon Brown",
         size: [
           { id: 1, size: "S", available: false },
@@ -1142,7 +1142,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 17/2- Men's Infinity Insulated Cargo Pant - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680277/ikq4clkx0xwem3loagyi.png",
         alt: "Men's Infinity Insulated Cargo Pant - Black",
         size: [
           { id: 6, size: "S", available: true },
@@ -1154,7 +1154,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 17/Men's Infinity Insulated Cargo Pant.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748685340/geenxfhtxhi3zksk7yop.mp4"
   },
   {
     id: 18,
@@ -1170,7 +1170,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Olive Green",
         colorHexa: "#7a9a79",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 18/1- QUIKSILVER Men's PORTER Snow Pants - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680354/d09cja0apakiopgzksbm.png",
         alt: "QUIKSILVER Men's PORTER Snow Pants - Olive Green",
         size: [
           { id: 1, size: "S", available: false },
@@ -1185,7 +1185,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 18/2- QUIKSILVER Men's PORTER Snow Pants - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680364/nfrok8imcqudczrfevgb.png",
         alt: "QUIKSILVER Men's PORTER Snow Pants - Black",
         size: [
           { id: 6, size: "S", available: true },
@@ -1197,7 +1197,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 18/QUIKSILVER Men's PORTER Snow Pants.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748686149/edmrlsfpsqymcpb4pcdt.mp4"
   },
   {
     id: 19,
@@ -1213,7 +1213,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 19/1- Hugo Boss T-shirt For mens - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680375/omtjqiitnc8izt9tie0p.png",
         alt: "Hugo Boss T-shirt For mens - Black",
         size: [
           { id: 1, size: "S", available: false },
@@ -1228,7 +1228,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 19/2- Hugo Boss T-shirt For mens - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680388/atncwf6czjis6ezcz11v.png",
         alt: "Hugo Boss T-shirt For mens - White",
         size: [
           { id: 6, size: "S", available: true },
@@ -1243,7 +1243,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#D1D5DB",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 19/3- Hugo Boss T-shirt For mens - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680395/uhslrbdgisfaytkcfb2v.png",
         alt: "Hugo Boss T-shirt For mens - Light Gray",
         size: [
           { id: 11, size: "S", available: false },
@@ -1255,7 +1255,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 19/Hugo Boss T-shirt For mens.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748685985/ntgwavemflk0yygixah6.mp4"
   },
   {
     id: 20,
@@ -1271,7 +1271,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 20/1- Security Polo T-Shirt Men High-Quality Uniform Workwear Short - Cove.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680412/vt1qey88ppgnivgdyrfw.png",
         alt: "Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve Black - Black",
         size: [
           { id: 1, size: "S", available: false },
@@ -1286,7 +1286,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 20/2- Security Polo T-Shirt Men High-Quality Uniform Workwear Short - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680424/fkvqby1ljt3g0lg31k6t.png",
         alt: "Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve Black - White",
         size: [
           { id: 6, size: "S", available: false },
@@ -1298,7 +1298,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 20/Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748686183/y9gmrxlxhjfyjyqb4wif.mp4"
   },
   {
     id: 21,
@@ -1315,7 +1315,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Neon Blue",
         colorHexa: "#00FFFF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 21/1- High Quality RGB Light Gaming Mouse - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680433/uzftsaeaojwexcaec0hs.png",
         alt: "High Quality RGB Light Gaming Mouse - Neon Blue",
         size: [
           { id: 1, width: 6.6, height: 15, available: false },
@@ -1328,7 +1328,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Neon Red",
         colorHexa: "#FF073A",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 21/2- High Quality RGB Light Gaming Mouse - Red.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680444/jpie3cbpcc0tdrk0h0us.png",
         alt: "High Quality RGB Light Gaming Mouse - Red",
         size: [
           { id: 4, width: 6.6, height: 15, available: false },
@@ -1338,7 +1338,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 21/High Quality RGB Light Gaming Mouse.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748685476/fha9jkkayzmlgskrd5xm.mp4"
   },
   {
     id: 22,
@@ -1355,7 +1355,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 22/1- High Quality RGB Light Gaming Keyboard - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680459/agnuxeq9qsxknknf2ygh.png",
         alt: "High Quality RGB Light Gaming Keyboard - Black",
         size: [
           { id: 1, width: 25, height: 15, available: true },
@@ -1365,7 +1365,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 22/High Quality RGB Light Gaming Keyboard.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748687755/hj3yxliy8pas6ny6dyzn.mp4"
   },
   {
     id: 23,
@@ -1382,7 +1382,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#D3D3D3",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 23/1- Apple iMac 21.5 4K Retina 2017 - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680471/utqt6vl980vuuztl82a9.png",
         alt: "Apple iMac 21.5 4K Retina 2017 - Silver",
         size: [
           { id: 1, size: "21.5", available: true },
@@ -1392,7 +1392,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 23/Apple iMac 21.5 4K Retina 2017.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748688298/xi5ucsy1b9joqekj26pt.mp4"
   },
   {
     id: 24,
@@ -1409,7 +1409,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 24/1- SanDisk Cruzer Blade – Trusted Storage in Your Pocket - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680477/xvwznrn2abrrgoj1e5yw.png",
         alt: "SanDisk Cruzer Blade – Trusted Storage in Your Pocket - Black",
         size: [
           { id: 1, size: "64", available: false },
@@ -1422,7 +1422,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Red",
         colorHexa: "#FF0000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 24/2- SanDisk Cruzer Blade – Trusted Storage in Your Pocket - Red.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680490/glvfywpodjiqgizjhxy7.png",
         alt: "SanDisk Cruzer Blade – Trusted Storage in Your Pocket - Red",
         size: [
           { id: 4, size: "64", available: true },
@@ -1432,7 +1432,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 24/SanDisk Cruzer Blade – Trusted Storage in Your Pocket.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748687696/nnqxxthtuaihshwyprmh.mp4"
   },
   {
     id: 25,
@@ -1449,7 +1449,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Moon White",
         colorHexa: "#FAFAFA",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 25/1- HUAWEI WATCH FIT 3 Smartwatch - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680510/hroreuvbqvluuxsl634y.png",
         alt: "HUAWEI WATCH FIT 3 Smartwatch - Moon White",
         size: [
           { id: 1, size: "1.54", available: false },
@@ -1462,7 +1462,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Green",
         colorHexa: "#90EE90",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 25/2- HUAWEI WATCH FIT 3 Smartwatch - Light Green.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680521/nj97uotrnarzj4gf5dzb.png",
         alt: "HUAWEI WATCH FIT 3 Smartwatch - Light Green",
         size: [
           { id: 4, size: "1.54", available: true },
@@ -1475,7 +1475,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 25/3- HUAWEI WATCH FIT 3 Smartwatch - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680530/cdopikfvnegpvls66zb9.png",
         alt: "HUAWEI WATCH FIT 3 Smartwatch - Black",
         size: [
           { id: 7, size: "1.54", available: true },
@@ -1485,7 +1485,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 25/HUAWEI WATCH FIT 3 Smartwatch.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748687321/w5atuikaxc2mr1otmytj.mp4"
   },
   {
     id: 26,
@@ -1502,7 +1502,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Deep Purple",
         colorHexa: "#4B2C7F",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 26/1- iPhone 14 Pro - Second Hand Phones - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680547/cfvgrkllgolnlok9zbzm.png",
         alt: "iPhone 14 Pro - Second Hand Phones - Deep Purple",
         size: [
           { id: 1, size: "128", available: false },
@@ -1515,7 +1515,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 26/2- iPhone 14 Pro - Second Hand Phones - Silver.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680551/lwxvucotctwbp5tpwdlf.png",
         alt: "iPhone 14 Pro - Second Hand Phones - Silver",
         size: [
           { id: 4, size: "128", available: true },
@@ -1528,7 +1528,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Sky Blue",
         colorHexa: "#87CEFA",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 26/3- iPhone 14 Pro - Second Hand Phones - Sky Blue.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680564/il6uodbii711hwyhycfc.png",
         alt: "iPhone 14 Pro - Second Hand Phones - Sky Blue",
         size: [
           { id: 7, size: "128", available: true },
@@ -1538,7 +1538,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 26/iPhone 14 Pro - Second Hand Phones.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748687458/lx687clh0buyhztziitf.mp4"
   },
   {
     id: 27,
@@ -1555,7 +1555,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 27/1- HOOVER Washer Fully Automatic - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680574/dhsnu2gffsv1iqrymwah.png",
         alt: "HOOVER Washer Fully Automatic - Black",
         size: [
           { id: 1, size: "9", available: false },
@@ -1568,7 +1568,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Morandi Grey",
         colorHexa: "#A5A29E",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 27/2- HOOVER Washer Fully Automatic - Morandi Grey.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680590/fesdmpcfaqqfvisvaspk.png",
         alt: "HOOVER Washer Fully Automatic - Morandi Grey",
         size: [
           { id: 4, size: "9", available: false },
@@ -1578,7 +1578,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 27/HOOVER Washer Fully Automatic.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748688753/dvf4a8byyslbbictmojy.mp4"
   },
   {
     id: 28,
@@ -1595,7 +1595,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 28/1- Unionaire iCook Smart Stainless Steel Cooker - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680608/s2xfov7dyveabhil9ytz.png",
         alt: "Unionaire iCook Smart Stainless Steel Cooker - Black",
         size: [
           { id: 1, width: 50, height: 65, available: false },
@@ -1608,7 +1608,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 28/2- Unionaire iCook Smart Stainless Steel Cooker - Silver.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680618/ow88waoa4x5ybt7vgukv.png",
         alt: "Unionaire iCook Smart Stainless Steel Cooker - Silver",
         size: [
           { id: 4, width: 50, height: 65, available: false },
@@ -1618,7 +1618,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 28/Unionaire iCook Smart Stainless Steel Cooker.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748688301/zupk3agdpafx8jxkaikf.mp4"
   },
   {
     id: 29,
@@ -1635,7 +1635,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 29/1- Electric Oven with Timer & Temp Control – 1800W Multi-Use - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680624/idfrep1tcrobqs53tm9s.png",
         alt: "Electric Oven with Timer & Temp Control – 1800W Multi-Use - Black",
         size: [
           { id: 1, width: 31, height: 25, available: false },
@@ -1648,7 +1648,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 29/2- Electric Oven with Timer & Temp Control – 1800W Multi-Use - Silver.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680637/fpe09ljotaxuv73zav8l.png",
         alt: "Electric Oven with Timer & Temp Control – 1800W Multi-Use - Silver",
         size: [
           { id: 4, width: 31, height: 25, available: true },
@@ -1658,7 +1658,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 29/Electric Oven with Timer & Temp Control – 1800W Multi-Use.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748688887/ypsjfvm3y2hdwqfqbhbd.mp4"
   },
   {
     id: 30,
@@ -1675,7 +1675,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 30/1- Espresso Machine – Barista-Style Coffee - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680652/nv09qcu6xf68myevkgh9.png",
         alt: "Espresso Machine – Barista-Style Coffee - Black",
         size: [
           { id: 1, size: "1.1", available: false },
@@ -1688,7 +1688,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 30/2- Espresso Machine – Barista-Style Coffee - Silver.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680659/qj4xo3ganoz66ubbtivc.png",
         alt: "Espresso Machine – Barista-Style Coffee - Silver",
         size: [
           { id: 4, size: "1.1", available: true },
@@ -1698,7 +1698,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 30/Espresso Machine – Barista-Style Coffee.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748689262/manwalgbeglgclrq6xmn.mp4"
   },
   {
     id: 31,
@@ -1715,7 +1715,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 31/1- Nutricook 2 Slice Smart Toaster with Touch Screen - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680671/ootolyfa5paebmrgvhyg.png",
         alt: "Nutricook 2 Slice Smart Toaster with Touch Screen - Silver",
         size: [
           { id: 1, width: 35, height: 25, available: false },
@@ -1728,7 +1728,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 31/2- Nutricook 2 Slice Smart Toaster with Touch Screen - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680678/cesrqcsdfifipnwj6kza.png",
         alt: "Nutricook 2 Slice Smart Toaster with Touch Screen - Black",
         size: [
           { id: 4, width: 35, height: 25, available: true },
@@ -1738,7 +1738,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 31/Nutricook 2 Slice Smart Toaster with Touch Screen.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748689358/luz6fh5wgriwbqjedmws.mp4"
   },
   {
     id: 32,
@@ -1755,7 +1755,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 32/1- Versuni Philips steam iron - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680691/vfteyrkwwgv8lirdkbwk.png",
         alt: "Versuni Philips steam iron - Black",
         size: [
           { id: 1, width: 35, height: 15, available: true },
@@ -1768,7 +1768,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Sky Blue",
         colorHexa: "#6FB7D6",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 32/2- Versuni Philips steam iron - Sky Blue.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680698/sofdyjwkuy2f5ece4aod.png",
         alt: "Versuni Philips steam iron - Sky Blue",
         size: [
           { id: 4, width: 35, height: 15, available: true },
@@ -1778,7 +1778,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 32/Versuni Philips steam iron.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748690172/zqisfmrycy2fmomgzxlk.mp4"
   },
   {
     id: 33,
@@ -1794,7 +1794,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Maroon",
         colorHexa: "#B22222",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 33/1- Relaxed Fit T-Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680718/vymnmdgvojcze1mrg7nk.png",
         alt: "Relaxed Fit T-Shirt - Maroon",
         size: [
           { id: 1, size: "S", available: true },
@@ -1809,7 +1809,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 33/2- Relaxed Fit T-Shirt - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680727/no5n8oam4gatgorkrxik.png",
         alt: "Relaxed Fit T-Shirt - Black",
         size: [
           { id: 6, size: "S", available: true },
@@ -1821,7 +1821,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 33/Relaxed Fit T-Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748691121/pj6bojcbrxb1wp3pg3af.mp4"
   },
   {
     id: 34,
@@ -1837,7 +1837,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Orange",
         colorHexa: "#FFA500",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 34/1- Relaxed Fit Pique & Jersey T-Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680735/uwxfpulplfc8bqf5tn1b.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Orange",
         size: [
           { id: 1, size: "S", available: true },
@@ -1852,7 +1852,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Green",
         colorHexa: "#90EE90",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 34/2- Relaxed Fit Pique & Jersey T-Shirt - Light Green.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680747/pjyebufnyqp9bdbethyo.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Light Green",
         size: [
           { id: 6, size: "S", available: true },
@@ -1867,7 +1867,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#D3D3D3",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 34/3- Relaxed Fit Pique & Jersey T-Shirt - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680756/y55igk3sacowsov0zw24.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Light Gray",
         size: [
           { id: 11, size: "S", available: false },
@@ -1879,7 +1879,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 34/Relaxed Fit Pique & Jersey T-Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748691378/opflyhnoe6vnoy9dnhus.mp4"
   },
   {
     id: 35,
@@ -1895,7 +1895,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Maroon",
         colorHexa: "#D9A799",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 35/1- Relaxed Fit Cotton T-Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680769/mxdxhtytwrfibeveoo1m.png",
         alt: "Relaxed Fit Cotton T-Shirt - Maroon",
         size: [
           { id: 1, size: "S", available: true },
@@ -1910,7 +1910,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#D3D3D3",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 35/2- Relaxed Fit Cotton T-Shirt - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680779/guarqck8txe0zax41csl.png",
         alt: "Relaxed Fit Cotton T-Shirt - Light Gray",
         size: [
           { id: 6, size: "S", available: false },
@@ -1922,7 +1922,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 35/Relaxed Fit Cotton T-Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748691034/i7eapafbqivtugxnfggq.mp4"
   },
   {
     id: 36,
@@ -1938,7 +1938,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Navy Blue",
         colorHexa: "#000080",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 36/1- CEBE Classic Fit Linen Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680792/geedxhjna3p7fh7kep6h.png",
         alt: "CEBE Classic Fit Linen Shirt - Navy Blue",
         size: [
           { id: 1, size: "S", available: true },
@@ -1953,7 +1953,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 36/2- CEBE Classic Fit Linen Shirt - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680799/tcmybw2srmp5zf6vreqs.png",
         alt: "CEBE Classic Fit Linen Shirt - White",
         size: [
           { id: 6, size: "S", available: true },
@@ -1965,7 +1965,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 36/CEBE Classic Fit Linen Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748697677/qnkl5lkvft02jmun57xt.mp4"
   },
   {
     id: 37,
@@ -1981,7 +1981,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Purple",
         colorHexa: "#C8AFC8",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 37/1- Brushed French Terry Basic T-shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680810/b7m7kdj7n8d7bk8qcmlf.png",
         alt: "Brushed French Terry Basic T-shirt - Light Purple",
         size: [
           { id: 1, size: "S", available: true },
@@ -1996,7 +1996,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Green",
         colorHexa: "#C8DDB2",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 37/2- Brushed French Terry Basic T-shirt - Light Green.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680823/iszw1tzgfy6woggiofqo.png",
         alt: "Brushed French Terry Basic T-shirt - Light Green",
         size: [
           { id: 6, size: "S", available: true },
@@ -2008,7 +2008,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 37/Brushed French Terry Basic T-shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748754102/dxz8ttoit9myvkrpahi9.mp4"
   },
   {
     id: 38,
@@ -2024,7 +2024,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 38/1- Sleeveless Interlock Top - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680828/lvztvxmpe9n7mpebnvl9.png",
         alt: "Sleeveless Interlock Top - Black",
         size: [
           { id: 1, size: "S", available: true },
@@ -2039,7 +2039,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Red",
         colorHexa: "#FF7F7F",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 38/2- Sleeveless Interlock Top - Light Red.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680843/l72cevl7vtgawx8ggs3f.png",
         alt: "Sleeveless Interlock Top - Light Red",
         size: [
           { id: 6, size: "S", available: false },
@@ -2054,7 +2054,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 38/3- Sleeveless Interlock Top - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680859/ud6cx4iymt5hisfdxzgz.png",
         alt: "Sleeveless Interlock Top - Light Gray",
         size: [
           { id: 11, size: "S", available: true },
@@ -2066,7 +2066,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 38/Sleeveless Interlock Top.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748754326/bailprindp1qc6fc48nm.mp4"
   },
   {
     id: 39,
@@ -2082,7 +2082,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Teal",
         colorHexa: "#33A1A1",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 39/1- Stretch Jersey V-Neck T-Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680880/bzaep9jj1vejwn6n5k5a.png",
         alt: "Stretch Jersey V-Neck T-Shirt - Teal",
         size: [
           { id: 1, size: "S", available: true },
@@ -2097,7 +2097,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Blue",
         colorHexa: "#1560BD",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 39/2- Stretch Jersey V-Neck T-Shirt - Blue.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680886/apy4w1jdr6k5dk1ctorb.png",
         alt: "Stretch Jersey V-Neck T-Shirt - Blue",
         size: [
           { id: 6, size: "S", available: true },
@@ -2109,7 +2109,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 39/Stretch Jersey V-Neck T-Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748754939/iw0ykogka9fhtvezg4ns.mp4"
   },
   {
     id: 40,
@@ -2125,7 +2125,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 40/1- Round Neck Cotton Slub T-Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681039/jarveanz5zfhq1pifxkx.png",
         alt: "Round Neck Cotton Slub T-Shirt - Black",
         size: [
           { id: 1, size: "S", available: false },
@@ -2140,7 +2140,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Beige",
         colorHexa: "#EDE8C7",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 40/2- Round Neck Cotton Slub T-Shirt - Light Beige.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680911/l2vqv5cs4jxp794jfmkt.png",
         alt: "Round Neck Cotton Slub T-Shirt - Light Beige",
         size: [
           { id: 6, size: "S", available: true },
@@ -2152,7 +2152,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 40/Round Neck Cotton Slub T-Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748700392/y0t77pkffdjwsy2uckq2.mp4"
   },
   {
     id: 41,
@@ -2168,7 +2168,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Pink",
         colorHexa: "#FFC0CB",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 41/1- Oversized Cotton Printed Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680917/vwx8lg7seacl5twtl7ik.png",
         alt: "Oversized Cotton Printed Shirt - Light Pink",
         size: [
           { id: 1, size: "S", available: false },
@@ -2183,7 +2183,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Green",
         colorHexa: "#D9F7D9",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 41/2- Oversized Cotton Printed Shirt - Light Green.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680923/fpkldshpaj73u53bvjdl.png",
         alt: "Oversized Cotton Printed Shirt - Light Green",
         size: [
           { id: 6, size: "S", available: true },
@@ -2195,7 +2195,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 41/Oversized Cotton Printed Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748700527/ujyvpbepdylyirciwqgx.mp4"
   },
   {
     id: 42,
@@ -2211,7 +2211,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Muted Caramel",
         colorHexa: "#9C835F",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 42/1- Oversized Cotton Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680932/kjcbuyyudaseejoo1isx.png",
         alt: "Oversized Cotton Shirt - Muted Caramel",
         size: [
           { id: 1, size: "S", available: true },
@@ -2226,7 +2226,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 42/2- Oversized Cotton Shirt - White.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681048/rc16whinzl5chhh34xqh.png",
         alt: "Oversized Cotton Shirt - White",
         size: [
           { id: 6, size: "S", available: true },
@@ -2238,7 +2238,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 42/Oversized Cotton Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748767185/ji0uoncc3zkjddq1siqr.mp4"
   },
   {
     id: 43,
@@ -2254,7 +2254,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#A9A9A9",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 43/1- Classic Fit Long Sleeves Linen Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680981/zqiaeq0du7ratdyg318e.png",
         alt: "Classic Fit Long Sleeves Linen Shirt - Light Gray",
         size: [
           { id: 1, size: "S", available: true },
@@ -2269,7 +2269,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Orange",
         colorHexa: "#FFA07A",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 43/2- Classic Fit Long Sleeves Linen Shirt - Light Orange.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680988/mgjtzavbfofm5va2xigu.png",
         alt: "Classic Fit Long Sleeves Linen Shirt - Light Orange",
         size: [
           { id: 6, size: "S", available: false },
@@ -2281,7 +2281,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 43/Classic Fit Long Sleeves Linen Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748767999/f6qwvxlownj6snwnbbss.mp4"
   },
   {
     id: 44,
@@ -2297,7 +2297,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Navy Blue",
         colorHexa: "#000080",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 44/1- Sanders Linen Pants with Elastic Waist - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680995/fre9s4g2lhkso0ye7lrq.png",
         alt: "Sanders Linen Pants with Elastic Waist - Navy Blue",
         size: [
           { id: 1, size: "S", available: true },
@@ -2312,7 +2312,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#A9A9A9",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 44/2- Sanders Linen Pants with Elastic Waist - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681007/gtcgrpzvj0khds3jnvjv.png",
         alt: "Sanders Linen Pants with Elastic Waist - Light Gray",
         size: [
           { id: 6, size: "S", available: false },
@@ -2324,7 +2324,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 44/Sanders Linen Pants with Elastic Waist.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748768573/wcaimiv5yv43zqvjbdc1.mp4"
   },
   {
     id: 45,
@@ -2340,7 +2340,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Denim Blue",
         colorHexa: "#4A6D94",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 45/1- Straight Fit High Waist Denim Pants For Men - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681021/kpouzyrexryfdqgay7ya.png",
         alt: "Straight Fit High Waist Denim Pants For Men - Denim Blue",
         size: [
           { id: 1, size: "S", available: true },
@@ -2352,7 +2352,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 45/Straight Fit High Waist Denim Pants For Men.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748779256/rfk0uh1wlw9n9aftya2s.mp4"
   },
   {
     id: 46,
@@ -2368,7 +2368,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Charcoal Black",
         colorHexa: "#757575",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 46/1- Dubler Slim Fit Denim - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681025/qfhqnnxoqpqqm8j6vp2l.png",
         alt: "Dubler Slim Fit Denim - Charcoal Black",
         size: [
           { id: 1, size: "S", available: false },
@@ -2380,7 +2380,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 46/Dubler Slim Fit Denim.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748779256/rfk0uh1wlw9n9aftya2s.mp4"
   },
   {
     id: 47,
@@ -2396,7 +2396,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 47/1- Regular Fit Twill Cargo Pants With Elastic Waist - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681029/dr6musqnoqlks7l4brq9.png",
         alt: "Regular Fit Twill Cargo Pants With Elastic Waist - Black",
         size: [
           { id: 1, size: "S", available: true },
@@ -2408,7 +2408,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 47/Regular Fit Twill Cargo Pants With Elastic Waist.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748779783/lrz5y6diigr7ldsoyfbn.mp4"
   },
   {
     id: 48,
@@ -2424,7 +2424,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Gray",
         colorHexa: "#4C4C4C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 48/1- Denim Jogger - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681121/u7jplenh56fpoh3f6kpk.png",
         alt: "Denim Jogger - Dark Gray",
         size: [
           { id: 1, size: "S", available: true },
@@ -2436,7 +2436,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 48/Denim Jogger.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748779892/fi5pcaj6eoa9zjrildjw.mp4"
   },
   {
     id: 49,
@@ -2452,7 +2452,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 49/1- Poplin Pants For Women - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681148/tsckc4d4ja0w1im7vzid.png",
         alt: "Poplin Pants For Women - Black",
         size: [
           { id: 1, size: "S", available: true },
@@ -2467,7 +2467,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Orange",
         colorHexa: "#FFA07A",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 49/2- Poplin Pants For Women - Light Orange.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681156/mc331ee958xkkkc4t3tc.png",
         alt: "Poplin Pants For Women - Light Orange",
         size: [
           { id: 6, size: "S", available: true },
@@ -2479,7 +2479,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 49/Poplin Pants For Women.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748780984/gyg5q09d9plxrtnpx3vn.mp4"
   },
   {
     id: 50,
@@ -2495,7 +2495,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Green",
         colorHexa: "#C4D0A2",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 50/1- Crisp Comfort Trousers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681171/jgwd3dhm0s9lzldkq2z8.png",
         alt: "Crisp Comfort Trousers - Light Green",
         size: [
           { id: 1, size: "S", available: true },
@@ -2510,7 +2510,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Beige",
         colorHexa: "#BFB987",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 50/2- Crisp Comfort Trousers - Light Beige.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681185/xxhy7dr92luutyibxdx9.png",
         alt: "Crisp Comfort Trousers - Light Beige",
         size: [
           { id: 6, size: "S", available: false },
@@ -2522,7 +2522,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 50/Crisp Comfort Trousers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748781980/lczufe8sjvxvt4c7vldw.mp4"
   },
   {
     id: 51,
@@ -2538,7 +2538,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Denim Blue",
         colorHexa: "#3B5878",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 51/1- Straight Fit High Waist Denim Pants For Women - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681210/rc2mz0axii5h7o4atu55.png",
         alt: "Straight Fit High Waist Denim Pants For Women - Denim Blue",
         size: [
           { id: 1, size: "S", available: true },
@@ -2550,7 +2550,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 51/Straight Fit High Waist Denim Pants For Women.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748783451/u2qtem8fay5shthnzcqi.mp4"
   },
   {
     id: 52,
@@ -2566,7 +2566,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Whisper Blue",
         colorHexa: "#F8FBFD",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 52/1- Straight Fit High Waist Twill Pants - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681217/uhuv4j3zhmld7jmzoviq.png",
         alt: "Straight Fit High Waist Twill Pants - Whisper Blue",
         size: [
           { id: 1, size: "S", available: false },
@@ -2581,7 +2581,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 52/2- Straight Fit High Waist Twill Pants - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681224/nyzpxndgcu7d2zvaewbi.png",
         alt: "Straight Fit High Waist Twill Pants - Black",
         size: [
           { id: 6, size: "S", available: true },
@@ -2593,7 +2593,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 52/Straight Fit High Waist Twill Pants.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748784684/kuoshqbwmzu3ex5gfozo.mp4"
   },
   {
     id: 53,
@@ -2609,7 +2609,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 53/1- Stretch Jersey Leggings - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681281/mzhitmj5giwanvmxcswi.png",
         alt: "Stretch Jersey Leggings - Black",
         size: [
           { id: 1, size: "S", available: true },
@@ -2621,7 +2621,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 53/Stretch Jersey Leggings.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748784647/wtuaipcyu09xz9nnwrrd.mp4"
   },
   {
     id: 54,
@@ -2637,7 +2637,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Red",
         colorHexa: "#660000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 54/1- Stretch Jersey Wide Leg Leggings - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681299/qqxvbrin5l5laxmcpdrg.png",
         alt: "Stretch Jersey Wide Leg Leggings - Dark Red",
         size: [
           { id: 1, size: "S", available: false },
@@ -2652,7 +2652,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 54/2- Stretch Jersey Wide Leg Leggings - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681313/qtvmqqufb3m7nlmhyyh6.png",
         alt: "Stretch Jersey Wide Leg Leggings - Black",
         size: [
           { id: 6, size: "S", available: true },
@@ -2664,7 +2664,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 54/Stretch Jersey Wide Leg Leggings.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748785443/vztg8yui1f04zvpmsoj9.mp4"
   },
   {
     id: 55,
@@ -2680,7 +2680,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Red",
         colorHexa: "#660000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 55/1- Small Tote Bag - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681324/hxxcmvgwk73cjzyr8iul.png",
         alt: "Small Tote Bag - Dark Red",
         size: [
           { id: 1, width: 20, height: 15, available: false },
@@ -2692,7 +2692,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 55/Small Tote Bag.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748787705/ue5y499amkjskdyamnkl.mp4"
   },
   {
     id: 56,
@@ -2708,7 +2708,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Red",
         colorHexa: "#660000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 56/1- Gucci Jackie 1961 Small Leather Shoulder Bag - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681340/ul3z9wzf2gdmqvauvqil.png",
         alt: "Gucci Jackie 1961 Small Leather Shoulder Bag - Dark Red",
         size: [
           { id: 1, width: 25, height: 15, available: false },
@@ -2719,7 +2719,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 56/Gucci Jackie 1961 Small Leather Shoulder Bag.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748788070/iuxkypw5iqdxgjh3xxq5.mp4"
   },
   {
     id: 57,
@@ -2735,7 +2735,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Khaki",
         colorHexa: "#4A402D",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 57/1- Khaki Escape Bag - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681831/c0gft7296zk2oq8eld2u.png",
         alt: "Khaki Escape Bag - Dark Khaki",
         size: [
           { id: 1, width: 35, height: 28, available: false },
@@ -2746,7 +2746,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 57/Khaki Escape Bag.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748789122/vijghaxvkyjjrp6bprjj.mp4"
   },
   {
     id: 58,
@@ -2762,7 +2762,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Navy",
         colorHexa: "#3D0C57",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 58/1- Dior Mini Saddle Bag - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681391/zf2kwktowzelzgmob2ng.png",
         alt: "Dior Mini Saddle Bag - Dark Navy",
         size: [
           { id: 1, width: 25, height: 15, available: false },
@@ -2776,7 +2776,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Red",
         colorHexa: "#8B0000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 58/2- Dior Mini Saddle Bag - Dark Red.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681402/h1llg8fubitkqkbmv5k7.png",
         alt: "Dior Mini Saddle Bag - Dark Red",
         size: [
           { id: 5, size: "S", available: true },
@@ -2788,7 +2788,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 58/Dior Mini Saddle Bag.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748789350/mi1ifqdhtoontor05fxk.mp4"
   },
   {
     id: 59,
@@ -2804,7 +2804,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Violet",
         colorHexa: "#1B0032",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 59/1- Gucci Raffia Jackie 1961 Hobo Bag - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681864/rmbajhsdgkazf1pkuwfk.png",
         alt: "Gucci Raffia Jackie 1961 Hobo Bag - Dark Violet",
         size: [
           { id: 1, width: 25, height: 18, available: true },
@@ -2815,7 +2815,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 59/Gucci Raffia Jackie 1961 Hobo Bag.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748789649/dznspovmj5rqm2fdo4wj.mp4"
   },
   {
     id: 60,
@@ -2831,7 +2831,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Silver",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 60/1- Valentino Garavani VSling Mini Shoulder Bag – Iconic Luxury - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681912/izdzdvcrg2sqjbdvdvkp.png",
         alt: "Valentino Garavani VSling Mini Shoulder Bag – Iconic Luxury - Silver",
         size: [
           { id: 1, width: 18, height: 14, available: true },
@@ -2842,7 +2842,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 60/Valentino Garavani VSling Mini Shoulder Bag – Iconic Luxury.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748790314/tqwkvvg12bldqwpf2uto.mp4"
   },
   {
     id: 61,
@@ -2858,7 +2858,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Copper",
         colorHexa: "#C1A78F",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 61/1- Gucci Horsebit GG Canvas Slingback Pumps - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681926/vtja7pagnwl1mr7nma10.png",
         alt: "Gucci Horsebit GG Canvas Slingback Pumps - Light Copper",
         size: [
           { id: 1, size: "36", available: true },
@@ -2871,7 +2871,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 61/Gucci Horsebit GG Canvas Slingback Pumps.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748791126/eawr6kzv7usbchrk8v36.mp4"
   },
   {
     id: 62,
@@ -2887,7 +2887,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 62/1- Aquazzura Crystal Crush Satin Slingback Pumps - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681947/lclfgrijezpbwxvhfi9p.png",
         alt: "Aquazzura Crystal Crush Satin Slingback Pumps - Black",
         size: [
           { id: 1, size: "36", available: false },
@@ -2900,7 +2900,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 62/Aquazzura Crystal Crush Satin Slingback Pumps.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748791558/ed7hpiufhdypymdnoqb9.mp4"
   },
   {
     id: 63,
@@ -2916,7 +2916,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Red",
         colorHexa: "#8B0000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 63/1- Gucci Re-Motion Suede-Trimmed Sneakers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681954/uf9lftvmiwdxsqots9m3.png",
         alt: " Gucci Re-Motion Suede-Trimmed Sneakers - Dark Red",
         size: [
           { id: 1, size: "36", available: true },
@@ -2929,7 +2929,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 63/Gucci Re-Motion Suede-Trimmed Sneakers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748791365/ktbescsyc4x5cmm5szm9.mp4"
   },
   {
     id: 64,
@@ -2945,7 +2945,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 64/1- Prada Brushed Leather Strap Mary Janes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681981/rdho3vwnuzfv5poijfa9.png",
         alt: "Prada Brushed Leather Strap Mary Janes - Black",
         size: [
           { id: 1, size: "36", available: true },
@@ -2958,7 +2958,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 64/Prada Brushed Leather Strap Mary Janes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748791003/urk4wmrutobscueli4dd.mp4"
   },
   {
     id: 65,
@@ -2974,7 +2974,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Copper",
         colorHexa: "#C1A78F",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 65/1- Gucci Tennis 1977 Canvas Sneakers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682000/fm1qqibodcg2ms1ekxob.png",
         alt: "Gucci Tennis 1977 Canvas Sneakers - Light Copper",
         size: [
           { id: 1, size: "36", available: false },
@@ -2987,7 +2987,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 65/Gucci Tennis 1977 Canvas Sneakers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748791434/bjappvuqb2or7cy6cgc4.mp4"
   },
   {
     id: 66,
@@ -3003,7 +3003,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 66/1- Gucci Jordaan Leather Boots - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682083/uvoj20irq6rvw8dbwoih.png",
         alt: "Gucci Jordaan Leather Boots - Black",
         size: [
           { id: 1, size: "36", available: true },
@@ -3016,7 +3016,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 66/Gucci Jordaan Leather Boots.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748794990/p1lro9pgpr2q4qogl2ou.mp4"
   },
   {
     id: 67,
@@ -3033,7 +3033,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Teal",
         colorHexa: "#4C8C8C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 67/1- Kids Boys Summer Shorts Set Short Sleeve Striped - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682130/a72hwl0kf9vcteck9bie.png",
         alt: "Kids Boys Summer Shorts Set Short Sleeve Striped Top Pant Casual Outfits 0-4 - Teal",
         size: [
           { id: 1, size: "S", available: false },
@@ -3048,7 +3048,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Blue",
         colorHexa: "#5C8DAD",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 67/2- Kids Boys Summer Shorts Set Short Sleeve Striped - Blue.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682147/rzdc037dnnubbiv279b6.png",
         alt: "Kids Boys Summer Shorts Set Short Sleeve Striped Top Pant Casual Outfits 0-4 - Blue",
         size: [
           { id: 6, size: "S", available: true },
@@ -3063,7 +3063,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Burnt Umber",
         colorHexa: "#8A3324",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 67/3- Kids Boys Summer Shorts Set Short Sleeve Striped - Burnt Umber.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682162/xdkorjnyq9mexfywzosn.png",
         alt: "Kids Boys Summer Shorts Set Short Sleeve Striped Top Pant Casual Outfits 0-4 - Burnt Umber",
         size: [
           { id: 10, size: "S", available: true },
@@ -3075,7 +3075,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 67/Kids Boys Summer Shorts Set Short Sleeve Striped.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748796983/t3ffe0i6tzjkbhkkpitn.mp4"
   },
   {
     id: 68,
@@ -3092,7 +3092,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Navy Blue",
         colorHexa: "#000080",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 68/1- Baby And Kids Boys Print Poplin Button Up Shirt - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682237/mlghruwluguddsw69hex.png",
         alt: "Baby And Kids Boys Print Poplin Button Up Shirt - Navy Blue",
         size: [
           { id: 1, size: "S", available: false },
@@ -3107,7 +3107,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Mint Aqua",
         colorHexa: "#66FFCC",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 68/2- Baby And Kids Boys Print Poplin Button Up Shirt - Mint Aqua.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682240/uvmmu3n4ixwq3dg6abrz.png",
         alt: "Baby And Kids Boys Print Poplin Button Up Shirt - Mint Aqua",
         size: [
           { id: 6, size: "S", available: true },
@@ -3122,7 +3122,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#D3D3D3",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 68/3- Baby And Kids Boys Print Poplin Button Up Shirt - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682257/per20kozzyvgavzambtu.png",
         alt: "Baby And Kids Boys Print Poplin Button Up Shirt - Light Gray",
         size: [
           { id: 11, size: "S", available: true },
@@ -3134,7 +3134,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 68/Baby And Kids Boys Print Poplin Button Up Shirt.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748796867/kiyoehztbrhaoxnurtoi.mp4"
   },
   {
     id: 69,
@@ -3151,7 +3151,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Pink",
         colorHexa: "#FFC0CB",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 69/1- Kids Girls Floral Bow Back Ruffle Dress - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682272/ufvo35ycuh8mtu5jnxpj.png",
         alt: "Kids Girls Floral Bow Back Ruffle Dress - Pink",
         size: [
           { id: 1, size: "S", available: false },
@@ -3166,7 +3166,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Mint Aqua",
         colorHexa: "#66FFCC",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 69/2- Kids Girls Floral Bow Back Ruffle Dress - Mint Aqua.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682284/rbbn0m3sdhl9e0o2ibfi.png",
         alt: "Kids Girls Floral Bow Back Ruffle Dress - Mint Aqua",
         size: [
           { id: 6, size: "S", available: true },
@@ -3178,7 +3178,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 69/Kids Girls Floral Bow Back Ruffle Dress.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748797882/al4hnxbcjijzt6eyu8l4.mp4"
   },
   {
     id: 70,
@@ -3195,7 +3195,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Denim",
         colorHexa: "#B0D0F0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 70/1- Baby And Kids Girls Chambray Pull On Shorts - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682310/nk3knjiq3s22fx8sqeb2.png",
         alt: "Baby And Kids Girls Chambray Pull On Shorts - Light Denim",
         size: [
           { id: 1, size: "S", available: false },
@@ -3210,7 +3210,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Denim",
         colorHexa: "#3D5A80",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 70/2- Baby And Kids Girls Chambray Pull On Shorts - Dark Denim.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682327/yzrhnpo1dn1op9hkbz95.png",
         alt: "Baby And Kids Girls Chambray Pull On Shorts - Dark Denim",
         size: [
           { id: 6, size: "S", available: true },
@@ -3222,7 +3222,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 70/Baby And Kids Girls Chambray Pull On Shorts.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748797700/dkc37cspdeixh8twmrzx.mp4"
   },
   {
     id: 71,
@@ -3239,7 +3239,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Navy Blue",
         colorHexa: "#000066",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 71/1- Baby And Kids Boys Windbreaker Jacket - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682368/gqwir9g3asfzbbea4mhl.png",
         alt: "Baby And Kids Boys Windbreaker Jacket - Navy Blue",
         size: [
           { id: 1, size: "S", available: false },
@@ -3254,7 +3254,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Black",
         colorHexa: "#000000",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 71/2- Baby And Kids Boys Windbreaker Jacket - Black.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682381/hqctsx5wqukcuasknfen.png",
         alt: "Baby And Kids Boys Windbreaker Jacket - Black",
         size: [
           { id: 6, size: "S", available: false },
@@ -3266,7 +3266,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 71/Baby And Kids Boys Windbreaker Jacket.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748804173/gpaonq2bltffzn6wrrq2.mp4"
   },
   {
     id: 72,
@@ -3283,7 +3283,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Tan",
         colorHexa: "#D2B48C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 72/1- Baby And Kids Boys Pull On Jogger Shorts - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682405/ik3ki4lczssfsbvkvit5.png",
         alt: "Baby And Kids Boys Pull On Jogger Shorts - Tan",
         size: [
           { id: 1, size: "S", available: false },
@@ -3298,7 +3298,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Navy Blue",
         colorHexa: "#000080",
         quantity: "Out Of Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 72/2- Baby And Kids Boys Pull On Jogger Shorts - Navy Blue.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682420/vew3sm6adc6usfewiklf.png",
         alt: "Baby And Kids Boys Pull On Jogger Shorts - Navy Blue",
         size: [
           { id: 6, size: "S", available: false },
@@ -3313,7 +3313,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#D3D3D3",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 72/3- Baby And Kids Boys Pull On Jogger Shorts - Light Gray.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682448/wsmwne0jtrpsunephxo2.png",
         alt: "Baby And Kids Boys Pull On Jogger Shorts - Light Gray",
         size: [
           { id: 11, size: "S", available: true },
@@ -3325,7 +3325,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 72/Baby And Kids Boys Pull On Jogger Shorts.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748843671/a6k1dm6f4vzryejxcdur.mp4"
   },
   {
     id: 73,
@@ -3342,7 +3342,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Olive",
         colorHexa: "#808000",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 73/1- Kids Boys Print Slides - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682462/kubfnkzqsnuuk32naxf3.png",
         alt: "Kids Boys Print Slides - Olive",
         size: [
           { id: 1, size: "20", available: true },
@@ -3368,7 +3368,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Tan",
         colorHexa: "#D2B48C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 73/2- Kids Boys Print Slides - Tan.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682475/unmjm4mhqbgv8vzkhlic.png",
         alt: "Kids Boys Print Slides - Tan",
         size: [
           { id: 17, size: "20", available: true },
@@ -3391,7 +3391,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 73/Kids Boys Print Slides.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748843897/jyzhtoqbprxmoytxnkdu.mp4"
   },
   {
     id: 74,
@@ -3408,7 +3408,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Pink",
         colorHexa: "#FFC0CB",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 74/1- Kids Girls Colorblock Running Sneakers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682477/pefkhnpfdxv9szewvpm2.png",
         alt: "Kids Girls Colorblock Running Sneakers - Pink",
         size: [
           { id: 1, size: "20", available: true },
@@ -3431,7 +3431,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 74/Kids Girls Colorblock Running Sneakers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748844163/w20spamgtjfedxrjl4yw.mp4"
   },
   {
     id: 75,
@@ -3448,7 +3448,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Navy Blue",
         colorHexa: "#000080",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 75/1- Kids Water Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682488/rbexwwszmkbrju2sly9d.png",
         alt: "Kids Water Shoes - Navy Blue",
         size: [
           { id: 1, size: "20", available: false },
@@ -3471,7 +3471,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 75/Kids Water Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748845277/ujo6ym8ez3ud3twdpydh.mp4"
   },
   {
     id: 76,
@@ -3488,7 +3488,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Deep Pink",
         colorHexa: "#FF1493",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 76/1- Kids Girls Rainbow Ombre Water Shoes - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682498/bu3iienbeaeqchwbm9p7.png",
         alt: "Kids Girls Rainbow Ombre Water Shoes - Deep Pink",
         size: [
           { id: 1, size: "20", available: false },
@@ -3511,7 +3511,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 76/Kids Girls Rainbow Ombre Water Shoes.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748846867/ago9yxt4pclatrv3b98j.mp4"
   },
   {
     id: 77,
@@ -3528,7 +3528,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Tan",
         colorHexa: "#D2B48C",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 77/1- Kids Girls Striped Flip Flops - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682520/pn4knai90yhii1jjbtsr.png",
         alt: "Kids Girls Striped Flip Flops - Tan",
         size: [
           { id: 1, size: "20", available: true },
@@ -3551,7 +3551,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 77/Kids Girls Striped Flip Flops.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748844673/hf08corc1qy3hhzcfg4k.mp4"
   },
   {
     id: 78,
@@ -3568,7 +3568,7 @@ export const productDetails: productDetailsProps[] = [
         color: "White",
         colorHexa: "#FFFFFF",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 78/1- Kids Girls Paint Splatter Buckle Slides - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682528/zvqvpmhtfp24biy8sw9l.png",
         alt: "Kids Girls Paint Splatter Buckle Slides - White",
         size: [
           { id: 1, size: "20", available: true },
@@ -3591,7 +3591,7 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 78/Kids Girls Paint Splatter Buckle Slides.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748844717/ltiotyjw64ncqdsblhjd.mp4"
   },
   {
     id: 79,
@@ -3608,7 +3608,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Off-White",
         colorHexa: "#F8F8F0",
         quantity: "In Stock",
-        img: "/Product Details Photos & Videos/Photos/Product Photos - ID 79/1- Kids Boys Colorblock Low Top Sneakers - Cover.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682552/noi4mdymk000ekxj2tbk.png",
         alt: "Kids Boys Colorblock Low Top Sneakers - Off-White",
         size: [
           { id: 1, size: "20", available: true },
@@ -3631,6 +3631,6 @@ export const productDetails: productDetailsProps[] = [
       }
     ],
     video:
-      "/Product Details Photos & Videos/Videos/Product Videos - ID 79/Kids Boys Colorblock Low Top Sneakers.mp4"
+      "https://res.cloudinary.com/dkby0jbe3/video/upload/v1748846598/ibanlka5x46izmw1ea1j.mp4"
   }
 ];

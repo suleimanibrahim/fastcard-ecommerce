@@ -1072,7 +1072,7 @@ export default function Product_Details() {
                                                 <div className="w-[50%] mx-auto">
                                                   <img
                                                     className="w-[100%] object-contain"
-                                                    src="/Product Details Photos & Videos/How To Measure Shoes Size.png"
+                                                    src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678324/xyzzsivfpchfjqwfwlp4.png"
                                                     alt="How To Measure Your Foot Photo"
                                                   />
                                                 </div>
@@ -1265,7 +1265,7 @@ export default function Product_Details() {
                                                   <div className="w-[50%] mx-auto">
                                                     <img
                                                       className="w-[100%] object-contain"
-                                                      src="/Product Details Photos & Videos/Women Tops & Pants.png"
+                                                      src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678434/w7e2iq4dzaissgp50jzk.png"
                                                       alt="How To Measure Your Tops & Pants Sizes For Women Photo"
                                                     />
                                                   </div>
@@ -1325,7 +1325,7 @@ export default function Product_Details() {
                                                   <div className="w-[50%] mx-auto">
                                                     <img
                                                       className="w-[100%] object-contain"
-                                                      src="/Product Details Photos & Videos/Men Tops & Pants.png"
+                                                      src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678349/wfeiadzqnplxug8u4i21.png"
                                                       alt="How To Measure Your Tops & Pants Sizes For Men Photo"
                                                     />
                                                   </div>
@@ -1379,7 +1379,7 @@ export default function Product_Details() {
                                                   <div className="w-[50%] mx-auto">
                                                     <img
                                                       className="w-[100%] object-contain"
-                                                      src="/Product Details Photos & Videos/Kids Clothing.png"
+                                                      src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678349/kfex7lh2qpdmdcn2l0eb.png"
                                                       alt="How To Measure Your Boy & Girl Sizes For Kids Photo"
                                                     />
                                                   </div>

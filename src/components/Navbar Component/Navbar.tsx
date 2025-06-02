@@ -207,7 +207,7 @@ export default function Navbar() {
                     dispatch(setIsSearchOpen(false));
                   }}>
                   <img
-                    src="/logo/logo7.png"
+                    src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678155/cvwydgjkv2r3xluc58kd.png"
                     className="h-10 w-10 rounded-full cursor-pointer"
                     alt="FastCart Logo"
                     title="FastCart Logo"

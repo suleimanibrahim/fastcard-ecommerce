@@ -33,7 +33,7 @@ interface imagesOurJourny_MissionProps {
 export const imagesOurJourny_Mission: imagesOurJourny_MissionProps[] = [
   {
     id: 1,
-    src: "/About Photos/Our Journey Photos/1- Order Packing Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847537/sjp6qssuly0pfjbpf2oc.png",
     alt: "Order Packing Photo",
     imgTitle: "Order Packing",
     icon: <Filter1RoundedIcon fontSize="small" />,
@@ -42,7 +42,7 @@ export const imagesOurJourny_Mission: imagesOurJourny_MissionProps[] = [
   },
   {
     id: 2,
-    src: "/About Photos/Our Journey Photos/2- Order Delivery Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847547/ea8lqnlgumtgvdrlmk8k.png",
     alt: "Order Delivery Photo",
     imgTitle: "Order Delivery",
     icon: <Filter2RoundedIcon fontSize="small" />,
@@ -51,7 +51,7 @@ export const imagesOurJourny_Mission: imagesOurJourny_MissionProps[] = [
   },
   {
     id: 3,
-    src: "/About Photos/Our Journey Photos/4- Customer Holding the Shipment.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847559/exihar21yedrdvtzmacg.png",
     alt: "Customer Holding the Shipment",
     imgTitle: "Shipment Received",
     icon: <Filter4RoundedIcon fontSize="small" />,
@@ -60,7 +60,7 @@ export const imagesOurJourny_Mission: imagesOurJourny_MissionProps[] = [
   },
   {
     id: 4,
-    src: "/About Photos/Our Journey Photos/3- Customer Receiving Order.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847585/boat2p2sunjfoj93mamr.png",
     alt: "Customer Receiving Order",
     imgTitle: "Delivery Confirmation",
     icon: <Filter3RoundedIcon fontSize="small" />,
@@ -132,7 +132,7 @@ export const OurFounder_Leadership: OurFounder_LeadershipProps = {
   titleLeadership: "Leadership & Expertise",
   paraghraphLeadership:
     "Leadership and Expertise highlight the talented professionals behind FastCart. Their extensive industry knowledge and strategic vision fuel innovation, ensuring exceptional service and seamless operations for our expanding customer base.",
-  src: "/About Photos/Leadership Photo/Leadership & Expertise Photo.png",
+  src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847390/vucto2jgcv5athuw4rgq.png",
   alt: "Leadership & Expertise Picture",
   imgTitle: "Leadership & Expertise"
 };
@@ -158,28 +158,28 @@ interface chooseUsProps {
 export const chooseUs: chooseUsProps[] = [
   {
     idUseFastCart: 1,
-    src: "/About Photos/Why Choose Us Photos/Excellence Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847548/oz6gy0xkyh5qc7lkwav8.png",
     alt: "Exellence Photo",
     title: "Excellence",
     description: "Striving for the best in every aspect."
   },
   {
     idUseFastCart: 2,
-    src: "/About Photos/Why Choose Us Photos/Affordability Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847545/lxtvaev69j3sipvb4rih.png",
     alt: "Affordability Photo",
     title: "Affordability",
     description: "Offering competitive prices without compromising quality."
   },
   {
     idUseFastCart: 3,
-    src: "/About Photos/Why Choose Us Photos/Reliability Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847553/y2iuuin7eqy5dxo3uba5.png",
     alt: "Reliability Photo",
     title: "Reliability",
     description: "Dependable and consistent in all we do."
   },
   {
     idUseFastCart: 4,
-    src: "/About Photos/Why Choose Us Photos/Loyalty Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847551/ytnsvceiytevfsh8usqu.png",
     alt: "Loyalty Photo",
     title: "Loyalty",
     description:
@@ -212,7 +212,7 @@ export const locations: locationProps[] = [
     linkMaps:
       "https://www.google.com/maps/place/Egypt/data=!4m2!3m1!1s0x14368976c35c36e9:0x2c45a00925c4c444?sa=X&ved=1t:242&ictx=111",
     title: "Egypt Branch",
-    src: "/About Photos/Our Locations/Egypt Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847475/i6rdhoxoytu7ud6qy88g.png",
     alt: "Egypt Branch",
     countryName: "Egypt"
   },
@@ -221,7 +221,7 @@ export const locations: locationProps[] = [
     linkMaps:
       "https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f43496ad9c645:0xbde66e5084295162?sa=X&ved=1t:242&ictx=111",
     title: "Dubai Branch",
-    src: "/About Photos/Our Locations/Dubai Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847451/rsffvuz0h19bw3z4z4vf.png",
     alt: "Dubai Branch",
     countryName: "Dubai"
   },
@@ -230,7 +230,7 @@ export const locations: locationProps[] = [
     linkMaps:
       "https://www.google.com/maps/place/Canada/data=!4m2!3m1!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5?sa=X&ved=1t:242&ictx=111",
     title: "Canada Branch",
-    src: "/About Photos/Our Locations/Canada Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847570/tq76zgrrj1tc4xmkvoxv.png",
     alt: "Canada Branch",
     countryName: "Canada"
   },
@@ -239,7 +239,7 @@ export const locations: locationProps[] = [
     linkMaps:
       "https://www.google.com/maps/place/Saudi+Arabia/data=!4m2!3m1!1s0x15e7b33fe7952a41:0x5960504bc21ab69b?sa=X&ved=1t:242&ictx=111",
     title: "Saudi Arabia Branch",
-    src: "/About Photos/Our Locations/Saudi Arabia Photo.jpg",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847542/epeycoysfsvk2tpgdonc.jpg",
     alt: "Saudi Arabia Branch",
     countryName: "Saudi Arabia"
   },
@@ -248,7 +248,7 @@ export const locations: locationProps[] = [
     linkMaps:
       "https://www.google.com/maps/place/United+States/data=!4m2!3m1!1s0x54eab584e432360b:0x1c3bb99243deb742?sa=X&ved=1t:242&ictx=111",
     title: "United States Branch",
-    src: "/About Photos/Our Locations/United States Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847568/cvsboqtiwtukyp59ilxd.png",
     alt: "United States Branch",
     countryName: "United States"
   },
@@ -257,7 +257,7 @@ export const locations: locationProps[] = [
     linkMaps:
       "https://www.google.com/maps/place/Qatar/data=!4m2!3m1!1s0x3e45c534ffdce87f:0x1cfa88cf812b4032?sa=X&ved=1t:242&ictx=111",
     title: "Qatar Branch",
-    src: "/About Photos/Our Locations/Qatar Photo.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847537/g2enxm91g0xoz4qr7y8n.png",
     alt: "Qatar Branch",
     countryName: "Qatar"
   }
@@ -287,7 +287,7 @@ export const clientsFeedback: clientsFeedbackProps[] = [
     commentId: 1,
     comment:
       "FastCart exceeded all my expectations. The shopping process was quick and hassle-free, allowing me to place my order in just a few minutes. The support team was friendly and made sure I had all the information I needed. The product was in excellent condition.",
-    src: "/About Photos/Clients Feedback Photo/Client 1.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847336/eu41njg18u8m1ggnitpj.png",
     alt: "Customer Feedback",
     name: "Mike Henderson",
     title: "Business Manager & CEO"
@@ -296,7 +296,7 @@ export const clientsFeedback: clientsFeedbackProps[] = [
     commentId: 2,
     comment:
       "I had a fantastic experience with FastCart's service. From the moment I placed my order online to the point of receiving it, everything went smoothly. The variety of products to choose from was impressive, and the prices were very reasonable.",
-    src: "/About Photos/Clients Feedback Photo/Client 2.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847335/fxwc2qawvx4eczskxjhu.png",
     alt: "Customer Feedback",
     name: "John Williams",
     title: "Content Writer"
@@ -305,7 +305,7 @@ export const clientsFeedback: clientsFeedbackProps[] = [
     commentId: 3,
     comment:
       "My experience with FastCart was simply great. The product was clean, modern, and well-packaged. I was especially impressed with how easy it was to place the order and receive it. The pricing was clear with no hidden fees, and the staff was both professional and helpful.",
-    src: "/About Photos/Clients Feedback Photo/Client 3.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847333/djccawwwiomhwfqzfzzx.png",
     alt: "Customer Feedback",
     name: "Paul Harrison",
     title: "Director"
@@ -314,7 +314,7 @@ export const clientsFeedback: clientsFeedbackProps[] = [
     commentId: 4,
     comment:
       "My experience with FastCart was simply great. The product was clean, modern, and well-packaged. I was especially impressed with how easy it was to place the order and receive it. The pricing was clear with no hidden fees, and the staff was both professional and helpful.",
-    src: "/About Photos/Clients Feedback Photo/Client 1.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847336/eu41njg18u8m1ggnitpj.png",
     alt: "Customer Feedback",
     name: "Paul Harrison",
     title: "Director"
@@ -323,7 +323,7 @@ export const clientsFeedback: clientsFeedbackProps[] = [
     commentId: 5,
     comment:
       "My experience with FastCart was simply great. The product was clean, modern, and well-packaged. I was especially impressed with how easy it was to place the order and receive it. The pricing was clear with no hidden fees, and the staff was both professional and helpful.",
-    src: "/About Photos/Clients Feedback Photo/Client 2.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847335/fxwc2qawvx4eczskxjhu.png",
     alt: "Customer Feedback",
     name: "Paul Harrison",
     title: "Director"
@@ -332,7 +332,7 @@ export const clientsFeedback: clientsFeedbackProps[] = [
     commentId: 6,
     comment:
       "My experience with FastCart was simply great. The product was clean, modern, and well-packaged. I was especially impressed with how easy it was to place the order and receive it. The pricing was clear with no hidden fees, and the staff was both professional and helpful.",
-    src: "/About Photos/Clients Feedback Photo/Client 3.png",
+    src: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748847333/djccawwwiomhwfqzfzzx.png",
     alt: "Customer Feedback",
     name: "Paul Harrison",
     title: "Director"

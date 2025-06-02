@@ -443,7 +443,7 @@ export default function Signup() {
                       y: { repeat: Infinity }
                     }}>
                     <img
-                      src="/Login & Sign up Photos/Google Logo.png"
+                      src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678142/gpykyob4zm9wgzm40pae.png"
                       alt="Sign up with Google"
                       className="w-8 h-8"
                     />
@@ -458,7 +458,7 @@ export default function Signup() {
                       y: { repeat: Infinity }
                     }}>
                     <img
-                      src="/Login & Sign up Photos/Apple Logo.png"
+                      src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678134/i6rcrn8huyusvtwayxgg.png"
                       alt="Sign up with Apple"
                       className="w-8 h-8"
                     />
@@ -473,7 +473,7 @@ export default function Signup() {
                     }}
                     className="backdrop-blur-sm flex items-center justify-center w-20 h-12 rounded-full bg-gray-50 shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-200">
                     <img
-                      src="/Login & Sign up Photos/Facebook Logo.png"
+                      src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678139/dj9zkhhbwdsckhtxm1it.png"
                       alt="Sign up with Facebook"
                       className="w-8 h-8"
                     />{" "}
@@ -493,7 +493,7 @@ export default function Signup() {
                 viewport={{ once: true }}
                 transition={{ duration: 1 }}>
                 <img
-                  src="/logo/logo7.png"
+                  src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678155/cvwydgjkv2r3xluc58kd.png"
                   alt="FastCart"
                   className="w-16 h-16 object-contain"
                 />
@@ -516,7 +516,7 @@ export default function Signup() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.4 }}
-              src="/Login & Sign up Photos/1- Tech & Trend_ Urban Style.png"
+              src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748678141/oahgfdcmriat1vkn71ha.png"
               alt="Signup Illustration"
               className="h-[80%] w-[95%] mb-8 backdrop-blur-md rounded-full bg-emerald-700 object-contain hidden lg:block shadow-md xs:mt-0 xs:ml-0 xs:mr-0 xs:p-0 lg:rounded-lg xs:rounded-none lg:border-none lg:shadow-lg xs:shadow-none"
             />

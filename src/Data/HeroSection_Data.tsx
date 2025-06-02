@@ -44,7 +44,8 @@ export const HeroSectionData: HeroSectionDataProps[] = [
     title_button_hovering: "Go To Shop"
   },
   {
-    srcImage: "/Home Photos/Home/For another hero pages3.png",
+    srcImage:
+      "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748675400/kspsblpevqlbmktilzkm.png",
     altImage: "Hero Image"
   }
 ];
