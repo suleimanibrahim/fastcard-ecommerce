@@ -384,7 +384,6 @@ export default function Product_Details() {
                                       <div className="flex justify-center items-center h-full">
                                         <img
                                           src={image.img}
-                                          loading="lazy"
                                           alt={`Product Image With ${image.color} Color`}
                                           className="rounded-3xl md:max-h-[400px] xs:max-h-[300px] xl:w-[90%] md:w-[100%] xs:w-[87%] object-contain"
                                         />
@@ -418,7 +417,7 @@ export default function Product_Details() {
                                     loop
                                     muted
                                     playsInline
-                                    preload="none"
+                                    preload="auto"
                                     title={
                                       isVideoPlay ? "Pause Video" : "Play Video"
                                     }
