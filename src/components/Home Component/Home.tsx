@@ -126,7 +126,7 @@ export default function Home() {
               {/* Laptop */}
               <motion.img
                 className="drop-shadow-2xl origin-bottom-right w-full h-full object-cover"
-                src="/Home Photos/Home/Laptop_No_BG.png"
+                src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748675423/gnlgya7s5jggdd7ypvcc.png"
                 alt="Laptop FastCart"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -137,7 +137,7 @@ export default function Home() {
               {/* Sneakers */}
               <motion.img
                 className="absolute top-[90px] -left-[32px] w-[350px] drop-shadow-2xl"
-                src="/Home Photos/Home/3D shoe with Seagrean color.png"
+                src="https://res.cloudinary.com/dkby0jbe3/image/upload/v1748675075/xkllzqgp0o7mbdtawhx6.png"
                 alt="Shoes"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
