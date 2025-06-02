@@ -45,10 +45,10 @@
 
 ```
 📦 FastCart
-├── public
+├── public                   # Static files (icons, images, videos)
 │   └── ...
 ├── src
-│   ├── assets/              # Static files (icons, images, videos)
+│   ├── assets/             
 │   ├── components/          # Reusable and core UI components
 │   ├── Data/                # Local product data
 │   ├── Redux/               # Redux slices & store configuration
