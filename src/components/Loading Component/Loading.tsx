@@ -26,7 +26,7 @@ export default function Loading() {
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div
-          className="pointer-events-none absolute blur-sm w-96 h-96 rounded-full bg-gradient-to-br from-emerald-700/55 to-emerald-700/40 -top-5 bottom-26 -right-28"
+          className="pointer-events-none absolute blur-sm w-80 h-80 rounded-full bg-gradient-to-br from-emerald-700/55 to-emerald-700/40 -top-5 bottom-26 -right-28"
           animate={{
             scale: [1, 1.2, 1],
             opacity: [0.2, 0.4, 0.2],
@@ -35,7 +35,7 @@ export default function Loading() {
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div
-          className="pointer-events-none absolute blur-sm w-60 h-60 rounded-full bg-gradient-to-tl from-emerald-700/55 to-emerald-700/40 bottom-10 right-10"
+          className="pointer-events-none absolute blur-sm w-52 h-52 rounded-full bg-gradient-to-tl from-emerald-700/55 to-emerald-700/40 bottom-10 right-10"
           animate={{
             scale: [1, 1.1, 1],
             opacity: [0.3, 0.6, 0.3],

@@ -254,7 +254,7 @@ export default function Cart() {
             transition={{ duration: 6, repeat: Infinity }}
           />
           <motion.div
-            className="pointer-events-none absolute blur-sm w-96 h-96 rounded-full bg-gradient-to-br from-emerald-400/25 to-emerald-400/15 -top-5 bottom-26 -right-28"
+            className="pointer-events-none absolute blur-sm w-80 h-80 rounded-full bg-gradient-to-br from-emerald-400/25 to-emerald-400/15 -top-5 bottom-26 -right-28"
             animate={{
               scale: [0.9, 1, 0.9],
               opacity: [0.8, 1, 0.8],
@@ -263,7 +263,7 @@ export default function Cart() {
             transition={{ duration: 5, repeat: Infinity }}
           />
           <motion.div
-            className="pointer-events-none absolute blur-sm w-60 h-60 rounded-full bg-gradient-to-tl from-emerald-400/25 to-emerald-400/15 bottom-10 right-10"
+            className="pointer-events-none absolute blur-sm w-52 h-52 rounded-full bg-gradient-to-tl from-emerald-400/25 to-emerald-400/15 bottom-10 right-10"
             animate={{
               scale: [1.1, 1, 1.1],
               opacity: [1, 0.8, 1],
