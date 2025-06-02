@@ -172,7 +172,7 @@ export default function Home() {
             transition={{ duration: 5, repeat: Infinity }}
           />
           <motion.div
-            className="overflow-hidden pointer-events-none absolute blur-sm w-60 h-60 rounded-full bg-gradient-to-tl from-emerald-400/10 to-emerald-400/5 bottom-10 right-10"
+            className="overflow-hidden pointer-events-none absolute blur-sm w-60 h-60 rounded-full bg-gradient-to-tl from-emerald-400/10 to-emerald-400/5 bottom-0 right-10"
             animate={{
               scale: [0.9, 1, 0.9],
               opacity: [1, 0.8, 1],

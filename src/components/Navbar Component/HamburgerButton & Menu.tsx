@@ -143,94 +143,99 @@ export default function Hamburger_Button_Menu() {
             isOpen ? "translate-x-0" : "translate-x-full"
           } xl:hidden border-l-[3px] border-[var(--primary-color)] absolute h-screen xs:w-screen sm:w-96 top-[63px] backdrop-blur-3xl shadow-xl bg-black/85 -right-5 transition-transform duration-500 ease-in-out rounded-tl-xl rounded-br-3xl`}
           ref={menuRef}>
-          <div className="flex flex-col items-center ">
-            {/* Logo & Site Name. */}
+          <div className={`flex flex-col items-center h-screen`}>
             {token && (
-              <div className="flex space-x-4 rtl:space-x-reverse mt-4 pt-5">
-                <Link
-                  to="/wishlist"
-                  onClick={() => {
-                    setIsOpen(false);
-                    scrollToTop();
-                    dispatch(setIsFooter());
-                  }}>
-                  <Button
-                    title="Wishlist"
-                    titleHovering="My Wishlist"
-                    type="button"
-                    iconFavorite={
-                      favorites.length === 0 ? (
-                        <FavoriteBorderOutlinedIcon />
-                      ) : (
-                        <FavoriteRoundedIcon />
-                      )
-                    }
-                    iconFavoriteCounter={true}
-                    className="hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
-                  />
-                </Link>
-
-                <motion.div>
-                  <div
-                    onClick={() => {
-                      scrollToTop();
-                      setIsOpen(false);
-                      dispatch(setIsFooter());
-                      dispatch(setIsSearchOpen(!isSearchOpen));
-                    }}>
-                    <Button
-                      title="Search"
-                      titleHovering="Search Now"
-                      type="button"
-                      searchIcon={<BiSearchAlt2 fontSize="1.7em" />}
-                      className="py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
-                    />
-                  </div>
-                </motion.div>
-              </div>
-            )}
-
-            {/* Navigation Links. */}
-            {token && (
-              <ul className="flex flex-col items-start tracking-widest p-4 px-[51.4px] mt-20 rounded-xl border-2 border-[var(--primary-color)]">
-                {[
-                  { itemName: "Home", itemLink: "/" },
-                  { itemName: "Products", itemLink: "/products" },
-                  { itemName: "Categories", itemLink: "/categories" },
-                  { itemName: "About", itemLink: "/about" },
-                  { itemName: "Contact", itemLink: "/contact" }
-                ].map((item, index) => (
-                  <li key={index}>
+              <div className="flex flex-col justify-between items-center h-screen">
+                {/* Logo & Site Name. */}
+                {token && (
+                  <div className="flex space-x-4 rtl:space-x-reverse mt-4 pt-5">
                     <Link
-                      to={item.itemLink}
-                      className={`block relative group mt-2 tracking-[0.09em] uppercase text-lg ${
-                        location.pathname === item.itemLink && isNavbar === true
-                          ? "text-[var(--primary-color)] "
-                          : "text-white"
-                      }`}
+                      to="/wishlist"
                       onClick={() => {
                         setIsOpen(false);
                         scrollToTop();
                         dispatch(setIsFooter());
                       }}>
-                      {item.itemName}
-                      <span
-                        className={`${
-                          location.pathname === item.itemLink &&
-                          isNavbar === true
-                            ? "scale-x-100"
-                            : "scale-x-0"
-                        } pointer-events-none absolute bottom-0 left-0 w-full h-[2.5px] rounded-full bg-[var(--primary-color)] origin-center group-hover:scale-x-100 transition-transform duration-300`}
+                      <Button
+                        title="Wishlist"
+                        titleHovering="My Wishlist"
+                        type="button"
+                        iconFavorite={
+                          favorites.length === 0 ? (
+                            <FavoriteBorderOutlinedIcon />
+                          ) : (
+                            <FavoriteRoundedIcon />
+                          )
+                        }
+                        iconFavoriteCounter={true}
+                        className="hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
                       />
                     </Link>
-                  </li>
-                ))}
-              </ul>
+
+                    <motion.div>
+                      <div
+                        onClick={() => {
+                          scrollToTop();
+                          setIsOpen(false);
+                          dispatch(setIsFooter());
+                          dispatch(setIsSearchOpen(!isSearchOpen));
+                        }}>
+                        <Button
+                          title="Search"
+                          titleHovering="Search Now"
+                          type="button"
+                          searchIcon={<BiSearchAlt2 fontSize="1.7em" />}
+                          className="py-[8px] hover:shadow-xl shadow-md shadow-[var(--shadow-white-button)]"
+                        />
+                      </div>
+                    </motion.div>
+                  </div>
+                )}
+
+                {/* Navigation Links. */}
+                {token && (
+                  <ul className="flex flex-col items-start tracking-widest p-4 px-[51.4px] rounded-xl border-2 border-[var(--primary-color)] mt-16">
+                    {[
+                      { itemName: "Home", itemLink: "/" },
+                      { itemName: "Products", itemLink: "/products" },
+                      { itemName: "Categories", itemLink: "/categories" },
+                      { itemName: "About", itemLink: "/about" },
+                      { itemName: "Contact", itemLink: "/contact" }
+                    ].map((item, index) => (
+                      <li key={index}>
+                        <Link
+                          to={item.itemLink}
+                          className={`block relative group mt-2 tracking-[0.09em] uppercase text-lg ${
+                            location.pathname === item.itemLink &&
+                            isNavbar === true
+                              ? "text-[var(--primary-color)] "
+                              : "text-white"
+                          }`}
+                          onClick={() => {
+                            setIsOpen(false);
+                            scrollToTop();
+                            dispatch(setIsFooter());
+                          }}>
+                          {item.itemName}
+                          <span
+                            className={`${
+                              location.pathname === item.itemLink &&
+                              isNavbar === true
+                                ? "scale-x-100"
+                                : "scale-x-0"
+                            } pointer-events-none absolute bottom-0 left-0 w-full h-[2.5px] rounded-full bg-[var(--primary-color)] origin-center group-hover:scale-x-100 transition-transform duration-300`}
+                          />
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             )}
 
             {/* Action Buttons. */}
             {token ? (
-              <div className=" flex flex-row-reverse mt-[35%] gap-4 items-center justify-center gap-y-5 rtl:space-x-reverse ">
+              <div className="flex flex-row-reverse h-screen gap-4 items-center justify-center gap-y-5 rtl:space-x-reverse ">
                 <div>
                   <Link
                     to="/login"

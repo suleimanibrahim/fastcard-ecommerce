@@ -44,7 +44,7 @@ export default function HeroSection() {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           />
           <motion.div
-            className="pointer-events-none absolute blur-sm w-60 h-60 rounded-full bg-gradient-to-tl from-emerald-400/10 to-emerald-400/5 bottom-10 left-10"
+            className="pointer-events-none absolute blur-sm w-60 h-60 rounded-full bg-gradient-to-tl from-emerald-400/10 to-emerald-400/5 bottom-0 left-10"
             animate={{
               scale: [0.9, 1, 0.9],
               opacity: [1, 0.8, 1],
