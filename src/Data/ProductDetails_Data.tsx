@@ -879,7 +879,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Dark Brown",
         colorHexa: "#6B4226",
         quantity: "In Stock",
-        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680029/nzusyyftdu9ojbvrr3jq.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680024/p4jlpeyrr06fy1k1mzzp.png",
         alt: "Bold Color Sneakers - Dark Brown",
         size: [
           { id: 1, size: "40", available: true },
@@ -892,7 +892,7 @@ export const productDetails: productDetailsProps[] = [
         color: "Orange",
         colorHexa: "#FB923C",
         quantity: "In Stock",
-        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680024/p4jlpeyrr06fy1k1mzzp.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680029/nzusyyftdu9ojbvrr3jq.png",
         alt: "Bold Color Sneakers - Orange",
         size: [
           { id: 4, size: "39", available: true },
