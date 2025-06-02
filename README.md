@@ -142,4 +142,4 @@ Built with 💚 by **Kyrillos Samy Doksh Hanna**
 
 ---
 
-> **Carlos Elmasry Empire is loading... 😎🚀**
+> **Still learning, still building, always improving.**
