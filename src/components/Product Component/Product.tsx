@@ -110,7 +110,7 @@ export default function Product({ product }: ProductProps) {
                 muted
                 loop
                 playsInline
-                preload="none"
+                preload="auto"
               />
 
               <img
@@ -122,7 +122,6 @@ export default function Product({ product }: ProductProps) {
                 src={product.img}
                 alt={product.name}
                 title={product.name}
-                loading="lazy"
               />
             </div>
           </Link>
