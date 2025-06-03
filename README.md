@@ -119,7 +119,6 @@ npm install
 ```bash
 npm run dev
 ```
-
 ---
 
 ## 🔐 Legal Notice & Usage Policy
