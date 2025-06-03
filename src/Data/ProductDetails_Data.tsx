@@ -1160,11 +1160,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680245/wsopewqblzs9wziswpiz.png",
         alt: "Straight-Leg Couture Cotton Trousers - Dark Teal",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: false },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: false },
+          { id: 3, size: "M", available: false },
+          { id: 4, size: "L", available: false },
+          { id: 5, size: "XL", available: false },
+          { id: 6, size: "2XL", available: false },
+          { id: 7, size: "3XL", available: false },
+          { id: 8, size: "4XL", available: false }
         ]
       },
       {
@@ -1175,11 +1178,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680254/tfomryhljgtfry1kgygj.png",
         alt: "Straight-Leg Couture Cotton Trousers - Dark Gray",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: false },
+          { id: 11, size: "M", available: true },
+          { id: 12, size: "L", available: false },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: false }
         ]
       }
     ],
@@ -1203,11 +1209,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680270/nbti95et6lmf0amzv989.png",
         alt: "Men's Infinity Insulated Cargo Pant - Cinnamon Brown",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: false },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: false },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -1218,11 +1227,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680277/ikq4clkx0xwem3loagyi.png",
         alt: "Men's Infinity Insulated Cargo Pant - Black",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XXS", available: false },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "L", available: false },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: true }
         ]
       }
     ],
@@ -1246,11 +1258,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680354/d09cja0apakiopgzksbm.png",
         alt: "QUIKSILVER Men's PORTER Snow Pants - Olive Green",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: false },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: false },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -1261,11 +1276,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680364/nfrok8imcqudczrfevgb.png",
         alt: "QUIKSILVER Men's PORTER Snow Pants - Black",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XXS", available: true },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: true }
         ]
       }
     ],
@@ -2460,11 +2478,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680995/fre9s4g2lhkso0ye7lrq.png",
         alt: "Sanders Linen Pants with Elastic Waist - Navy Blue",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: false },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -2475,11 +2496,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681007/gtcgrpzvj0khds3jnvjv.png",
         alt: "Sanders Linen Pants with Elastic Waist - Light Gray",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XXS", available: false },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
+          { id: 12, size: "M", available: false },
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: false }
         ]
       }
     ],
@@ -2503,11 +2527,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681021/kpouzyrexryfdqgay7ya.png",
         alt: "Straight Fit High Waist Denim Pants For Men - Denim Blue",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       }
     ],
@@ -2531,11 +2558,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681025/qfhqnnxoqpqqm8j6vp2l.png",
         alt: "Dubler Slim Fit Denim - Charcoal Black",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: false },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: false },
+          { id: 3, size: "S", available: false },
+          { id: 4, size: "M", available: false },
+          { id: 5, size: "L", available: false },
+          { id: 6, size: "XL", available: false },
+          { id: 7, size: "2XL", available: false },
+          { id: 8, size: "3XL", available: false }
         ]
       }
     ],
@@ -2559,11 +2589,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681029/dr6musqnoqlks7l4brq9.png",
         alt: "Regular Fit Twill Cargo Pants With Elastic Waist - Black",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: false },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: false }
         ]
       }
     ],
@@ -2587,11 +2620,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681121/u7jplenh56fpoh3f6kpk.png",
         alt: "Denim Jogger - Dark Gray",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: false },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: false },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: false },
+          { id: 8, size: "3XL", available: true }
         ]
       }
     ],
@@ -2615,11 +2651,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681148/tsckc4d4ja0w1im7vzid.png",
         alt: "Poplin Pants For Women - Black",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: false },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "M", available: true },
+          { id: 4, size: "L", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: false }
         ]
       },
       {
@@ -2630,11 +2669,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681156/mc331ee958xkkkc4t3tc.png",
         alt: "Poplin Pants For Women - Light Orange",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "M", available: false },
+          { id: 12, size: "L", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: false },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2658,11 +2700,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681171/jgwd3dhm0s9lzldkq2z8.png",
         alt: "Crisp Comfort Trousers - Light Green",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "M", available: false },
+          { id: 4, size: "L", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2673,11 +2718,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681185/xxhy7dr92luutyibxdx9.png",
         alt: "Crisp Comfort Trousers - Light Beige",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "M", available: true },
+          { id: 12, size: "L", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2701,11 +2749,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681210/rc2mz0axii5h7o4atu55.png",
         alt: "Straight Fit High Waist Denim Pants For Women - Denim Blue",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: false },
+          { id: 3, size: "M", available: true },
+          { id: 4, size: "L", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: false },
+          { id: 8, size: "4XL", available: true }
         ]
       }
     ],
@@ -2729,11 +2780,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681217/uhuv4j3zhmld7jmzoviq.png",
         alt: "Straight Fit High Waist Twill Pants - Whisper Blue",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "M", available: true },
+          { id: 4, size: "L", available: true },
+          { id: 5, size: "XL", available: false },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2744,11 +2798,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681224/nyzpxndgcu7d2zvaewbi.png",
         alt: "Straight Fit High Waist Twill Pants - Black",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "M", available: false },
+          { id: 12, size: "L", available: false },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2772,11 +2829,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681281/mzhitmj5giwanvmxcswi.png",
         alt: "Stretch Jersey Leggings - Black",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: false },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "M", available: true },
+          { id: 4, size: "L", available: true },
+          { id: 5, size: "XL", available: false },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       }
     ],
@@ -2800,11 +2860,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681299/qqxvbrin5l5laxmcpdrg.png",
         alt: "Stretch Jersey Wide Leg Leggings - Dark Red",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "M", available: true },
+          { id: 4, size: "L", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2815,11 +2878,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681313/qtvmqqufb3m7nlmhyyh6.png",
         alt: "Stretch Jersey Wide Leg Leggings - Black",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "M", available: true },
+          { id: 12, size: "L", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: false }
         ]
       }
     ],
