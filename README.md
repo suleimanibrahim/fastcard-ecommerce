@@ -71,7 +71,7 @@
 
 Here’s a sneak peek of **FastCart** in action:
 
-### 🖼️ Desktop View
+### 🖥️ Desktop View
 
 ![FastCart Desktop Preview](./src/assets/previews/desktop-preview/1-desktop-preview.png)
 ![FastCart Desktop Preview](./src/assets/previews/desktop-preview/2-desktop-preview.png)
