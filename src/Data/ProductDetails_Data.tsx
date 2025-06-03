@@ -420,10 +420,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679710/konixdluyl6rqj737ukv.png",
         alt: "Running Shoes - Red",
         size: [
-          { id: 1, size: "37", available: true },
-          { id: 2, size: "39", available: false },
-          { id: 3, size: "40", available: false },
-          { id: 4, size: "41", available: true }
+          { id: 1, size: "39", available: true },
+          { id: 2, size: "40", available: false },
+          { id: 3, size: "41", available: false },
+          { id: 4, size: "42", available: true },
+          { id: 5, size: "43", available: true },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: false }
         ]
       },
       {
@@ -434,11 +437,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679716/crzta4cv7t9eqpsdr2sa.png",
         alt: "Running Shoes - White",
         size: [
-          { id: 5, size: "37", available: false },
-          { id: 6, size: "39", available: false },
-          { id: 7, size: "40", available: false },
-          { id: 8, size: "42", available: false },
-          { id: 9, size: "45", available: false }
+          { id: 8, size: "39", available: false },
+          { id: 9, size: "40", available: false },
+          { id: 10, size: "41", available: false },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: false },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: false }
         ]
       },
       {
@@ -449,10 +454,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679723/r68hgqehh4rdrw8jlhcp.png",
         alt: "Running Shoes - Black",
         size: [
-          { id: 10, size: "41", available: false },
-          { id: 11, size: "39", available: false },
-          { id: 12, size: "40", available: false },
-          { id: 13, size: "45", available: false }
+          { id: 15, size: "39", available: false },
+          { id: 16, size: "40", available: false },
+          { id: 17, size: "41", available: false },
+          { id: 18, size: "42", available: false },
+          { id: 19, size: "43", available: false },
+          { id: 20, size: "44", available: false },
+          { id: 21, size: "45", available: false }
         ]
       },
       {
@@ -463,9 +471,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679736/b4pavyhhfo3dclafe9ts.png",
         alt: "Running Shoes - Gray",
         size: [
-          { id: 14, size: "37", available: true },
-          { id: 15, size: "39", available: false },
-          { id: 16, size: "40", available: true }
+          { id: 22, size: "39", available: true },
+          { id: 23, size: "40", available: false },
+          { id: 24, size: "41", available: true },
+          { id: 25, size: "42", available: true },
+          { id: 26, size: "43", available: true },
+          { id: 27, size: "44", available: false },
+          { id: 28, size: "45", available: false }
         ]
       }
     ],
@@ -542,11 +554,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679785/ht1m94ygg0ecc7cpjkhu.png",
         alt: "Retro Cotton Linen Set – Plus Size - Soft Gray",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "L", available: false },
-          { id: 3, size: "M", available: false },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: false },
+          { id: 3, size: "L", available: false },
+          { id: 4, size: "M", available: false },
+          { id: 5, size: "XL", available: false },
+          { id: 6, size: "2XL", available: false },
+          { id: 7, size: "3XL", available: false },
+          { id: 8, size: "4XL", available: false }
         ]
       },
       {
@@ -557,11 +572,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679802/vlqibm014yuqjaaw8sig.png",
         alt: "Retro Cotton Linen Set – Plus Size - Baby Blue",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "L", available: true },
-          { id: 8, size: "M", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: false },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: false },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -651,10 +669,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679849/fj1pf7xhbc6eck91lk3d.png",
         alt: "Casual Sneakers - Black",
         size: [
-          { id: 1, size: "37", available: true },
-          { id: 2, size: "39", available: false },
-          { id: 3, size: "40", available: true },
-          { id: 4, size: "41", available: true }
+          { id: 1, size: "39", available: true },
+          { id: 2, size: "40", available: true },
+          { id: 3, size: "41", available: true },
+          { id: 4, size: "42", available: true },
+          { id: 5, size: "43", available: true },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: false }
         ]
       },
       {
@@ -665,11 +686,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679870/kpdvtucns2r1oui00ahx.png",
         alt: "Casual Sneakers - White",
         size: [
-          { id: 5, size: "37", available: false },
-          { id: 6, size: "39", available: false },
-          { id: 7, size: "40", available: false },
-          { id: 8, size: "42", available: false },
-          { id: 9, size: "45", available: false }
+          { id: 8, size: "39", available: false },
+          { id: 9, size: "40", available: false },
+          { id: 10, size: "41", available: false },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: false },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: false }
         ]
       }
     ],
@@ -693,9 +716,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679882/m4ch8qhhrcfic61i5zed.png",
         alt: "Performance Sports Shoes - Black",
         size: [
-          { id: 1, size: "39", available: true },
-          { id: 2, size: "40", available: false },
-          { id: 3, size: "43", available: true }
+          { id: 1, size: "39", available: false },
+          { id: 2, size: "40", available: true },
+          { id: 3, size: "41", available: true },
+          { id: 4, size: "42", available: true },
+          { id: 5, size: "43", available: false },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: true }
         ]
       },
       {
@@ -706,10 +733,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679894/ecs7lca1pukazvsfntyv.png",
         alt: "Performance Sports Shoes - White",
         size: [
-          { id: 4, size: "37", available: false },
-          { id: 5, size: "39", available: false },
-          { id: 6, size: "42", available: false },
-          { id: 7, size: "45", available: false }
+          { id: 8, size: "39", available: false },
+          { id: 9, size: "40", available: false },
+          { id: 10, size: "41", available: false },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: false },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: false }
         ]
       }
     ],
@@ -735,7 +765,11 @@ export const productDetails: productDetailsProps[] = [
         size: [
           { id: 1, size: "39", available: false },
           { id: 2, size: "40", available: false },
-          { id: 3, size: "43", available: false }
+          { id: 3, size: "41", available: false },
+          { id: 4, size: "42", available: false },
+          { id: 5, size: "43", available: false },
+          { id: 6, size: "44", available: false },
+          { id: 7, size: "45", available: false }
         ]
       },
       {
@@ -746,10 +780,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679958/haijnfrvxwyowrtkqbtg.png",
         alt: "Formal Leather Shoes - White",
         size: [
-          { id: 4, size: "37", available: false },
-          { id: 5, size: "39", available: false },
-          { id: 6, size: "42", available: false },
-          { id: 7, size: "45", available: false }
+          { id: 8, size: "39", available: false },
+          { id: 9, size: "40", available: false },
+          { id: 10, size: "41", available: false },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: false },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: false }
         ]
       },
       {
@@ -760,10 +797,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679969/kifmosf1skibqbvpw9uh.png",
         alt: "Formal Leather Shoes - Dark Red",
         size: [
-          { id: 8, size: "37", available: false },
-          { id: 9, size: "39", available: false },
-          { id: 10, size: "42", available: false },
-          { id: 11, size: "45", available: false }
+          { id: 15, size: "39", available: false },
+          { id: 16, size: "40", available: false },
+          { id: 17, size: "41", available: false },
+          { id: 18, size: "42", available: false },
+          { id: 19, size: "43", available: false },
+          { id: 20, size: "44", available: false },
+          { id: 21, size: "45", available: false }
         ]
       }
     ],
@@ -828,9 +868,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680005/emrc2pexoqo459hm8jum.png",
         alt: "Training Gym Shoes - Black",
         size: [
-          { id: 1, size: "40", available: true },
-          { id: 2, size: "42", available: false },
-          { id: 3, size: "43", available: true }
+          { id: 1, size: "39", available: false },
+          { id: 2, size: "40", available: true },
+          { id: 3, size: "41", available: true },
+          { id: 4, size: "42", available: true },
+          { id: 5, size: "43", available: false },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: true }
         ]
       },
       {
@@ -841,10 +885,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680011/zuqpzsxsur59u5l222hs.png",
         alt: "Training Gym Shoes - White",
         size: [
-          { id: 4, size: "39", available: false },
-          { id: 5, size: "42", available: false },
-          { id: 6, size: "44", available: false },
-          { id: 7, size: "45", available: false }
+          { id: 8, size: "39", available: false },
+          { id: 9, size: "40", available: false },
+          { id: 10, size: "41", available: false },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: false },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: false }
         ]
       },
       {
@@ -855,10 +902,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680018/ilxx8xv7strcjyi3065j.png",
         alt: "Training Gym Shoes - Dark Gray",
         size: [
-          { id: 8, size: "39", available: true },
-          { id: 9, size: "41", available: false },
-          { id: 10, size: "42", available: false },
-          { id: 11, size: "43", available: true }
+          { id: 15, size: "39", available: true },
+          { id: 16, size: "40", available: true },
+          { id: 17, size: "41", available: true },
+          { id: 18, size: "42", available: false },
+          { id: 19, size: "43", available: true },
+          { id: 20, size: "44", available: true },
+          { id: 21, size: "45", available: false }
         ]
       }
     ],
@@ -882,9 +932,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680024/p4jlpeyrr06fy1k1mzzp.png",
         alt: "Bold Color Sneakers - Dark Brown",
         size: [
-          { id: 1, size: "40", available: true },
-          { id: 2, size: "42", available: false },
-          { id: 3, size: "43", available: true }
+          { id: 1, size: "39", available: true },
+          { id: 2, size: "40", available: true },
+          { id: 3, size: "41", available: false },
+          { id: 4, size: "42", available: true },
+          { id: 5, size: "43", available: true },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: true }
         ]
       },
       {
@@ -895,10 +949,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680029/nzusyyftdu9ojbvrr3jq.png",
         alt: "Bold Color Sneakers - Orange",
         size: [
-          { id: 4, size: "39", available: true },
-          { id: 5, size: "42", available: false },
-          { id: 6, size: "44", available: true },
-          { id: 7, size: "45", available: true }
+          { id: 8, size: "39", available: true },
+          { id: 9, size: "40", available: true },
+          { id: 10, size: "41", available: true },
+          { id: 11, size: "42", available: true },
+          { id: 12, size: "43", available: true },
+          { id: 13, size: "44", available: true },
+          { id: 14, size: "45", available: true }
         ]
       }
     ],
@@ -922,9 +979,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680113/pzzbbi5gdjylsngrp76z.png",
         alt: "Comfort All-Day Shoes - White",
         size: [
-          { id: 1, size: "40", available: true },
-          { id: 2, size: "42", available: false },
-          { id: 3, size: "43", available: true }
+          { id: 1, size: "39", available: true },
+          { id: 2, size: "40", available: true },
+          { id: 3, size: "41", available: true },
+          { id: 4, size: "42", available: true },
+          { id: 5, size: "43", available: true },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: true }
         ]
       },
       {
@@ -935,10 +996,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680123/oamcpldci0kpeofhcxp5.png",
         alt: "Comfort All-Day Shoes - Black",
         size: [
-          { id: 4, size: "39", available: true },
-          { id: 5, size: "42", available: false },
-          { id: 6, size: "44", available: true },
-          { id: 7, size: "45", available: true }
+          { id: 8, size: "39", available: true },
+          { id: 9, size: "40", available: true },
+          { id: 10, size: "41", available: true },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: true },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: true }
         ]
       }
     ],
@@ -962,9 +1026,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680133/sgvej33hwdpbumzyustn.png",
         alt: "Classic High-Top Shoes - Deep Maroon",
         size: [
-          { id: 1, size: "40", available: true },
-          { id: 2, size: "42", available: false },
-          { id: 3, size: "43", available: true }
+          { id: 1, size: "39", available: true },
+          { id: 2, size: "40", available: true },
+          { id: 3, size: "41", available: false },
+          { id: 4, size: "42", available: false },
+          { id: 5, size: "43", available: true },
+          { id: 6, size: "44", available: true },
+          { id: 7, size: "45", available: true }
         ]
       },
       {
@@ -975,10 +1043,13 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680138/wysbpj9cdaobusb4edvy.png",
         alt: "Classic High-Top Shoes - Black",
         size: [
-          { id: 4, size: "39", available: false },
-          { id: 5, size: "42", available: false },
-          { id: 6, size: "44", available: false },
-          { id: 7, size: "45", available: false }
+          { id: 8, size: "39", available: false },
+          { id: 9, size: "40", available: false },
+          { id: 10, size: "41", available: false },
+          { id: 11, size: "42", available: false },
+          { id: 12, size: "43", available: false },
+          { id: 13, size: "44", available: false },
+          { id: 14, size: "45", available: false }
         ]
       }
     ],
@@ -1044,11 +1115,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680225/eoaqb38zxh6zbzlq6m9d.png",
         alt: "Baby Milton Quilted Baby Sweatshirt - Sky Blue",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: false },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: false },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: false },
+          { id: 5, size: "L", available: false },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -1059,11 +1131,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680232/sm8tiye0tojatgzjyrmq.png",
         alt: "Baby Milton Quilted Baby Sweatshirt - Light Brown",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: false }
+          { id: 7, size: "XXS", available: false },
+          { id: 8, size: "XS", available: true },
+          { id: 9, size: "S", available: false },
+          { id: 10, size: "M", available: true },
+          { id: 11, size: "L", available: false },
+          { id: 12, size: "XL", available: true }
         ]
       }
     ],
@@ -1216,11 +1289,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680375/omtjqiitnc8izt9tie0p.png",
         alt: "Hugo Boss T-shirt For mens - Black",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: false },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: false },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -1231,11 +1307,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680388/atncwf6czjis6ezcz11v.png",
         alt: "Hugo Boss T-shirt For mens - White",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XXS", available: true },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
+          { id: 12, size: "M", available: false },
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: false },
+          { id: 16, size: "3XL", available: true }
         ]
       },
       {
@@ -1246,11 +1325,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680395/uhslrbdgisfaytkcfb2v.png",
         alt: "Hugo Boss T-shirt For mens - Light Gray",
         size: [
-          { id: 11, size: "S", available: false },
-          { id: 12, size: "M", available: false },
-          { id: 13, size: "L", available: false },
-          { id: 14, size: "XL", available: false },
-          { id: 15, size: "XXL", available: false }
+          { id: 17, size: "XXS", available: false },
+          { id: 18, size: "XS", available: false },
+          { id: 19, size: "S", available: false },
+          { id: 20, size: "M", available: false },
+          { id: 21, size: "L", available: false },
+          { id: 22, size: "XL", available: false },
+          { id: 23, size: "2XL", available: false },
+          { id: 24, size: "3XL", available: false }
         ]
       }
     ],
@@ -1274,11 +1356,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680412/vt1qey88ppgnivgdyrfw.png",
         alt: "Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve Black - Black",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: true },
           { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: false }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -1289,11 +1374,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680424/fkvqby1ljt3g0lg31k6t.png",
         alt: "Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve Black - White",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: false },
+          { id: 10, size: "S", available: false },
+          { id: 11, size: "L", available: false },
+          { id: 12, size: "M", available: false },
+          { id: 13, size: "XL", available: false },
+          { id: 14, size: "2XL", available: false },
+          { id: 15, size: "3XL", available: false },
+          { id: 16, size: "4XL", available: false }
         ]
       }
     ],
@@ -1797,11 +1885,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680718/vymnmdgvojcze1mrg7nk.png",
         alt: "Relaxed Fit T-Shirt - Maroon",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "L", available: true },
+          { id: 4, size: "M", available: false },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -1812,11 +1903,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680727/no5n8oam4gatgorkrxik.png",
         alt: "Relaxed Fit T-Shirt - Black",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -1840,11 +1934,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680735/uwxfpulplfc8bqf5tn1b.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Orange",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
           { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: false },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -1855,11 +1952,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680747/pjyebufnyqp9bdbethyo.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Light Green",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       },
       {
@@ -1870,11 +1970,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680756/y55igk3sacowsov0zw24.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Light Gray",
         size: [
-          { id: 11, size: "S", available: false },
-          { id: 12, size: "M", available: true },
-          { id: 13, size: "L", available: false },
-          { id: 14, size: "XL", available: true },
-          { id: 15, size: "XXL", available: true }
+          { id: 17, size: "XXS", available: true },
+          { id: 18, size: "XS", available: true },
+          { id: 19, size: "S", available: true },
+          { id: 20, size: "M", available: true },
+          { id: 21, size: "L", available: true },
+          { id: 22, size: "XL", available: true },
+          { id: 23, size: "2XL", available: true },
+          { id: 24, size: "3XL", available: true }
         ]
       }
     ],
@@ -1898,11 +2001,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680769/mxdxhtytwrfibeveoo1m.png",
         alt: "Relaxed Fit Cotton T-Shirt - Maroon",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "L", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: false },
+          { id: 8, size: "4XL", available: false }
         ]
       },
       {
@@ -1913,11 +2019,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680779/guarqck8txe0zax41csl.png",
         alt: "Relaxed Fit Cotton T-Shirt - Light Gray",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: false },
+          { id: 10, size: "S", available: false },
+          { id: 11, size: "L", available: false },
+          { id: 12, size: "M", available: false },
+          { id: 13, size: "XL", available: false },
+          { id: 14, size: "2XL", available: false },
+          { id: 15, size: "3XL", available: false },
+          { id: 16, size: "4XL", available: false }
         ]
       }
     ],
@@ -1941,11 +2050,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680792/geedxhjna3p7fh7kep6h.png",
         alt: "CEBE Classic Fit Linen Shirt - Navy Blue",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
+          { id: 3, size: "L", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: false },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -1956,11 +2068,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680799/tcmybw2srmp5zf6vreqs.png",
         alt: "CEBE Classic Fit Linen Shirt - White",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -1984,11 +2099,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680810/b7m7kdj7n8d7bk8qcmlf.png",
         alt: "Brushed French Terry Basic T-shirt - Light Purple",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: true },
           { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: true }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: false }
         ]
       },
       {
@@ -1999,11 +2117,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680823/iszw1tzgfy6woggiofqo.png",
         alt: "Brushed French Terry Basic T-shirt - Light Green",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2027,11 +2148,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680828/lvztvxmpe9n7mpebnvl9.png",
         alt: "Sleeveless Interlock Top - Black",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: false },
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: false },
           { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: false },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2042,11 +2166,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680843/l72cevl7vtgawx8ggs3f.png",
         alt: "Sleeveless Interlock Top - Light Red",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: false }
+          { id: 9, size: "XS", available: false },
+          { id: 10, size: "S", available: false },
+          { id: 11, size: "L", available: false },
+          { id: 12, size: "M", available: false },
+          { id: 13, size: "XL", available: false },
+          { id: 14, size: "2XL", available: false },
+          { id: 15, size: "3XL", available: false },
+          { id: 16, size: "4XL", available: false }
         ]
       },
       {
@@ -2054,14 +2181,17 @@ export const productDetails: productDetailsProps[] = [
         color: "Light Gray",
         colorHexa: "#C0C0C0",
         quantity: "In Stock",
-        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680859/ud6cx4iymt5hisfdxzgz.png",
+        img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748930514/ud6cx4iymt5hisfdxzgz.png",
         alt: "Sleeveless Interlock Top - Light Gray",
         size: [
-          { id: 11, size: "S", available: true },
-          { id: 12, size: "M", available: true },
-          { id: 13, size: "L", available: true },
-          { id: 14, size: "XL", available: true },
-          { id: 15, size: "XXL", available: true }
+          { id: 17, size: "XS", available: true },
+          { id: 18, size: "S", available: false },
+          { id: 19, size: "L", available: true },
+          { id: 20, size: "M", available: false },
+          { id: 21, size: "XL", available: true },
+          { id: 22, size: "2XL", available: true },
+          { id: 23, size: "3XL", available: false },
+          { id: 24, size: "4XL", available: true }
         ]
       }
     ],
@@ -2085,11 +2215,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680880/bzaep9jj1vejwn6n5k5a.png",
         alt: "Stretch Jersey V-Neck T-Shirt - Teal",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: true },
           { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: false }
         ]
       },
       {
@@ -2100,11 +2233,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680886/apy4w1jdr6k5dk1ctorb.png",
         alt: "Stretch Jersey V-Neck T-Shirt - Blue",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2128,11 +2264,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681039/jarveanz5zfhq1pifxkx.png",
         alt: "Round Neck Cotton Slub T-Shirt - Black",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: false },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: false },
+          { id: 3, size: "L", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: false },
+          { id: 6, size: "2XL", available: false },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2143,11 +2282,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680911/l2vqv5cs4jxp794jfmkt.png",
         alt: "Round Neck Cotton Slub T-Shirt - Light Beige",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: false },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2171,11 +2313,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680917/vwx8lg7seacl5twtl7ik.png",
         alt: "Oversized Cotton Printed Shirt - Light Pink",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
+          { id: 1, size: "XS", available: false },
+          { id: 2, size: "S", available: true },
           { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: false },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2186,11 +2331,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680923/fpkldshpaj73u53bvjdl.png",
         alt: "Oversized Cotton Printed Shirt - Light Green",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: false },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: true },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: false }
         ]
       }
     ],
@@ -2214,11 +2362,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680932/kjcbuyyudaseejoo1isx.png",
         alt: "Oversized Cotton Shirt - Muted Caramel",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: false },
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: false },
           { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: true }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: false },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2229,11 +2380,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681048/rc16whinzl5chhh34xqh.png",
         alt: "Oversized Cotton Shirt - White",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: false },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: false },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -2257,11 +2411,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680981/zqiaeq0du7ratdyg318e.png",
         alt: "Classic Fit Long Sleeves Linen Shirt - Light Gray",
         size: [
-          { id: 1, size: "S", available: true },
-          { id: 2, size: "M", available: true },
+          { id: 1, size: "XS", available: true },
+          { id: 2, size: "S", available: true },
           { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "XL", available: true },
+          { id: 6, size: "2XL", available: true },
+          { id: 7, size: "3XL", available: true },
+          { id: 8, size: "4XL", available: true }
         ]
       },
       {
@@ -2272,11 +2429,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680988/mgjtzavbfofm5va2xigu.png",
         alt: "Classic Fit Long Sleeves Linen Shirt - Light Orange",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: true },
-          { id: 10, size: "XXL", available: true }
+          { id: 9, size: "XS", available: true },
+          { id: 10, size: "S", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "M", available: true },
+          { id: 13, size: "XL", available: true },
+          { id: 14, size: "2XL", available: false },
+          { id: 15, size: "3XL", available: true },
+          { id: 16, size: "4XL", available: true }
         ]
       }
     ],
@@ -3036,11 +3196,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682130/a72hwl0kf9vcteck9bie.png",
         alt: "Kids Boys Summer Shorts Set Short Sleeve Striped Top Pant Casual Outfits 0-4 - Teal",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: false },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: false },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -3051,11 +3212,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682147/rzdc037dnnubbiv279b6.png",
         alt: "Kids Boys Summer Shorts Set Short Sleeve Striped Top Pant Casual Outfits 0-4 - Blue",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 7, size: "XXS", available: true },
+          { id: 8, size: "XS", available: true },
+          { id: 9, size: "S", available: true },
+          { id: 10, size: "M", available: true },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "XL", available: true }
         ]
       },
       {
@@ -3066,11 +3228,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682162/xdkorjnyq9mexfywzosn.png",
         alt: "Kids Boys Summer Shorts Set Short Sleeve Striped Top Pant Casual Outfits 0-4 - Burnt Umber",
         size: [
-          { id: 10, size: "S", available: true },
-          { id: 11, size: "M", available: false },
-          { id: 12, size: "L", available: true },
-          { id: 13, size: "XL", available: true },
-          { id: 14, size: "XXL", available: true }
+          { id: 13, size: "XXS", available: true },
+          { id: 14, size: "XS", available: false },
+          { id: 15, size: "S", available: true },
+          { id: 16, size: "M", available: true },
+          { id: 17, size: "L", available: true },
+          { id: 18, size: "XL", available: false }
         ]
       }
     ],
@@ -3095,11 +3258,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682237/mlghruwluguddsw69hex.png",
         alt: "Baby And Kids Boys Print Poplin Button Up Shirt - Navy Blue",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: false },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -3110,11 +3274,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682240/uvmmu3n4ixwq3dg6abrz.png",
         alt: "Baby And Kids Boys Print Poplin Button Up Shirt - Mint Aqua",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 7, size: "XXS", available: true },
+          { id: 8, size: "XS", available: true },
+          { id: 9, size: "S", available: true },
+          { id: 10, size: "M", available: false },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "XL", available: true }
         ]
       },
       {
@@ -3125,11 +3290,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682257/per20kozzyvgavzambtu.png",
         alt: "Baby And Kids Boys Print Poplin Button Up Shirt - Light Gray",
         size: [
-          { id: 11, size: "S", available: true },
-          { id: 12, size: "M", available: false },
-          { id: 13, size: "L", available: true },
-          { id: 14, size: "XL", available: true },
-          { id: 15, size: "XXL", available: true }
+          { id: 13, size: "XXS", available: true },
+          { id: 14, size: "XS", available: false },
+          { id: 15, size: "S", available: true },
+          { id: 16, size: "M", available: true },
+          { id: 17, size: "L", available: true },
+          { id: 18, size: "XL", available: false }
         ]
       }
     ],
@@ -3154,11 +3320,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682272/ufvo35ycuh8mtu5jnxpj.png",
         alt: "Kids Girls Floral Bow Back Ruffle Dress - Pink",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: false }
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: false },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -3169,11 +3336,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682284/rbbn0m3sdhl9e0o2ibfi.png",
         alt: "Kids Girls Floral Bow Back Ruffle Dress - Mint Aqua",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: true },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 7, size: "XXS", available: true },
+          { id: 8, size: "XS", available: true },
+          { id: 9, size: "S", available: true },
+          { id: 10, size: "M", available: false },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "XL", available: false }
         ]
       }
     ],
@@ -3198,11 +3366,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682310/nk3knjiq3s22fx8sqeb2.png",
         alt: "Baby And Kids Girls Chambray Pull On Shorts - Light Denim",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: false },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: false },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -3213,11 +3382,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682327/yzrhnpo1dn1op9hkbz95.png",
         alt: "Baby And Kids Girls Chambray Pull On Shorts - Dark Denim",
         size: [
-          { id: 6, size: "S", available: true },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: true },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: true }
+          { id: 7, size: "XXS", available: true },
+          { id: 8, size: "XS", available: false },
+          { id: 9, size: "S", available: true },
+          { id: 10, size: "M", available: false },
+          { id: 11, size: "L", available: true },
+          { id: 12, size: "XL", available: true }
         ]
       }
     ],
@@ -3242,11 +3412,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682368/gqwir9g3asfzbbea4mhl.png",
         alt: "Baby And Kids Boys Windbreaker Jacket - Navy Blue",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -3257,11 +3428,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682381/hqctsx5wqukcuasknfen.png",
         alt: "Baby And Kids Boys Windbreaker Jacket - Black",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: false }
+          { id: 7, size: "XXS", available: false },
+          { id: 8, size: "XS", available: false },
+          { id: 9, size: "S", available: false },
+          { id: 10, size: "M", available: false },
+          { id: 11, size: "L", available: false },
+          { id: 12, size: "XL", available: false }
         ]
       }
     ],
@@ -3286,11 +3458,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682405/ik3ki4lczssfsbvkvit5.png",
         alt: "Baby And Kids Boys Pull On Jogger Shorts - Tan",
         size: [
-          { id: 1, size: "S", available: false },
-          { id: 2, size: "M", available: true },
-          { id: 3, size: "L", available: true },
-          { id: 4, size: "XL", available: true },
-          { id: 5, size: "XXL", available: true }
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
+          { id: 4, size: "M", available: true },
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true }
         ]
       },
       {
@@ -3301,11 +3474,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682420/vew3sm6adc6usfewiklf.png",
         alt: "Baby And Kids Boys Pull On Jogger Shorts - Navy Blue",
         size: [
-          { id: 6, size: "S", available: false },
-          { id: 7, size: "M", available: false },
-          { id: 8, size: "L", available: false },
-          { id: 9, size: "XL", available: false },
-          { id: 10, size: "XXL", available: false }
+          { id: 7, size: "XXS", available: false },
+          { id: 8, size: "XS", available: false },
+          { id: 9, size: "S", available: false },
+          { id: 10, size: "M", available: false },
+          { id: 11, size: "L", available: false },
+          { id: 12, size: "XL", available: false }
         ]
       },
       {
@@ -3316,11 +3490,12 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748682448/wsmwne0jtrpsunephxo2.png",
         alt: "Baby And Kids Boys Pull On Jogger Shorts - Light Gray",
         size: [
-          { id: 11, size: "S", available: true },
-          { id: 12, size: "M", available: true },
-          { id: 13, size: "L", available: true },
-          { id: 14, size: "XL", available: false },
-          { id: 15, size: "XXL", available: true }
+          { id: 13, size: "XXS", available: true },
+          { id: 14, size: "XS", available: true },
+          { id: 15, size: "S", available: true },
+          { id: 16, size: "M", available: false },
+          { id: 17, size: "L", available: true },
+          { id: 18, size: "XL", available: true }
         ]
       }
     ],
