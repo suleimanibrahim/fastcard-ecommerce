@@ -2050,14 +2050,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680792/geedxhjna3p7fh7kep6h.png",
         alt: "CEBE Classic Fit Linen Shirt - Navy Blue",
         size: [
-          { id: 1, size: "XS", available: true },
-          { id: 2, size: "S", available: true },
-          { id: 3, size: "L", available: true },
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
           { id: 4, size: "M", available: true },
-          { id: 5, size: "XL", available: true },
-          { id: 6, size: "2XL", available: false },
-          { id: 7, size: "3XL", available: true },
-          { id: 8, size: "4XL", available: true }
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: false },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -2068,14 +2068,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680799/tcmybw2srmp5zf6vreqs.png",
         alt: "CEBE Classic Fit Linen Shirt - White",
         size: [
-          { id: 9, size: "XS", available: true },
-          { id: 10, size: "S", available: true },
-          { id: 11, size: "L", available: true },
+          { id: 9, size: "XXS", available: true },
+          { id: 10, size: "XS", available: false },
+          { id: 11, size: "S", available: true },
           { id: 12, size: "M", available: true },
-          { id: 13, size: "XL", available: true },
-          { id: 14, size: "2XL", available: true },
-          { id: 15, size: "3XL", available: true },
-          { id: 16, size: "4XL", available: true }
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: false },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: false }
         ]
       }
     ],
