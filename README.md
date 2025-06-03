@@ -60,6 +60,7 @@
 ├── .gitignore
 ├── README.md
 ├── LICENSE
+├── SECURITY.md
 ├── package.json
 └── vite.config.js
 ```
