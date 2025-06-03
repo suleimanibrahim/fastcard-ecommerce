@@ -1374,14 +1374,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680412/vt1qey88ppgnivgdyrfw.png",
         alt: "Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve Black - Black",
         size: [
-          { id: 1, size: "XS", available: false },
-          { id: 2, size: "S", available: true },
-          { id: 3, size: "L", available: true },
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
           { id: 4, size: "M", available: true },
-          { id: 5, size: "XL", available: true },
-          { id: 6, size: "2XL", available: true },
-          { id: 7, size: "3XL", available: true },
-          { id: 8, size: "4XL", available: true }
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -1392,14 +1392,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680424/fkvqby1ljt3g0lg31k6t.png",
         alt: "Security Polo T-Shirt Men High-Quality Uniform Workwear Short Sleeve Black - White",
         size: [
-          { id: 9, size: "XS", available: false },
-          { id: 10, size: "S", available: false },
-          { id: 11, size: "L", available: false },
+          { id: 9, size: "XXS", available: false },
+          { id: 10, size: "XS", available: false },
+          { id: 11, size: "S", available: false },
           { id: 12, size: "M", available: false },
-          { id: 13, size: "XL", available: false },
-          { id: 14, size: "2XL", available: false },
-          { id: 15, size: "3XL", available: false },
-          { id: 16, size: "4XL", available: false }
+          { id: 13, size: "L", available: false },
+          { id: 14, size: "XL", available: false },
+          { id: 15, size: "2XL", available: false },
+          { id: 16, size: "3XL", available: false }
         ]
       }
     ],
@@ -1903,14 +1903,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680718/vymnmdgvojcze1mrg7nk.png",
         alt: "Relaxed Fit T-Shirt - Maroon",
         size: [
-          { id: 1, size: "XS", available: true },
-          { id: 2, size: "S", available: true },
-          { id: 3, size: "L", available: true },
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
           { id: 4, size: "M", available: false },
-          { id: 5, size: "XL", available: true },
-          { id: 6, size: "2XL", available: true },
-          { id: 7, size: "3XL", available: true },
-          { id: 8, size: "4XL", available: true }
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -1921,14 +1921,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680727/no5n8oam4gatgorkrxik.png",
         alt: "Relaxed Fit T-Shirt - Black",
         size: [
-          { id: 9, size: "XS", available: true },
-          { id: 10, size: "S", available: true },
-          { id: 11, size: "L", available: true },
+          { id: 9, size: "XXS", available: true },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
           { id: 12, size: "M", available: true },
-          { id: 13, size: "XL", available: true },
-          { id: 14, size: "2XL", available: true },
-          { id: 15, size: "3XL", available: true },
-          { id: 16, size: "4XL", available: true }
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: true }
         ]
       }
     ],
@@ -1952,14 +1952,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680735/uwxfpulplfc8bqf5tn1b.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Orange",
         size: [
-          { id: 1, size: "XS", available: true },
-          { id: 2, size: "S", available: true },
-          { id: 3, size: "L", available: false },
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: false },
           { id: 4, size: "M", available: true },
-          { id: 5, size: "XL", available: true },
-          { id: 6, size: "2XL", available: false },
-          { id: 7, size: "3XL", available: true },
-          { id: 8, size: "4XL", available: true }
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: false },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: true }
         ]
       },
       {
@@ -1970,14 +1970,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680747/pjyebufnyqp9bdbethyo.png",
         alt: "Relaxed Fit Pique & Jersey T-Shirt - Light Green",
         size: [
-          { id: 9, size: "XS", available: true },
-          { id: 10, size: "S", available: true },
-          { id: 11, size: "L", available: true },
+          { id: 9, size: "XXS", available: true },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
           { id: 12, size: "M", available: true },
-          { id: 13, size: "XL", available: true },
-          { id: 14, size: "2XL", available: true },
-          { id: 15, size: "3XL", available: true },
-          { id: 16, size: "4XL", available: true }
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: true }
         ]
       },
       {
@@ -2019,14 +2019,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680769/mxdxhtytwrfibeveoo1m.png",
         alt: "Relaxed Fit Cotton T-Shirt - Maroon",
         size: [
-          { id: 1, size: "XS", available: true },
-          { id: 2, size: "S", available: true },
-          { id: 3, size: "L", available: true },
+          { id: 1, size: "XXS", available: true },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
           { id: 4, size: "M", available: true },
-          { id: 5, size: "XL", available: true },
-          { id: 6, size: "2XL", available: true },
-          { id: 7, size: "3XL", available: false },
-          { id: 8, size: "4XL", available: false }
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: false },
+          { id: 8, size: "3XL", available: false }
         ]
       },
       {
@@ -2037,14 +2037,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680779/guarqck8txe0zax41csl.png",
         alt: "Relaxed Fit Cotton T-Shirt - Light Gray",
         size: [
-          { id: 9, size: "XS", available: false },
-          { id: 10, size: "S", available: false },
-          { id: 11, size: "L", available: false },
+          { id: 9, size: "XXS", available: false },
+          { id: 10, size: "XS", available: false },
+          { id: 11, size: "S", available: false },
           { id: 12, size: "M", available: false },
-          { id: 13, size: "XL", available: false },
-          { id: 14, size: "2XL", available: false },
-          { id: 15, size: "3XL", available: false },
-          { id: 16, size: "4XL", available: false }
+          { id: 13, size: "L", available: false },
+          { id: 14, size: "XL", available: false },
+          { id: 15, size: "2XL", available: false },
+          { id: 16, size: "3XL", available: false }
         ]
       }
     ],
@@ -2117,14 +2117,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680810/b7m7kdj7n8d7bk8qcmlf.png",
         alt: "Brushed French Terry Basic T-shirt - Light Purple",
         size: [
-          { id: 1, size: "XS", available: false },
-          { id: 2, size: "S", available: true },
-          { id: 3, size: "L", available: true },
+          { id: 1, size: "XXS", available: false },
+          { id: 2, size: "XS", available: true },
+          { id: 3, size: "S", available: true },
           { id: 4, size: "M", available: true },
-          { id: 5, size: "XL", available: true },
-          { id: 6, size: "2XL", available: true },
-          { id: 7, size: "3XL", available: true },
-          { id: 8, size: "4XL", available: false }
+          { id: 5, size: "L", available: true },
+          { id: 6, size: "XL", available: true },
+          { id: 7, size: "2XL", available: true },
+          { id: 8, size: "3XL", available: false }
         ]
       },
       {
@@ -2135,14 +2135,14 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748680823/iszw1tzgfy6woggiofqo.png",
         alt: "Brushed French Terry Basic T-shirt - Light Green",
         size: [
-          { id: 9, size: "XS", available: true },
-          { id: 10, size: "S", available: true },
-          { id: 11, size: "L", available: true },
+          { id: 9, size: "XXS", available: true },
+          { id: 10, size: "XS", available: true },
+          { id: 11, size: "S", available: true },
           { id: 12, size: "M", available: true },
-          { id: 13, size: "XL", available: true },
-          { id: 14, size: "2XL", available: true },
-          { id: 15, size: "3XL", available: true },
-          { id: 16, size: "4XL", available: true }
+          { id: 13, size: "L", available: true },
+          { id: 14, size: "XL", available: true },
+          { id: 15, size: "2XL", available: true },
+          { id: 16, size: "3XL", available: true }
         ]
       }
     ],
