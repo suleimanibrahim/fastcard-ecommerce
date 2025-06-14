@@ -131,8 +131,7 @@ All source code and media assets are owned and maintained by **Kyrillos Samy Dok
 
 📄 Licensed under the [MIT License](./LICENSE).
 
-> For commercial inquiries, collaborations, or special permissions, please contact me directly at: `kyrillossamy@outlook.com`
-
+> For commercial inquiries, collaborations, or special permissions, please get in touch with me directly at: `kyrillossamy@outlook.com`
 ---
 
 ## 📧 Contact
