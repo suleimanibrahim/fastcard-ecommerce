@@ -134,7 +134,7 @@ All source code and media assets are owned and maintained by **Kyrillos Samy Dok
 > For commercial inquiries, collaborations, or special permissions, please get in touch with me directly at: `kyrillossamy@outlook.com`
 ---
 
-## 📧 Contact
+## 💬 Contact
 
 Crafted with vision and style by **Kyrillos Samy Doksh Hanna**  
 📧 Email: `kyrillossamy@outlook.com`  
