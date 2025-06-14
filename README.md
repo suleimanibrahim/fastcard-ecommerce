@@ -136,11 +136,11 @@ All source code and media assets are owned and maintained by **Kyrillos Samy Dok
 
 ## 📧 Contact
 
-Built with 💚 by **Kyrillos Samy Doksh Hanna**  
-📬 Email: [kyrillossamy@outlook.com](mailto:kyrillossamy@outlook.com)  
-📱 Phone: +20-1271470997  
-🧠 Nickname: `Empire Coder`  
-🌍 Location: Egypt
+Crafted with vision and style by **Kyrillos Samy Doksh Hanna**  
+📧 Email: `kyrillossamy@outlook.com`  
+📱 Phone: `+20-1271470997`  
+🎖️ Nickname: `Empire Coder`  
+🌍 Based in Egypt
 
 ---
 
