@@ -71,7 +71,7 @@
 
 Here’s a sneak peek of **FastCart** in action:
 
-### 🖥️ Desktop View
+### 🖼️ Desktop View
 
 ![FastCart Desktop Preview](./src/assets/previews/desktop-preview/1-desktop-preview.png)
 ![FastCart Desktop Preview](./src/assets/previews/desktop-preview/2-desktop-preview.png)
@@ -119,6 +119,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 ---
 
 ## 🔐 Legal Notice & Usage Policy
@@ -131,6 +132,7 @@ All source code and media assets are owned and maintained by **Kyrillos Samy Dok
 📄 Licensed under the [MIT License](./LICENSE).
 
 > For commercial inquiries, collaborations, or special permissions, please get in touch with me directly at: `kyrillossamy@outlook.com`
+<<<<<<< HEAD
 ---
 
 ## 💬 Contact
@@ -144,3 +146,18 @@ Crafted with vision and style by **Kyrillos Samy Doksh Hanna**
 ---
 
 > **Still learning, still building, always improving.**
+=======
+---
+
+## 💬 Contact
+
+Crafted with vision and style by **Kyrillos Samy Doksh Hanna**  
+📧 Email: `kyrillossamy@outlook.com`  
+📱 Phone: `+20-1271470997`  
+🎖️ Nickname: `Empire Coder`  
+🌍 Based in Egypt
+
+---
+
+> **Still learning, still building, always improving.**
+>>>>>>> 215ff97 (Update Some Data)
