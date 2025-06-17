@@ -3005,11 +3005,10 @@ export const productDetails: productDetailsProps[] = [
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748681402/h1llg8fubitkqkbmv5k7.png",
         alt: "Dior Mini Saddle Bag - Dark Red",
         size: [
-          { id: 5, size: "S", available: true },
-          { id: 6, size: "M", available: true },
-          { id: 7, size: "L", available: true },
-          { id: 8, size: "XL", available: true },
-          { id: 9, size: "XXL", available: false }
+          { id: 5, width: 25, height: 15, available: true },
+          { id: 6, width: 26, height: 16, available: true },
+          { id: 7, width: 27, height: 17, available: true },
+          { id: 8, width: 28, height: 18, available: true }
         ]
       }
     ],
