@@ -818,13 +818,13 @@ export const productDetails: productDetailsProps[] = [
     subCategory: "LapTop",
     After_Discount: "$1199",
     Pre_Discount: null,
-    quantity: "Out Of Stock",
+    quantity: "In Stock",
     images: [
       {
         id: 1,
         color: "Dark Gray",
         colorHexa: "#4B5563",
-        quantity: "Out Of Stock",
+        quantity: "In Stock",
         img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1748679986/mlzifksrmnunbmqdyt6f.png",
         alt: "MacBook Air — Portable Productivity - Dark Gray",
         size: [
