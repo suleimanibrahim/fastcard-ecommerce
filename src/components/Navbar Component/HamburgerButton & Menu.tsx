@@ -86,7 +86,7 @@ export default function Hamburger_Button_Menu() {
         <div className="xl:hidden flex items-center justify-between w-full space-x-4">
           {token && (
             <>
-              {/* Counter For Products Cart. */}
+              {/*//! Counter For Products Cart. */}
               <Link
                 to="/cart"
                 onClick={() => {
@@ -111,7 +111,7 @@ export default function Hamburger_Button_Menu() {
             </>
           )}
 
-          {/* Hamburger Button. */}
+          {/*//! Hamburger Button. */}
           <button
             onClick={() => {
               setIsOpen(!isOpen);

@@ -829,8 +829,8 @@ export const productDetails: productDetailsProps[] = [
         alt: "MacBook Air — Portable Productivity - Dark Gray",
         size: [
           { id: 1, size: "13.5", available: false },
-          { id: 2, size: "14.1", available: false },
-          { id: 3, size: "15.5", available: false }
+          { id: 2, size: "14.1", available: true },
+          { id: 3, size: "15.5", available: true }
         ]
       },
       {
