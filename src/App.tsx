@@ -144,9 +144,9 @@ function App() {
             <Terms
               companyName="FastCart"
               effectiveDate={`${formattedDate}`}
-              contactEmail="kyrillossamy@outlook.com"
-              contactPhone="+20-1271470997"
-              contactAddress="Maadi, Cairo, Egypt"
+              contactEmail="isuleimanibrahim@gmail.com"
+              contactPhone="+2348144832703"
+              contactAddress="Potiskum, Yobe, Nigeria"
             />
           )
         },
@@ -156,9 +156,9 @@ function App() {
             <Privacy
               companyName="FastCart"
               effectiveDate={`${formattedDate}`}
-              contactEmail="kyrillossamy@outlook.com"
-              contactPhone="+20-1271470997"
-              contactAddress="Maadi, Cairo, Egypt"
+              contactEmail="isuleimanibrahim@gmail.com"
+              contactPhone="+2348144832703"
+              contactAddress="Potiskum, Yobe, Nigeria"
               termsOfServiceUrl="/terms"
             />
           )

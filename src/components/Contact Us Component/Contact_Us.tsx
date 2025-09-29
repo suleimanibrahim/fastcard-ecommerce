@@ -102,7 +102,7 @@ export default function ContactUs() {
                 <h2 className="font-bold md:text-2xl xs:text-xl">Email</h2>
                 <Link to="mailto:kyrillossamy@outlook.com" rel="noreferrer">
                   <h4 className="hover:text-[var(--primary-color)] text-lg hover:scale-105 transition-all duration-300 ease-in-out">
-                    kyrillossamy@outlook.com
+                    isuleimanibrahim@gmail.com
                   </h4>
                 </Link>
               </motion.div>
@@ -125,9 +125,9 @@ export default function ContactUs() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 2.5 }}>
                 <h2 className="font-bold md:text-2xl xs:text-xl">Phone</h2>
-                <Link to="tel:+201271470997" rel="noreferrer">
+                <Link to="tel:+2348144832703" rel="noreferrer">
                   <h4 className="hover:text-[var(--primary-color)] text-lg hover:scale-105 transition-all duration-300 ease-in-out">
-                    +20-1271470997
+                    +23408144832703
                   </h4>
                 </Link>
               </motion.div>
@@ -151,11 +151,11 @@ export default function ContactUs() {
                 transition={{ duration: 0.5, delay: 4.5 }}>
                 <h2 className="font-bold md:text-2xl xs:text-xl">Location</h2>
                 <Link
-                  to="https://google.com/maps/place/Maadi+Cairo,+Egypt/"
+                  to="https://google.com/maps/place/Potiskum+Yobe,+Nigeria/"
                   rel="noreferrer"
                   target="_blank">
                   <h4 className="hover:text-[var(--primary-color)] text-lg hover:scale-105 transition-all duration-300 ease-in-out">
-                    Ma'adi, Cairo, Egypt
+                    Potiskum, Yobe, Nigeria
                   </h4>
                 </Link>
               </motion.div>

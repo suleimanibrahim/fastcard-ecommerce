@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { scrollToTop } from "../components/ui/utils";
 
 const companyName = "FastCart";
-const jurisdiction = "Cairo, Egypt";
+const jurisdiction = "Yobe, Nigeria";
 const privacyPolicyUrl = "/privacy";
 
 export const Terms_Of_Service_Data = [

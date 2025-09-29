@@ -139,7 +139,7 @@ export default function Footer() {
                 icon: <FaInstagram />
               },
               {
-                link: "tel:+20-1271470997",
+                link: "tel:+2348144832703",
                 title: "Call us",
                 icon: <FaWhatsapp />
               }
@@ -241,14 +241,14 @@ export default function Footer() {
 
             <div className="flex flex-col gap-y-4">
               {[
-                { itemName: "+20-1271470997", itemLink: "tel:01271470997" },
+                { itemName: "08144832703", itemLink: "tel:+2348144832703" },
                 {
-                  itemName: "kyrillossamy@outlook.com",
-                  itemLink: "mailto:kyrillossamy@outlook.com"
+                  itemName: "isuleimanibrahim@gmail.com",
+                  itemLink: "mailto:isuleimanibrahim@gmail.com"
                 },
                 {
-                  itemName: "Ma'adi, Cairo, Egypt",
-                  itemLink: "https://google.com/maps/place/Maadi+Cairo,+Egypt/",
+                  itemName: "Potiskum, Yobe, Nigeria",
+                  itemLink: "https://google.com/maps/place/Potiskum+Yobe+Nigeria/",
                   target: "_blank"
                 }
               ].map((item) => (
@@ -285,15 +285,7 @@ export default function Footer() {
         viewport={{ once: true }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
         className="text-white text-center md:text-lg xs:text-sm pt-10">
-        &copy; <span className="text-[var(--primary-color)]">FastCart</span> |
-        Powered by{" "}
-        <Link
-          to="https://www.linkedin.com/in/kyrillos-samy-38b110222/"
-          target="_blank"
-          className="hover:text-white/80 border-b-[3px] border-[var(--primary-color)] rounded-md p-1"
-          onClick={() => dispatch(setIsFooter())}>
-          Kyrillos Samy
-        </Link>
+        &copy; <span className="text-[var(--primary-color)]">FastCart</span>
       </motion.p>
     </footer>
   );

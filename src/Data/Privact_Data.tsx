@@ -1,4 +1,4 @@
-const jurisdiction = "Cairo, Egypt";
+const jurisdiction = "Yobe, Nigeria";
 
 export const Privacy_Policy_Data = [
   {
